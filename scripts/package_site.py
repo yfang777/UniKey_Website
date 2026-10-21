@@ -35,7 +35,7 @@ def main():
         shutil.rmtree(DESTINATION)
     DESTINATION.mkdir()
 
-    for filename in ["index.html", ".nojekyll"]:
+    for filename in ["index.html", ".nojekyll", "UniKey.pdf"]:
         shutil.copy2(ROOT / filename, DESTINATION / filename)
     for directory in ["assets", "data", "media"]:
         shutil.copytree(

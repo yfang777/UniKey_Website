@@ -18,11 +18,13 @@ Repository: [yfang777/UniKey_Website](https://github.com/yfang777/UniKey_Website
 
 The GitHub Pages deployment target is [https://yfang777.github.io/UniKey_Website/](https://yfang777.github.io/UniKey_Website/).
 
+The Paper button opens [UniKey.pdf](https://yfang777.github.io/UniKey_Website/UniKey.pdf), the updated manuscript supplied as `CodeGen_ICRA-2.pdf`.
+
 The composed introduction video is included at [output/social/unikey-introduction.mp4](https://yfang777.github.io/UniKey_Website/output/social/unikey-introduction.mp4). Follow deployment progress in [GitHub Actions](https://github.com/yfang777/UniKey_Website/actions/workflows/deploy-pages.yml).
 
 Enable the repository's **Settings → Pages → Build and deployment → Source → GitHub Actions** once. The `Deploy website to GitHub Pages` workflow then validates and deploys every push to `main`; it can also be run manually from the Actions tab. Deployment status and the published URL appear in the `github-pages` environment.
 
-The workflow runs the interaction and JavaScript checks, then uses `scripts/package_site.py` to build `_site/` and verify local HTML and stylesheet asset paths. The bundle contains `index.html`, `.nojekyll`, `assets/`, `data/`, `media/`, and the composed social video and poster from `output/social/`. Original uploads, Python caches, source notes, and composition helper files are excluded from the deployed bundle. The repository remains available for development documentation and source scripts.
+The workflow runs the interaction and JavaScript checks, then uses `scripts/package_site.py` to build `_site/` and verify local HTML and stylesheet asset paths. The bundle contains `index.html`, `.nojekyll`, `UniKey.pdf`, `assets/`, `data/`, `media/`, and the composed social video and poster from `output/social/`. Original uploads, Python caches, source notes, and composition helper files are excluded from the deployed bundle. The repository remains available for development documentation and source scripts.
 
 To inspect the deployment bundle locally:
 
@@ -90,7 +92,7 @@ RoboTwin videos retain their original 1440 × 1080 resolution, 50 fps, camera vi
 - `scripts/update_robotwin.py`: regenerates the curves using task-button labels; it does not recreate a table or result summaries.
 - `scripts/update_robotwin_media.py`: recreates keypoint annotations from clean rendered videos and recorded pixel coordinates, omitting stage captions, then refreshes posters, media checksums, and URL cache versions.
 - `assets/videos/realworld/`: the four supplied real-world rollouts, with playback controls and `preload="none"`, shown in two columns on desktop and one on mobile.
-- `media/paper/unikey.pdf`: the supplied anonymous manuscript (`CodeGen_ICRA.pdf`).
+- `UniKey.pdf`: the updated manuscript supplied as `CodeGen_ICRA-2.pdf`, linked from the Paper button and included in the GitHub Pages bundle.
 
 The current real-world source clips are `/home/yuan/Desktop/{hang_mug,arrange_table,flip_then_arrange_shoe,pack_battery}_w_text.mp4`, including their supplied text overlays. Their web copies are 1920 × 1080 H.264 at 30 fps with original AAC audio, approximately one minute long. They preserve all source frames and timing without trimming, padding, or a final-frame hold. The videos appear under Sim-to-Real → Real-World Execution. The text retains the reported 100% success rate for 30 minutes without real-world demonstrations or policy finetuning.
 
