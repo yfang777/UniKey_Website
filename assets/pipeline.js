@@ -42,5 +42,6 @@
 
   initializeTaskPicker("#data-generation .pipeline-picker", "#data-generation .pipeline-video", "#pipeline-announcement", "Agentic Keypoint Programs");
   initializeTaskPicker("#corrective-data-generation .detection-picker", "#corrective-data-generation .detection-task", "#detection-announcement", "Policy Failure Detection and Correction");
+  initializeTaskPicker("#corrective-data-generation .iterations-picker", "#corrective-data-generation .automatic-corrections-video", "#iterations-announcement", "Policy Improvement");
   initializeTaskPicker("#sim-to-real .domain-randomization-picker", "#sim-to-real .domain-randomization-video", "#domain-randomization-announcement", "Domain Randomization");
 })();

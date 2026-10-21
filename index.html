@@ -10,11 +10,11 @@
     <meta property="og:type" content="website" />
     <title>UniKey: Keypoints as a Unified Interface for Scalable Data Generation and Policy Learning</title>
     <link rel="preload" href="./assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="./assets/site.css?v=6ac7d46e769f" />
+    <link rel="stylesheet" href="./assets/site.css?v=de9a12fb1901" />
     <script defer src="./assets/site.js?v=9a20ad22e539"></script>
     <script defer src="./assets/video-controls.js?v=d4e736cc5251"></script>
     <script defer src="./assets/presentation.js?v=2782373aa03b"></script>
-    <script defer src="./assets/pipeline.js?v=fa53d1010e7e"></script>
+    <script defer src="./assets/pipeline.js?v=772661a15a95"></script>
   </head>
   <body>
     <div class="scroll-progress" aria-hidden="true"></div>
@@ -180,12 +180,39 @@
             </div>
           </div>
           <p class="pipeline-copy">In each round, UniKey runs batched policy rollouts, generates corrective data in batches, and finetunes the policy on the aggregated dataset.</p>
-          <figure class="automatic-corrections-video" aria-label="Hang Mug policy improvement across training rounds">
-            <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/automatic-corrections-across-rounds-poster.jpg?v=e808d408ed9b" width="800" height="360" aria-label="Hang Mug: policy rollouts and success rates across training rounds">
-              <source src="./assets/videos/pipeline/failure-detection-correction/automatic-corrections-across-rounds.mp4?v=635883a14a7a" type="video/mp4" />
-              Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/automatic-corrections-across-rounds.mp4?v=635883a14a7a">Open the Hang Mug training rounds video.</a>
-            </video>
-          </figure>
+          <div class="task-picker iterations-picker" role="group" aria-label="Choose a policy improvement task" hidden>
+            <button type="button" data-iterations-task="hang-mug" aria-pressed="true" aria-controls="iterations-hang-mug" class="active">Hang Mug</button>
+            <button type="button" data-iterations-task="arrange-table" aria-pressed="false" aria-controls="iterations-arrange-table">Arrange Table</button>
+            <button type="button" data-iterations-task="flip-and-arrange-shoe" aria-pressed="false" aria-controls="iterations-flip-and-arrange-shoe">Flip and Arrange Shoe</button>
+            <button type="button" data-iterations-task="pack-battery" aria-pressed="false" aria-controls="iterations-pack-battery">Pack Battery</button>
+          </div>
+          <p class="sr-only" id="iterations-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+          <div class="iterations-videos" role="region" aria-label="Selected policy improvement video">
+            <figure class="automatic-corrections-video" id="iterations-hang-mug" aria-label="Hang Mug policy improvement across training rounds">
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/automatic-corrections-across-rounds-poster.jpg?v=e808d408ed9b" width="800" height="360" aria-label="Hang Mug: policy rollouts and success rates across training rounds">
+                <source src="./assets/videos/pipeline/failure-detection-correction/automatic-corrections-across-rounds.mp4?v=635883a14a7a" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/automatic-corrections-across-rounds.mp4?v=635883a14a7a">Open the Hang Mug training rounds video.</a>
+              </video>
+            </figure>
+            <figure class="automatic-corrections-video" id="iterations-arrange-table" aria-label="Arrange Table policy improvement from base policy to final checkpoint" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/arrange-table/training-rounds-poster.jpg?v=bab1e78dde8d" width="1920" height="1080" aria-label="Arrange Table: corrections and success rates for the base policy and final checkpoint">
+                <source src="./assets/videos/pipeline/failure-detection-correction/arrange-table/training-rounds.mp4?v=406c34e2e45d" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/arrange-table/training-rounds.mp4?v=406c34e2e45d">Open the Arrange Table policy improvement video.</a>
+              </video>
+            </figure>
+            <figure class="automatic-corrections-video" id="iterations-flip-and-arrange-shoe" aria-label="Flip and Arrange Shoe policy improvement across training rounds" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/flip-and-arrange-shoe/training-rounds-poster.jpg?v=630f3a3239f0" width="1920" height="1080" aria-label="Flip and Arrange Shoe: policy rollouts and success rates across training rounds">
+                <source src="./assets/videos/pipeline/failure-detection-correction/flip-and-arrange-shoe/training-rounds.mp4?v=71654b609031" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/flip-and-arrange-shoe/training-rounds.mp4?v=71654b609031">Open the Flip and Arrange Shoe training rounds video.</a>
+              </video>
+            </figure>
+            <figure class="automatic-corrections-video" id="iterations-pack-battery" aria-label="Pack Battery policy improvement across training rounds" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/pack-battery/training-rounds-poster.jpg?v=bf80704fd843" width="1920" height="1080" aria-label="Pack Battery: policy rollouts and success rates across training rounds">
+                <source src="./assets/videos/pipeline/failure-detection-correction/pack-battery/training-rounds.mp4?v=0ab069d5aee7" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/pack-battery/training-rounds.mp4?v=0ab069d5aee7">Open the Pack Battery training rounds video.</a>
+              </video>
+            </figure>
+          </div>
       </section>
 
       <section class="section shell" id="sim-to-real" aria-labelledby="sim-to-real-title">

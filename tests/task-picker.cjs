@@ -108,13 +108,35 @@ function fixture(hash = '') {
     const button = new Element('button'); button.textContent = markup[2]; return button;
   });
   detectionPicker.children.button = detectionButtons;
+  const iterationsPicker = new Element(), iterationsAnnouncement = new Element();
+  const iterationsPanels = pipelineTasks.map((task, index) => {
+    const markup = html.match(new RegExp('<figure class="automatic-corrections-video" id="iterations-' + task + '"([^>]*)>([\\s\\S]*?)</figure>'));
+    assert(markup, 'each task must have a policy improvement panel');
+    assert.strictEqual(/\bhidden\b/.test(markup[1]), index !== 0, 'Hang Mug is the default policy improvement video');
+    assert(markup[2].includes(index === 0 ? 'width="800" height="360"' : 'width="1920" height="1080"'));
+    assert.strictEqual((markup[2].match(/<video\b/g) || []).length, 1);
+    for (const attribute of ['src', 'poster']) {
+      const mediaPath = markup[2].match(new RegExp(attribute + '="([^"?]+)'))[1];
+      const expected = index === 0 ? 'automatic-corrections-across-rounds' : task + '/training-rounds';
+      assert(mediaPath.includes('/failure-detection-correction/' + expected));
+      assert(fs.existsSync(root + '/' + mediaPath), 'policy improvement media must exist: ' + mediaPath);
+    }
+    const panel = new Element('figure'); panel.children.video = new Element('video'); return panel;
+  });
+  const iterationsButtons = pipelineTasks.map(task => {
+    const markup = html.match(new RegExp('<button type="button" data-iterations-task="' + task + '"([^>]*)>(.*?)</button>'));
+    assert(markup[1].includes('aria-controls="iterations-' + task + '"'));
+    const button = new Element('button'); button.textContent = markup[2]; return button;
+  });
+  iterationsPicker.children.button = iterationsButtons;
   const sections = Array.from(navigation.matchAll(/href="#([^"]+)"/g), match => { const section = new Element(); section.id = match[1]; return section; });
   const navLinks = sections.map(section => { const link = new Element('a'); link.hash = '#' + section.id; return link; });
   const elements = { '.task-list': visualization, '.task-picker': pipelinePicker, '#robotwin .task-picker': picker,
     '#task-announcement': announcement, '.scroll-progress': new Element(),
     '#data-generation .pipeline-picker': pipelinePicker, '#pipeline-announcement': pipelineAnnouncement,
     '#sim-to-real .domain-randomization-picker': domainPicker, '#domain-randomization-announcement': domainAnnouncement,
-    '#corrective-data-generation .detection-picker': detectionPicker, '#detection-announcement': detectionAnnouncement };
+    '#corrective-data-generation .detection-picker': detectionPicker, '#detection-announcement': detectionAnnouncement,
+    '#corrective-data-generation .iterations-picker': iterationsPicker, '#iterations-announcement': iterationsAnnouncement };
   sections.forEach(section => { elements['#' + section.id] = section; });
   const win = new Element(); win.location = { hash }; win.innerHeight = 900; win.scrollY = 0;
   win.history = { pushState: (_, __, target) => { win.location.hash = target; } };
@@ -125,7 +147,8 @@ function fixture(hash = '') {
     selector === '#data-generation .pipeline-video' ? pipelinePanels :
     selector === '#sim-to-real .domain-randomization-video' ? domainPanels :
     selector === '#corrective-data-generation .detection-task' ? detectionPanels :
-    [...cards, ...pipelinePanels, ...domainPanels, ...detectionPanels].flatMap(panel => panel.children.videos || [panel.children.video]);
+    selector === '#corrective-data-generation .automatic-corrections-video' ? iterationsPanels :
+    [...cards, ...pipelinePanels, ...domainPanels, ...detectionPanels, ...iterationsPanels].flatMap(panel => panel.children.videos || [panel.children.video]);
   const observers = [];
   vm.runInNewContext(source, { window: win, document: doc,
     IntersectionObserver: class { constructor(callback) { observers.push(callback); } observe() {} } });
@@ -154,10 +177,17 @@ function fixture(hash = '') {
     assert.strictEqual(detectionPanels.filter(panel => !panel.hidden).length, 1);
     assert(detectionButtons[index].classList.contains('active'));
   }
+  function iterationsSelected(index) {
+    assert.deepStrictEqual(iterationsPanels.map(panel => panel.hidden), iterationsPanels.map((_, i) => i !== index));
+    assert.deepStrictEqual(iterationsButtons.map(button => button.attrs['aria-pressed']), iterationsPanels.map((_, i) => String(i === index)));
+    assert.strictEqual(iterationsPanels.filter(panel => !panel.hidden).length, 1);
+    assert(iterationsButtons[index].classList.contains('active'));
+  }
   return { visualization, picker, announcement, cards, buttons, win, doc, observers, frames, selected,
     pipelinePicker, pipelineAnnouncement, pipelinePanels, pipelineButtons, pipelineSelected,
     domainPicker, domainAnnouncement, domainPanels, domainButtons, domainSelected,
-    detectionPicker, detectionAnnouncement, detectionPanels, detectionButtons, detectionSelected };
+    detectionPicker, detectionAnnouncement, detectionPanels, detectionButtons, detectionSelected,
+    iterationsPicker, iterationsAnnouncement, iterationsPanels, iterationsButtons, iterationsSelected };
 }
 
 assert(!/id="(?:method|recovery|main-results)"/.test(html));
@@ -279,4 +309,32 @@ f.detectionPanels[0].children.videos.forEach(video => { video.paused = false; })
 f.doc.fire('visibilitychange');
 assert(f.detectionPanels[0].children.videos.every(video => video.paused), 'the video pauses when the page is hidden');
 linked.detectionSelected(0);
-console.log('PASS: independent four-task agentic/domain/detection selectors, four single-player corrective videos without captions, matching media, playback controls, keyboard behavior, and all ten RoboTwin tasks.');
+f.iterationsSelected(0); assert(!f.iterationsPicker.hidden);
+f.iterationsButtons.forEach((button, index) => {
+  button.click(); f.iterationsSelected(index); f.detectionSelected(0); f.pipelineSelected(0); f.domainSelected(2); f.selected(6);
+  assert.strictEqual(f.win.location.hash, beforeHash);
+  assert.strictEqual(f.win.scrollY, beforeScroll);
+});
+f.iterationsPanels[3].children.video.paused = false;
+f.iterationsPanels[0].children.video.currentTime = 4;
+f.iterationsButtons[0].click(); f.iterationsSelected(0);
+assert(f.iterationsPanels[3].children.video.paused, 'policy improvement switching pauses the outgoing video');
+assert.strictEqual(f.iterationsPanels[0].children.video.currentTime, 0, 'policy improvement switching resets the incoming video');
+f.iterationsPanels[0].children.video.paused = false;
+f.iterationsPanels[0].children.video.currentTime = 2;
+f.iterationsButtons[0].click();
+f.detectionButtons[3].click(); f.detectionSelected(3); f.iterationsSelected(0);
+assert(!f.iterationsPanels[0].children.video.paused, 'the correction picker preserves policy improvement playback');
+assert.strictEqual(f.iterationsPanels[0].children.video.currentTime, 2, 'active task clicks and other pickers preserve playback');
+f.iterationsPicker.fire('keydown', { key: 'End' }); f.iterationsSelected(3); assert(f.iterationsButtons[3].focused);
+f.iterationsPicker.fire('keydown', { key: 'ArrowRight' }); f.iterationsSelected(3);
+f.iterationsPicker.fire('keydown', { key: 'ArrowLeft' }); f.iterationsSelected(2);
+f.iterationsPicker.fire('keydown', { key: 'Home' }); f.iterationsSelected(0);
+assert(f.iterationsAnnouncement.textContent.includes('Hang Mug: Policy Improvement'));
+f.iterationsPanels[0].children.video.paused = false;
+f.observers[0]([{ target: f.iterationsPanels[0].children.video, isIntersecting: false }]);
+assert(f.iterationsPanels[0].children.video.paused, 'policy improvement videos pause offscreen');
+f.iterationsPanels[0].children.video.paused = false;
+f.doc.fire('visibilitychange'); assert(f.iterationsPanels[0].children.video.paused);
+linked.iterationsSelected(0);
+console.log('PASS: independent agentic/domain/detection/iteration selectors, matching media, playback controls, keyboard behavior, and all ten RoboTwin tasks.');
