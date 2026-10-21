@@ -1,0 +1,2 @@
+cd /home/yuan/codegen/Codegen_Paper_Review_Site
+python3 -m http.server 8000 --bind 127.0.0.1

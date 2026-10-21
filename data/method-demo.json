@@ -1,0 +1,141 @@
+{
+  "tasks": [
+    {
+      "id": "hang_mug",
+      "title": "Hang the mug",
+      "instruction": "Grasp the mug and hang its handle onto the rack.",
+      "video": "media/method/hang_mug/demo.mp4?v=f83be759b3e5",
+      "poster": "media/method/hang_mug/poster.jpg?v=08e386be4a7c",
+      "program": "media/programs/hang_mug/constraints.py?v=3899636b1cd8",
+      "fps": 30,
+      "resolution": [
+        960,
+        720
+      ],
+      "duration_s": 14.2,
+      "orbit_end_s": 2,
+      "execution_start_s": 8,
+      "blocks": [
+        {
+          "label": "Keypoint interface",
+          "code": "grasp_stage = [0, 0, 1, 0, 0, -1]\ngrasp_keypoints = [-1, -1, 8, -1, -1, -1]\nEE = 0\nMUG_HANDLE_TOP = 1\nMUG_HANDLE_OUT_MID = 2\nMUG_HANDLE_BOTTOM = 3\nMUG_RIM_LEFT = 4\nMUG_RIM_RIGHT = 6\nMUG_WALL_GRASP = 8\nRACK_BRANCH_TIP = 9\nRACK_CENTER = 10",
+          "start_s": null
+        },
+        {
+          "label": "Approach the mug",
+          "code": "def stage1_constraint1(keypoints):\n    kp_EE = keypoints[EE]\n    kp_grasp = mug_pre_grasp(keypoints)\n    cost = _pos_cost(kp_EE, kp_grasp)\n    return cost\n\ndef stage2_constraint1(keypoints):\n    \"\"\"\n    Align end-effector with the mug wall grasp point.\n    \"\"\"\n    kp_EE = keypoints[EE]\n    kp_grasp = keypoints[MUG_WALL_GRASP]\n    cost = _pos_cost(kp_EE, kp_grasp)\n    return cost",
+          "start_s": 0
+        },
+        {
+          "label": "Grasp the mug",
+          "code": "grasp_stage = [0, 0, 1, 0, 0, -1]\ngrasp_keypoints = [-1, -1, 8, -1, -1, -1]",
+          "start_s": 1.8
+        },
+        {
+          "label": "Lift and align",
+          "code": "def stage4_constraint1(keypoints):\n    \"\"\"\n    Place the handle-plane center at the rack branch tip.\n    \"\"\"\n    handle_center = _handle_plane_center(keypoints)\n    branch_tip_extend = _branch_tip_extend(keypoints)\n    cost = _pos_cost(handle_center, branch_tip_extend)\n    return cost",
+          "start_s": 2.8
+        },
+        {
+          "label": "Hang and release",
+          "code": "def stage5_constraint1(keypoints):\n    \"\"\"\n    Place the handle-plane center at the rack branch tip.\n    \"\"\"\n    handle_center = _handle_plane_center(keypoints)\n    rack_tip = _branch_tip_backward(keypoints)\n    cost = _pos_cost(handle_center, rack_tip)\n    return cost",
+          "start_s": 3.72
+        }
+      ],
+      "context": "from __future__ import annotations\n\nimport math\n\nimport numpy as np\n\ndef _handle_plane_center(keypoints):\n    p1 = keypoints[MUG_HANDLE_TOP]\n    p3 = keypoints[MUG_HANDLE_BOTTOM]\n    return (p1 + p3) / 2.0\n\ndef mug_pre_grasp(keypoints):\n    kp_grasp = keypoints[MUG_WALL_GRASP] + np.array([0., 0., 0.05])\n    return kp_grasp\n\ndef _branch_tip_extend(keypoints):\n    rack_tip = keypoints[RACK_BRANCH_TIP]\n    rack_base = keypoints[RACK_CENTER]\n    rack_branch_vector = rack_tip - rack_base\n    rack_tip_extend = 0.05 * _unit(rack_branch_vector) + rack_tip\n    return rack_tip_extend\n\ndef _branch_tip_backward(keypoints):\n    rack_tip = keypoints[RACK_BRANCH_TIP]\n    rack_base = keypoints[RACK_CENTER]\n    rack_branch_vector = rack_tip - rack_base\n    rack_tip_backward = - 0.04 * _unit(rack_branch_vector) + rack_tip\n    return rack_tip_backward"
+    },
+    {
+      "id": "flip_then_arrange_shoe",
+      "title": "Flip and arrange the shoe",
+      "instruction": "Flip the right shoe upright, grasp it, and place it in the tray beside the left shoe.",
+      "video": "media/method/flip_then_arrange_shoe/demo.mp4?v=f6e02fdb27f4",
+      "poster": "media/method/flip_then_arrange_shoe/poster.jpg?v=313536938a3e",
+      "program": "media/programs/flip_then_arrange_shoe/constraints.py?v=46a1eba7ac9a",
+      "fps": 30,
+      "resolution": [
+        960,
+        720
+      ],
+      "duration_s": 18.166666666666664,
+      "orbit_end_s": 2,
+      "execution_start_s": 8,
+      "blocks": [
+        {
+          "label": "Keypoint interface",
+          "code": "grasp_stage = [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, -1, 0, 0]\ngrasp_keypoints = [-1, -1, -1, -1, -1, -1, 6, -1, -1, -1, -1, -1, -1]\nRIGHT_GRASP = 6\nRIGHT_SOLE = 7\nLEFT_SOLE = 11\nTRAY_RIGHT = 12\nTRAY_FORWARD = 13\nTRAY_UP = 14\nTRAY_LEFT = 15",
+          "start_s": null
+        },
+        {
+          "label": "Flip the shoe",
+          "code": "def stage1_constraint1(keypoints, *, context):\n    opening, insert, _ = insertion_frame(context)\n    return _pos_cost(keypoints[-1], opening - insert * .1)\n\ndef stage3_constraint1(keypoints, *, context):\n    opening, insert, lift = insertion_frame(context)\n    return _pos_cost(keypoints[-1], opening - insert * .01 + lift * .225)",
+          "start_s": 0.0
+        },
+        {
+          "label": "Approach and grasp",
+          "code": "def stage5_constraint1(keypoints, *, context):\n    return _pos_cost(keypoints[0], keypoints[RIGHT_GRASP] + [0., 0., .08])\n\ndef stage6_constraint1(keypoints, *, context):\n    return _pos_cost(keypoints[0], keypoints[RIGHT_GRASP])",
+          "start_s": 3.0
+        },
+        {
+          "label": "Place in the tray",
+          "code": "def stage9_constraint1(keypoints, *, context):\n    return _pos_cost(keypoints[RIGHT_SOLE], keypoints[TRAY_RIGHT] + [0., 0., .15])\n\ndef stage10_constraint1(keypoints, *, context):\n    return _pos_cost(keypoints[RIGHT_SOLE], keypoints[TRAY_RIGHT])",
+          "start_s": 4.98
+        }
+      ],
+      "context": "import numpy as np\n\nfrom rekep_solver.constraint_helpers import _pos_cost, _samedir_cost\n\ndef insertion_frame(context):\n    opening, origin, _, _, up = context[:15].reshape(5, 3)\n    horizontal = (up - origin).copy()\n    horizontal[2] = 0\n    length = np.linalg.norm(horizontal)\n    if length < 1e-8:\n        raise ValueError('Insertion requires a shoe-up direction with a nonzero world-XY projection')\n    horizontal /= length\n    insert = -np.cos(np.deg2rad(45)) * horizontal - np.array([0., 0., np.sin(np.deg2rad(50))])\n    lift = -np.cos(np.deg2rad(45)) * horizontal + np.array([0., 0., np.sin(np.deg2rad(50))])\n    return opening, insert, lift\n\ndef orientation_cost(keypoints, context):\n    _, insert, _ = insertion_frame(context)\n    midpoint = (keypoints[-2] + keypoints[-1]) / 2\n    # Down-to-up points from TCP toward the palm, opposite finger insertion.\n    # Rotation around this axis is unconstrained.\n    return _samedir_cost(midpoint - keypoints[0], -insert)\n\ndef gripper_orientation_cost(keypoints, reference):\n    midpoint = (keypoints[-2] + keypoints[-1]) / 2\n    return (_samedir_cost(midpoint - keypoints[0], (reference[1] + reference[2]) / 2 - reference[0])\n            + _samedir_cost(keypoints[-1] - keypoints[-2], reference[2] - reference[1]))\n\ndef grasp_orientation_cost(keypoints):\n    midpoint = (keypoints[-2] + keypoints[-1]) / 2\n    return (_samedir_cost(midpoint - keypoints[0], np.array([0., 0., 1.]))\n            + _samedir_cost(keypoints[-1] - keypoints[-2], keypoints[4] - keypoints[2]))\n\ndef shoe_orientation_cost(keypoints):\n    return (_samedir_cost(keypoints[5] - keypoints[2], keypoints[TRAY_UP] - keypoints[TRAY_RIGHT])\n            + _samedir_cost(keypoints[3] - keypoints[2], keypoints[TRAY_FORWARD] - keypoints[TRAY_RIGHT]))"
+    },
+    {
+      "id": "table_arrange",
+      "title": "Arrange the table",
+      "instruction": "Arrange the spoon, fork, and bowl sequentially at their target positions.",
+      "video": "media/method/table_arrange/demo.mp4?v=377c2605fd29",
+      "poster": "media/method/table_arrange/poster.jpg?v=87258915ffb4",
+      "program": "media/programs/table_arrange/constraints.py?v=03c5f1ddbfe7",
+      "fps": 30,
+      "resolution": [
+        960,
+        720
+      ],
+      "duration_s": 24.5,
+      "orbit_end_s": 2,
+      "execution_start_s": 8,
+      "blocks": [
+        {
+          "label": "Keypoint interface",
+          "code": "grasp_stage = [0, 1, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 1, 0, 0, -1]\ngrasp_keypoints = [-1, 11, -1, -1, -1, -1, -1, -1, -1, 8, -1, -1, -1, -1, -1, -1, 3, -1, -1, -1]\nSPOON_TARGET = np.array([0.195, 0.04, 0.0075])\nFORK_TARGET = np.array([0.195, -0.22, 0.01])\nBOWL_TARGET = np.array([0.225, -0.08, 0.015])\nFORK_EE_HEIGHT = 0.01937154459269266\nSPOON_EE_HEIGHT = 0.019407882401923746\nEE = 0\nBOWL_BOTTOM = 1\nBOWL_LEFT_LOW = 2\nBOWL_LEFT = 3\nBOWL_FRONT = 4\nBOWL_RIGHT = 5\nBOWL_BACK = 6\nFORK_PLACEMENT = 7\nFORK_GRASP = 8\nFORK_DIRECTION = 9\nSPOON_PLACEMENT = 10\nSPOON_GRASP = 11\nSPOON_DIRECTION = 12",
+          "start_s": null
+        },
+        {
+          "label": "Grasp the spoon",
+          "code": "def stage1_constraint1(keypoints):\n    \"\"\"Align EE with spoon middle for grasping\"\"\"\n    kp_EE = keypoints[EE]\n    kp_grasp = keypoints[SPOON_GRASP] + np.array([0., 0., SPOON_EE_HEIGHT])\n    cost = _pos_cost(kp_EE, kp_grasp)\n    return cost",
+          "start_s": 0.0
+        },
+        {
+          "label": "Place the spoon",
+          "code": "def stage4_constraint1(keypoints):\n    \"\"\"Place spoon middle at target position\"\"\"\n    # The independent placement anchor keeps the arranged pose unchanged.\n    spoon_mid = keypoints[SPOON_PLACEMENT]\n    cost = _pos_cost(spoon_mid, SPOON_TARGET)\n    return cost",
+          "start_s": 2.08
+        },
+        {
+          "label": "Grasp the fork",
+          "code": "def stage9_constraint1(keypoints):\n    \"\"\"Align EE with fork middle for grasping\"\"\"\n    kp_EE = keypoints[EE]\n    kp_grasp = keypoints[FORK_GRASP] + np.array([0., 0., FORK_EE_HEIGHT])\n    cost = _pos_cost(kp_EE, kp_grasp)\n    return cost",
+          "start_s": 4.66
+        },
+        {
+          "label": "Place the fork",
+          "code": "def stage12_constraint1(keypoints):\n    \"\"\"Place fork middle at target position\"\"\"\n    # The independent placement anchor keeps the arranged pose unchanged.\n    fork_mid = keypoints[FORK_PLACEMENT]\n    cost = _pos_cost(fork_mid, FORK_TARGET)\n    return cost",
+          "start_s": 8.32
+        },
+        {
+          "label": "Grasp the bowl",
+          "code": "def stage16_constraint1(keypoints):\n    \"\"\"Align EE with bowl for grasping\"\"\"\n    kp_EE = keypoints[EE]\n    kp_grasp = keypoints[BOWL_LEFT]\n    cost = _pos_cost(kp_EE, kp_grasp)\n    return cost",
+          "start_s": 10.82
+        },
+        {
+          "label": "Place the bowl",
+          "code": "def stage19_constraint1(keypoints):\n    \"\"\"Place bowl bottom at target position\"\"\"\n    bowl_bottom = keypoints[BOWL_BOTTOM]\n    cost = _pos_cost(bowl_bottom, BOWL_TARGET)\n    return cost",
+          "start_s": 13.52
+        }
+      ],
+      "context": "from __future__ import annotations\n\nimport math\n\nimport numpy as np\n\ndef _bowl_lr_dir(kps):\n    return _unit(kps[BOWL_RIGHT] - kps[BOWL_LEFT])\n\ndef _bowl_fb_dir(kps):\n    return _unit(kps[BOWL_FRONT] - kps[BOWL_BACK])\n\ndef _bowl_lr_center(kps):\n    return 0.5 * (kps[BOWL_LEFT] + kps[BOWL_RIGHT])\n\ndef _fork_axis(kps):\n    return _unit(kps[FORK_DIRECTION] - kps[FORK_GRASP])\n\ndef _spoon_axis(kps):\n    return _unit(kps[SPOON_DIRECTION] - kps[SPOON_GRASP])\n\ndef _xy_pos_cost(p, target_xy):\n    t = np.array([target_xy[0], target_xy[1], p[2]])\n    return _pos_cost(p, t)\n\ndef _gripper_bottom_to_top(keypoints):\n    mid_gripper = (keypoints[-2] + keypoints[-1]) / 2\n    ee = keypoints[0]\n    return _unit(mid_gripper - ee)\n\ndef _lift_cost(keypoints):\n    gripper_z = keypoints[0][2]\n    return abs(gripper_z - 0.15)\n\ndef _turn_ee_to_vertical_cost(keypoints):\n    v_gripper_bottom_top = _gripper_bottom_to_top(keypoints)\n    cost = _samedir_cost(v_gripper_bottom_top, np.array([0, 0, 1]))\n    return cost\n\ndef _turn_ee_to_origin_orientation_cost(keypoints):\n    v_gripper_left_right = _gripper_left_to_right(keypoints)\n    cost1 = _samedir_cost(v_gripper_left_right, np.array([0, -1, 0]))\n    v_gripper_bottom_top = _gripper_bottom_to_top(keypoints)\n    cost2 = _samedir_cost(v_gripper_bottom_top, np.array([0, 0, 1]))\n    return cost1 + cost2"
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "fps": 30,
+  "frames": 545,
+  "duration_s": 18.166666666666664,
+  "execution_duration_s": 10.166666666666666,
+  "orbit_cameras": [
+    {
+      "frame": 0,
+      "azimuth": 180.0,
+      "elevation": -30.0,
+      "source_row": 0
+    },
+    {
+      "frame": 1,
+      "azimuth": 182.7636306268315,
+      "elevation": -30.014162999474657,
+      "source_row": 0
+    },
+    {
+      "frame": 2,
+      "azimuth": 185.49594821437023,
+      "elevation": -30.056491525455332,
+      "source_row": 0
+    },
+    {
+      "frame": 3,
+      "azimuth": 188.16599451257068,
+      "elevation": -30.126505978829048,
+      "source_row": 0
+    },
+    {
+      "frame": 4,
+      "azimuth": 190.74351682997784,
+      "elevation": -30.223413067862715,
+      "source_row": 0
+    },
+    {
+      "frame": 5,
+      "azimuth": 193.19931080880983,
+      "elevation": -30.346114796515486,
+      "source_row": 0
+    },
+    {
+      "frame": 6,
+      "azimuth": 195.50555132200103,
+      "elevation": -30.493220905172592,
+      "source_row": 0
+    },
+    {
+      "frame": 7,
+      "azimuth": 197.63610774301003,
+      "elevation": -30.66306462284233,
+      "source_row": 0
+    },
+    {
+      "frame": 8,
+      "azimuth": 199.5668400162596,
+      "elevation": -30.853721552337404,
+      "source_row": 0
+    },
+    {
+      "frame": 9,
+      "azimuth": 201.27587217361238,
+      "elevation": -31.063031474463983,
+      "source_row": 0
+    },
+    {
+      "frame": 10,
+      "azimuth": 202.743840197831,
+      "elevation": -31.288622824168375,
+      "source_row": 0
+    },
+    {
+      "frame": 11,
+      "azimuth": 203.95411142463075,
+      "elevation": -31.5279395613167,
+      "source_row": 0
+    },
+    {
+      "frame": 12,
+      "azimuth": 204.89297299741213,
+      "elevation": -31.77827013165095,
+      "source_row": 0
+    },
+    {
+      "frame": 13,
+      "azimuth": 205.54978723940553,
+      "elevation": -32.03677818978221,
+      "source_row": 0
+    },
+    {
+      "frame": 14,
+      "azimuth": 205.9171121827995,
+      "elevation": -32.30053473611729,
+      "source_row": 0
+    },
+    {
+      "frame": 15,
+      "azimuth": 205.99078588920977,
+      "elevation": -32.56655130359444,
+      "source_row": 0
+    },
+    {
+      "frame": 16,
+      "azimuth": 205.7699736061042,
+      "elevation": -32.831813818209305,
+      "source_row": 0
+    },
+    {
+      "frame": 17,
+      "azimuth": 205.25717722488247,
+      "elevation": -33.09331674967779,
+      "source_row": 0
+    },
+    {
+      "frame": 18,
+      "azimuth": 204.45820693344686,
+      "elevation": -33.34809716529507,
+      "source_row": 0
+    },
+    {
+      "frame": 19,
+      "azimuth": 203.3821153844517,
+      "elevation": -33.59326830114714,
+      "source_row": 0
+    },
+    {
+      "frame": 20,
+      "azimuth": 202.04109512513145,
+      "elevation": -33.82605227029936,
+      "source_row": 0
+    },
+    {
+      "frame": 21,
+      "azimuth": 200.4503404508687,
+      "elevation": -34.04381153736548,
+      "source_row": 0
+    },
+    {
+      "frame": 22,
+      "azimuth": 198.6278752477562,
+      "elevation": -34.244078802837464,
+      "source_row": 0
+    },
+    {
+      "frame": 23,
+      "azimuth": 196.5943487747653,
+      "elevation": -34.42458495857477,
+      "source_row": 0
+    },
+    {
+      "frame": 24,
+      "azimuth": 194.37280169939103,
+      "elevation": -34.583284797706284,
+      "source_row": 0
+    },
+    {
+      "frame": 25,
+      "azimuth": 191.98840503768247,
+      "elevation": -34.71838018764143,
+      "source_row": 0
+    },
+    {
+      "frame": 26,
+      "azimuth": 189.46817495657336,
+      "elevation": -34.82834044363085,
+      "source_row": 0
+    },
+    {
+      "frame": 27,
+      "azimuth": 186.84066666991555,
+      "elevation": -34.91191967203629,
+      "source_row": 0
+    },
+    {
+      "frame": 28,
+      "azimuth": 184.13565089649586,
+      "elevation": -34.968170886803364,
+      "source_row": 0
+    },
+    {
+      "frame": 29,
+      "azimuth": 181.38377654589664,
+      "elevation": -34.996456739191906,
+      "source_row": 0
+    },
+    {
+      "frame": 30,
+      "azimuth": 178.61622345410336,
+      "elevation": -34.996456739191906,
+      "source_row": 0
+    },
+    {
+      "frame": 31,
+      "azimuth": 175.8643491035041,
+      "elevation": -34.968170886803364,
+      "source_row": 0
+    },
+    {
+      "frame": 32,
+      "azimuth": 173.15933333008445,
+      "elevation": -34.91191967203629,
+      "source_row": 0
+    },
+    {
+      "frame": 33,
+      "azimuth": 170.53182504342664,
+      "elevation": -34.82834044363085,
+      "source_row": 0
+    },
+    {
+      "frame": 34,
+      "azimuth": 168.01159496231753,
+      "elevation": -34.71838018764143,
+      "source_row": 0
+    },
+    {
+      "frame": 35,
+      "azimuth": 165.62719830060897,
+      "elevation": -34.58328479770629,
+      "source_row": 0
+    },
+    {
+      "frame": 36,
+      "azimuth": 163.4056512252347,
+      "elevation": -34.42458495857477,
+      "source_row": 0
+    },
+    {
+      "frame": 37,
+      "azimuth": 161.3721247522438,
+      "elevation": -34.244078802837464,
+      "source_row": 0
+    },
+    {
+      "frame": 38,
+      "azimuth": 159.5496595491313,
+      "elevation": -34.04381153736548,
+      "source_row": 0
+    },
+    {
+      "frame": 39,
+      "azimuth": 157.95890487486855,
+      "elevation": -33.82605227029936,
+      "source_row": 0
+    },
+    {
+      "frame": 40,
+      "azimuth": 156.6178846155483,
+      "elevation": -33.59326830114714,
+      "source_row": 0
+    },
+    {
+      "frame": 41,
+      "azimuth": 155.54179306655314,
+      "elevation": -33.34809716529507,
+      "source_row": 0
+    },
+    {
+      "frame": 42,
+      "azimuth": 154.74282277511753,
+      "elevation": -33.09331674967779,
+      "source_row": 0
+    },
+    {
+      "frame": 43,
+      "azimuth": 154.23002639389583,
+      "elevation": -32.831813818209305,
+      "source_row": 0
+    },
+    {
+      "frame": 44,
+      "azimuth": 154.00921411079023,
+      "elevation": -32.56655130359444,
+      "source_row": 0
+    },
+    {
+      "frame": 45,
+      "azimuth": 154.0828878172005,
+      "elevation": -32.30053473611729,
+      "source_row": 0
+    },
+    {
+      "frame": 46,
+      "azimuth": 154.45021276059447,
+      "elevation": -32.03677818978221,
+      "source_row": 0
+    },
+    {
+      "frame": 47,
+      "azimuth": 155.10702700258784,
+      "elevation": -31.77827013165095,
+      "source_row": 0
+    },
+    {
+      "frame": 48,
+      "azimuth": 156.04588857536928,
+      "elevation": -31.5279395613167,
+      "source_row": 0
+    },
+    {
+      "frame": 49,
+      "azimuth": 157.256159802169,
+      "elevation": -31.288622824168375,
+      "source_row": 0
+    },
+    {
+      "frame": 50,
+      "azimuth": 158.7241278263876,
+      "elevation": -31.063031474463983,
+      "source_row": 0
+    },
+    {
+      "frame": 51,
+      "azimuth": 160.4331599837404,
+      "elevation": -30.853721552337404,
+      "source_row": 0
+    },
+    {
+      "frame": 52,
+      "azimuth": 162.36389225698997,
+      "elevation": -30.66306462284233,
+      "source_row": 0
+    },
+    {
+      "frame": 53,
+      "azimuth": 164.49444867799897,
+      "elevation": -30.493220905172592,
+      "source_row": 0
+    },
+    {
+      "frame": 54,
+      "azimuth": 166.80068919119014,
+      "elevation": -30.346114796515486,
+      "source_row": 0
+    },
+    {
+      "frame": 55,
+      "azimuth": 169.25648317002216,
+      "elevation": -30.223413067862715,
+      "source_row": 0
+    },
+    {
+      "frame": 56,
+      "azimuth": 171.83400548742932,
+      "elevation": -30.126505978829048,
+      "source_row": 0
+    },
+    {
+      "frame": 57,
+      "azimuth": 174.50405178562977,
+      "elevation": -30.056491525455332,
+      "source_row": 0
+    },
+    {
+      "frame": 58,
+      "azimuth": 177.2363693731685,
+      "elevation": -30.014162999474657,
+      "source_row": 0
+    },
+    {
+      "frame": 59,
+      "azimuth": 180.0,
+      "elevation": -30.0,
+      "source_row": 0
+    }
+  ],
+  "camera": {
+    "lookat": [
+      0.23,
+      -0.08,
+      0.18
+    ],
+    "distance": 1.1,
+    "azimuth": 180,
+    "elevation": -30
+  },
+  "source_sha256": {
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/flip_then_arrange_shoe/sample_0/attempts/seed_1/scenes/sample_0/tmp_scene.xml": "29b0a4a5f2e94d7344b937c266c08d31db9083fbb09f9a9b769544972411c311",
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/flip_then_arrange_shoe/sample_0/attempts/seed_1/scenes/sample_0/gripper.xml": "0e59c2ec429718591ccbb64edbcf10d94cb8deb899d6912799be87036f677699",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link_base.stl": "cf52275a913a0977595f5d12373f06583513e26fe18b8cf2827c74da94a4f0be",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link1.stl": "34b541122df84d2ef5fcb91b715eb19659dc15ad8d44a191dde481f780265636",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link2.stl": "61e641cd47c169ecef779683332e00e4914db729bf02dfb61bfbe69351827455",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link3.stl": "9e2798e7946dd70046c95455d5ba96392d0b54a6069caba91dc4ca66e1379b42",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link4.stl": "c757fee95f873191a0633c355c07a360032960771cabbd7593a6cdb0f1ffb089",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link5.stl": "715ad5787c5dab57589937fd47289882707b5e1eb997e340d567785b02f4ec90",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link6.stl": "85b320aa420497827223d16d492bba8de091173374e361396fc7a5dad7bdb0cb",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link7.stl": "97115d848fbf802cb770cd9be639ae2af993103b9d9bbb0c50c943c738a36f18",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/wrist_camera_mount_v4.stl": "28ac39b65ccedcf7fd90ddfa51435fcde81ed3568ad1776085a8a814f84a47f4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/end_tool.stl": "e06112781cdd615b7df536569f50addb445a6f4b4acced6d53b0742018b6c768",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/base_link.stl": "cdaa4cff22f7c9cff05c6a8ed32f94fd2b11a69d37dd97a159ccee2d8dd32f13",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/left_outer_knuckle.stl": "501665812b08d67e764390db781e839adc6896a9540301d60adf606f57648921",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/left_finger.stl": "a44756eb72f9c214cb37e61dc209cd7073fdff3e4271a7423476ef6fd090d2d4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/left_inner_knuckle.stl": "e8e48692ad26837bb3d6a97582c89784d09948fc09bfe4e5a59017859ff04dac",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/right_outer_knuckle.stl": "75ca1107d0a42a0f03802a9a49cab48419b31851ee8935f8f1ca06be1c1c91e8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/right_finger.stl": "c5dee87c7f37baf554b8456ebfe0b3e8ed0b22b8938bd1add6505c2ad6d32c7d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/right_inner_knuckle.stl": "b41dd2c2c550281bf78d7cc6fa117b14786700e5c453560a0cb5fd6dfa0ffb3e",
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/flip_then_arrange_shoe/sample_0/attempts/seed_1/scenes/sample_0/shoe_right.xml": "a8d76136bcd8a4300c118792b09fb41260a7acb1207923c9e12ec524e043327e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/visual_assets/shoe_right_10_visual_0.obj": "6d456466ce6bf52ccc052aa1cfb2078d3c3e207dac704580498ea07130866a1f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/visual_assets/shoe_right_10_texture_0.png": "1b9eab106b2233240aef565808c06f621d58ad10516980fbbfb4c0d5d50d4ffc",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_0.stl": "6c24a9a717936b865f3a652ecd1d2857dd7750e433bd75d9d6aa0d68a15a7306",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_1.stl": "581aaf329ee0500e99f0c44382cc2e44f8378d8585717e485c320cf0ea27bfd3",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_2.stl": "01baaf069c170954520e9bebdf3ff88be26e4e19e27a8b3e7e919a109320435e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_3.stl": "23fadfcea86d9e1bf1777587fe65d3a7ea99f4f7f8c7594cab4673bc0a3da43c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_4.stl": "7301d20cca36682ed8875bb90de633ab1faebbaf8cfd437e3700f4b30d11b32a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_5.stl": "8640d8de191022ee1c9a83cdf746cad6c9759a41f2a337626f11887f7954f192",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_6.stl": "9cabd9266afb83f3bdaa415d19ce4c22bb49d228f7285c5c0bc0ea0a96d8b623",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_7.stl": "436fcec5a0bf8f108105e88807998aab6fcb35cc33315f2a5d515ea170e88879",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_8.stl": "a1aeb04b233ce89183d9b1335a8f6c749a68a9da76b1672772a9421d97e72299",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_9.stl": "62804b643f162c96a116fd4ae6bf18cc70f50584cb4c5c074dec0b77bb6d60cc",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_10.stl": "10d9fa8d0e2b95d182300bdeeae62084b0970f8bdc87f1a4120b11dc2a7f3b81",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_11.stl": "067e48febd334e290d42232b5ebf95ce5c180e918940c3c76f07ed8c97fee880",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_12.stl": "cec5522acb401f9926d79350089ab76cfa7ffb2e16c49ddd869d655f472c94a7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_13.stl": "dc6722b24d242648878b1e1659744f9f6b57186d12f9bb1a4fba9d32ea5395ce",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_14.stl": "0d68722ebc205f4be85a94b8f836b952f8aa45f1ea8067fdda9407b430134121",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_15.stl": "d62063f0fa583ddbe2dc8f8e197fa1dc2cfd3ac4bf3a0d6ee79d7a9e3fe761ea",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_16.stl": "a053ae69b307348c7f4561fb9b7a40750087b285991bd79679e242c861e7ea0c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_17.stl": "3564ec6a81581459de2e72a324f502c3ce2d54eb470c269ede06d1237f780e5a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_18.stl": "d8576a961e4a83244f3303c9ccc8098ea80c48aebe62a7008e02b37e208eb5a9",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_19.stl": "dff2f64277082550b428cccde65b525a411c4cf39cc3447446f6533ec5f0e234",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_20.stl": "8db188ac8fc9c60441fc3290515b39c69927ed098dbe42ceea25b1f5617ce1da",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_21.stl": "6fb3b94493c8df447acb5865aea5e42d60d3c20a5374ca578a781d059bfcac49",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_22.stl": "823b64def257c982e291daefa3d13e00efdd4a1cae60794b7f8e74986f6854f6",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_23.stl": "5c9085e3906323c2a3540fa6adbfa02c06cff58b17b1912036131713e2bd53cb",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_24.stl": "9a2a730550212477ce7f63c6a3846a981ea2d7d64c757c279e14737487b413f5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_25.stl": "e4375d0c5116be6115c5b9c65bbb4f4de842bdd7913c0bf9c3e59cb1212b32b4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_26.stl": "92b88bae48535b0e7437fd59d90db9e65c9a131c11b6e5c3080a84635eda0344",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_27.stl": "7e9703dacb04dde99694f20b572f54ddd9a4e7fd993eefa84828197a7a69640d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_28.stl": "e980c7bd711f2f6ae74e93ea03672a904e399ab2c32731e08d9727a22a202f14",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_29.stl": "7353cbef3820855375630e62f75fa666f228da9859337c52d55d9564959da13d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_30.stl": "c3b28c0732619a2cf0d99279761a2c9fe637aacc713444568cfa9bc36cfbe0eb",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_31.stl": "bac37f5c485126184dc91c9961d644fe9e1322036744fb1e9a8ab0e22220cc9e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_32.stl": "caa3abadb98d7b552adb389f8e781da9a0248f5eab790cf6a8677c3b2fad9649",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_33.stl": "f2293f2de1162d7ffc6ffe202b467a1f6d25bcfcb15f1a44c84048af7e105e12",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_34.stl": "f9fdc0a806b23d11603bce37838b82426d2a09dc6ad601581262b5ad132f315a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_35.stl": "b0e2fb5e0062e172a8f2f8b1f57df7e508e1e2ee9417b51d21925a11e4716f93",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_36.stl": "b22ef0a50117b3146459a6aa2693e3c58a7ce9d9dcd2e194f2f8eeb83bd973ad",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_37.stl": "4a629b01a2a567734903a00863dbb12c714c8a0b3beefa50380a3ccdcd7f9772",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_38.stl": "0aece1df7fba194ba790ab53da328722df0537fec8bad88df51c8e6e9d7c8f22",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_39.stl": "a8578b0adfaa70ec96ae5c5badd7a0d17862cc48472f8e1d1d0bb98a4091ef28",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_40.stl": "b8af5122e2b508adaa896fd2cfc2fc726add61799be49a792527ef82518319c0",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_41.stl": "0a25c3f640adf2b6659dc831e69d2684034b0d4f58fc7fb3a795e92213dbd1c2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_42.stl": "91e680119d02bbd3b83b8eed8c2ce560a347da8879a76f7e57b24025a85be17d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_43.stl": "1e64086ea90c206d5d50e7c43d9b5e1bfc3f914387484b3816a11af639a805a8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_44.stl": "3330d85f536b87891e425f4129fa1b6270700bf19c6abf9c6530222e38ef1659",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_45.stl": "4f1148e416528ffda81b9105134a0e7f526ca9c180eb8cce90652ef18a7bf3f6",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_46.stl": "66c04564a7240436bc013967cd1c09e532ea4e7caef807570effcc509d013bd6",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_47.stl": "418f358d24bf8136256492f631f8298ba9ca97c2b9673e0046a3336bbb66a3ff",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_48.stl": "b798293562d00f3f7eb4764a17b7ca5dfd164fae979c1f5048275133e6f4ca0d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_49.stl": "1a9669f823c6ef838076f3faa9763714302c2409155050eadd80a3afef9e4d60",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_50.stl": "7d7bc20d90c14f9cd089865db3775672b2ffe1c5f354ce31feff2bec751071db",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_51.stl": "572655ecf08f2768f8171027e95af5040e13876dd986578f2a632f1aca3486b6",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_52.stl": "1afd5285eb8ba48daff0889e392b875f52ce81663897589b1ed58e5bfe6835d7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_53.stl": "d7353d74549c7cfae5dbb83e711ba80d2456d62bca3e9bd2fa41215fa1a6bde2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_54.stl": "949a02cd541b0244b8ca5174ce845af1285fa1999d5b7b10a57b1256f44e1e14",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_55.stl": "be23d1ef58d86a503634c862c20d5c7f152e02477016aeaf1ad09de0d84e3901",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_56.stl": "bf0ba996fdd55c0a2a4174fc9ac0ed50c8918cb106b36e554a9f2b9b65060b13",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_57.stl": "33cfbfc87950e2f517af28e965b3f0baa3ec62b321e3439242fc4673576b3674",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_58.stl": "ba51e88ba24c07ddc4bb6d291d000f002f90979d40c231fba48271ffb53d6817",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_59.stl": "9f030ab1f2b0d5e4983e22477764acb1710e481d3f2027ed4b0dc3eb8aa7ef76",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_60.stl": "950a84a9181148fd0ab4699af6fb2f43d82277ecb95260b9c38f4cb572ee148c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_61.stl": "53b2de0624d7df23276b3aa342fafde077c1c578fd456655f6e6f72c7dbc27ee",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_62.stl": "546b81123153ba4f60f382887ffae715bc429d781438deb16cc5b0d67651531d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_63.stl": "31d1de7ebf5437d71bc2bb160b5b65c11b036d18202765ca5fa8e0d8b26ae393",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_64.stl": "8c647e18c617e33759fd60285bdca8ca008e9317dc436424053f2af3610638d7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_65.stl": "631265d82fb4c840d53a3f2a797502128f73794fa2d471f81f6a1ccc013b8f29",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_66.stl": "a4b491fb67f70c86d0f744b902deb654604939b5b0f2d188f5e81dc9540100b7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_67.stl": "a22b320a47df9da94c1b638df4d96332f9cfcf07b1fc4dcedb9af1627cae0b33",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_68.stl": "debd58b1b79c156584e6213bab02deaa29743256769c8218c21f7be0cfb0019d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_69.stl": "c347acd83389f2ba1f544778876ba934211d3f618e794122850f914c91175dc5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_70.stl": "beb95a9bfeebed97e9bf339f351bf418c08de9badfab6a05a22396078c76b5d4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_71.stl": "6f1db4ff1929c12cd80c062f9e11c12fc134a6c93673e9304aca0b9ebbd39ba2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_72.stl": "09532101603a135b5468fcb47992a03b2676d004c77b1b2c0de782f40f5cbda2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_73.stl": "9a2f1964bd0b696fe63d23e7511a795ee955772832d6dc4ef0e523aa69f59434",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_74.stl": "18d67c34d9ef1633fc6eb9cc244dc3a7719f6dc7ebca08177140803fef361088",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_75.stl": "35ecdc56214607ece416f12e9a64761ac7eef6bc1239bb2960830d12008f35bf",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_76.stl": "89ed6774333883ec06ac2e8d7c219d5315615497edd3aba85c860a870424c868",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_77.stl": "4028813ba2e98e774646ef259e7cf447cab304080b5b9c064a1268f510136ead",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_78.stl": "7ce58f4e35b94a236fa781c2933f26d4f9dfe31542ebed588fee549fe20cfb93",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_right/10/decomposed/shoe_right_10_decomposed_79.stl": "0cc39539a36a6f97249b97e0dbd26ed4f6590bc2e2161bae9110bd1fc8b79191",
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/flip_then_arrange_shoe/sample_0/attempts/seed_1/scenes/sample_0/shoe_left.xml": "8cb71436d482cdd4b068f97bf0e7fc79cad55791619ab43309eccb2d3715aad7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/visual_assets/shoe_left_10_visual_0.obj": "752c3e5fc9573f06ec47f982a360ca19126b829975152ee8485e47068a02c98a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/visual_assets/shoe_left_10_texture_0.png": "1b9eab106b2233240aef565808c06f621d58ad10516980fbbfb4c0d5d50d4ffc",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_0.stl": "a70659421f55310f926c531963464285ef068fb53b6bc71d66155b767cf7747e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_1.stl": "2757914c7bdaae42ace2df738463b44679cda894f1a5596ca4e9a9fcacde3228",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_2.stl": "f05c4690ef16fe4f099a7b9c8b281907fa2732637f4c3e743b4cb78656be3e44",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_3.stl": "543ca5d1045d2620c6f135d48582304b10451916b7e10daf9c6b8b0aeb9d95fd",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_4.stl": "26f03046b2f3ed54255e10ac4c47fe2a54068f377c8227e73f99b6b64cffd23c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_5.stl": "c76002bf82f3e350863aca720865aed472f14f5699fea9ee3ea2f5b48ca35ae2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_6.stl": "54a9a6414300c5ad8aa72aa2f9b4447f7418b394d08ec10177d128e482932f05",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_7.stl": "f5cfe089093cba8a21db818f5e2320b311c681416d16ef11575ba117bbb91735",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_8.stl": "a3ca1ceaeaf9cf08a5dfa5eb00c14e5da3481d105c77e5a01cac5c3fdf2dab6c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_9.stl": "7cb345eb625b0ed98cf20bc9fc38ecfbe98847104d4d306976f936f2a689627f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_10.stl": "33da6feef55a9bcef316dad87152ac581a8c18d2c2d3b4e602c6d74f99488f16",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_11.stl": "05017aefef84af4eda138a5218c38c2703a304c47e3d7440825c45fb85292243",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_12.stl": "4975a0516bb059c8ca94fff7d81f01303e34aa8b8ce78afc6a053ebee8677170",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_13.stl": "a809baf3bbc11b5cd8cd46575bea2f45ad0e75c81838bd6a19d2afba273766f5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_14.stl": "8639cda91d1744c512cff5480df2e39fe5105d31f2472983d68bbf8af2345b4e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_15.stl": "63bc90d42eb60bd36d16994be378dc1319ab702a203f373adf4192d2fe4a35ba",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_16.stl": "f88840cc806d7707014b2188ec2e2c7cf4621af091d7a4e24c56ff07f1b83025",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_17.stl": "0bfc976a2ff6bc9f239eda0bb40997dea361271ea1a5ca7b8c1bf420e5cbbb4c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_18.stl": "936b3be63f94a55fee6a0b41db80903d51cd66d9230ad79fe551aa4f459591f8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_19.stl": "da92199773472306746ab1221954b6b3dc4625e04c9aa87c936c24930ecf7863",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_20.stl": "375ac7551ae6b803d425d2269d8285388af6956eeccf6c8ecb01d8ae084c0156",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_21.stl": "df74cad0c9f58136cceff23766eb70cadea3434db7ad2bf4011b45f9ddc642aa",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_22.stl": "873634495baf80af6ee0105f4249a1aeace61addb97e3cd36417e2318be07d10",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_23.stl": "291a5b32e51275fb7b8fe0e3355fb63ba4a633b1f30f32f41e324de9233851ca",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_24.stl": "6e10395d5ac6235ac4c8f7ad0ab634eb0d574c030bab2654ad5183ad86dc8d85",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_25.stl": "c0fdb189e49fb2645115d97fb3718c206d0cd7c30e9906d51b1fb7e0c1bd10f5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_26.stl": "ac2282e0c480609a5c278fbb98a0fa688d42843ee2234620d73c54038b610884",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_27.stl": "1dc2ddb379dc59e4cf36d5052dbe4c46065c6c735e71b9cde9d77e96444f22f8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_28.stl": "e5ec47d154e766294324210745e83b6600351bd17042dbf83cb32b4258503ec8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_29.stl": "c8faf165ab5c8f8dbe848789119ee73f1cc74ab8a4464b509f63ca7f57b230d9",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_30.stl": "e7bec2d88ea8704fa608e80be3b61e9299c57f2fa2c33c43883648cb0f7ce871",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_31.stl": "35ec2b6014c3e13798624845d12045ee10b19849b6ae918d6b3651e9b18fdbb4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_32.stl": "e4fa80c672f41a3d71e02410ddc927e380bf8e65c4438a8769d5b12a110b3781",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_33.stl": "0bcd2640ad7b15854a4cb3430d490c0bba074a1e81ace01cd11f015a66b1b4ec",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_34.stl": "866146bf8dafefa8950c4d2812dfb6680d58344c2570aa29cfa0679701203907",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_35.stl": "d1a2e2d340164fbedda2e98f5bede52ffb94fa47abc1c54d86ede6586f1f4e77",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_36.stl": "a599efba6b35bb35b017b2bb6278319038e7104b97f56a27a27af04047ad19a5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_37.stl": "d29ede1bcd16fef0495412064756662bbd1ed97657bf920ed4553662f01379f8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_38.stl": "c0a0e762c5eaf6477102525781dab198db62c59b1878c7a26862a58c19135cae",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_39.stl": "71d49f4f5edc089162ab351746d6e6f8b7f9895745118ce9083665f585838c10",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_40.stl": "16c7db472c733be5d9381db302cac49e3171382ea976edb4391d9b75f0a191f3",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_41.stl": "97d22e99e274d866158538ffcd26662d5c1af86fd5e2f2e828de882f7b2eacbd",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_42.stl": "f56ea2b52c213a2e0833f16ece19e1d6ea0e698329f56c1dc64e6fcdbabf31df",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_43.stl": "0fdbd084deb272dcdd8b085d68e0cffb70c8e9d952c3f5ed977ffe3ecd75ad8f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_44.stl": "658af2b78d3de4bb0064368d9fb4049298803c0a903d8b52af8138605da0f4f8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_45.stl": "e86a94ba134245bf5793adecc1348216fb6b0f6fb63baee66aa782ff0274ed70",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_46.stl": "d1f64358f09bc2c4f3e7d7748520f24ed7177befdc5b8c107deb85cb9f3e225b",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_47.stl": "ab646dc4a59c89f2dce3577eecf67e0ebf713077eedb91a580e05b67e310c595",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_48.stl": "998d7bb628bffe5de4edfd18045372d61289f604cf1f9d27310c54863d6c29c7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_49.stl": "6a60b73d830c02d14b65cad3588e28b052549b4e39e24ee07a2ce9ad006be211",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_50.stl": "0b4819e077d9a2bd01a0bb58a8d932187330e319da612e7750afcf784e09c132",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_51.stl": "fc500fb52b293c2b6a11db94949e98e331d4c8f4945ed0fae974573ce1548206",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_52.stl": "73a7b5ec7df50531265904069a7dbf4ed1d5ab3982c00e3f49bd60f2a7b47ccd",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_53.stl": "c46b4a9553e108da2f8e5fc89911ad37cb142393fe158d28e8f287ba541fec5c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_54.stl": "5f0e086573728308a4b9e0d20ffc2f1e2f57503d53b227eb6d984c81c2f794a5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_55.stl": "5a13ce8a2f26ad40543cfb19a828800b9c63aab8b1a14597d2eb3e06da4e67a7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_56.stl": "8a74d7ee76c0bc6127960a8fa6cbd3e7741b47dedb61e35b786aa25dc6ec365b",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_57.stl": "fad1d64b5268d4cda611a21fdb4310053f51d24afa6cfe819524de54b866c587",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_58.stl": "acfeab527f2b9f4be387cc9537f4cd5f0f7e334003d168dcee66d6444595ccae",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_59.stl": "6cff6ac77e6ad180106ffb09c8a9d744a512e1b249480c73c4a0269e3cc1a222",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_60.stl": "1b628b765c81cecc3d3da9e549a832c8e3d398308e0c15a94711c3431a5f5195",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_61.stl": "21b4489d44696cb607210d7507e7c27863dd5248b51f97aba3f1eb90104ae095",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_62.stl": "b3bad3d10e35fabbaf8d2a6525b958ca290602a9f4ff24f46ec0b8151479c3a0",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_63.stl": "2d0702de8fbc7fda85ea9745a0a8c33caa8720701f0f59be78fa11ddc0077c24",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_64.stl": "a3dcc1659fb45fe27d9ce799575f5ce4e1a4d28415d823e890ac9f7fb8155f02",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_65.stl": "f63b7b881de134cd762586a494ad4adca323a9ee7aa0c44314707fa7d08ecf98",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_66.stl": "1606c64c8607c87c73e9bd84db41478eaa6992b00fba5fdf08fa4bd16bb5a240",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_67.stl": "1f3cb6debd628c4167cfa64e7c3a91284f77210a2cdcb2e1b139a0919a1dbc49",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_68.stl": "f08f6cda662d599453dcc69ae1e71d40e427cdb54e4c4188becc8b1a79fd3d7c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_69.stl": "7e2c3aa8d67fd43e81508f6f9fe902a8747c0c990fdd8faf86622573877a78e2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_70.stl": "e76be0334ca2419e92c94f01bbb465629057d5d3eb80e34c0dd4c7ca16883e67",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_71.stl": "a2cb101f55fc5d25a5476753b1b6997eb21181938acec5fef89184ce2779778c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_72.stl": "9f11202953a0cde19e4d8b6a852290685db5bfe33bb38b93c878df86eab8f764",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_73.stl": "06a2c15a31c236a1cee1aaa7e04f7829591fe50a04a214e9a99965e98cfdb409",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_74.stl": "5ba49b2ca5652f2445d0341ad806692266c00a59010a12816745c9a989e2768d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_75.stl": "c00e4b9ef347b013bea58773b5ee617b1f80dff6f5b09abac774c89da2f95b6d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_76.stl": "e00dad6437674ad96316b600a40c6dcfb39598a1e6d7eedf617db6aa812fdfc8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_77.stl": "8bd74123d923dfa793204c5a6787ddad2770149fb15c84c0a79410234cb12f0a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_78.stl": "0a1017cccf10f11a70cd578d06035d9b2d6bde58e8f9f18ae173426e4cd5e8a9",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_left/10/decomposed/shoe_left_10_decomposed_79.stl": "6b3a597c6fb8ba0fd05539de6a9f30477c35048b444127cd618edb6131f94037",
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/flip_then_arrange_shoe/sample_0/attempts/seed_1/scenes/sample_0/shoe_tray.xml": "107b30bcae21baf9a4342751fe7ad3183fa0fa135388e1d16b6b6109f900a742",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_tray/1/tray_visual.obj": "a6c38c8fb9fd9e4d2d75eb93ebca68678b683ed4116c7249c0a9e2eed8552896",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_tray/1/texture.png": "ef975def24a130cccf462dc177768a8a93e36ba3b124e14b31b646b75c51fa30",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_tray/1/wall_0_-1.obj": "7608d64dfd73efcaabd20d6fb8cc8c0c73bc4ef4566dff396702335ef1abb407",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_tray/1/wall_0_1.obj": "b1b1ce13e03e37b4dd4f72206517ab22736563fc14feda15f77084414e939040",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_tray/1/wall_1_-1.obj": "eb5010abee52c74060f3455e6faa44ce38789686c27be8da1eeb7adc156f2d75",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/flip_then_arrange_shoe/shoe_tray/1/wall_1_1.obj": "33efdccdd6bade074c6a5666ff07e2ecc0da5e4be7871d8297bebf426d9a5660",
+    "/home/yuan/codegen/Codegen_Datagen/assets/materials/table_arrange/wood_e68650.png": "b3d31a265804f6f3d494256f38a9ffabf4d31ae4d8cb2084d8df29bba1614af9",
+    "/home/yuan/codegen/Codegen_Datagen/assets/materials/table_arrange/carpet_gray_woven.png": "343a7d5558e0ebef18fd9c60f6ea973f59fe7ce383fb73b738376bad5418701c",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/data/visualization/flip_then_arrange_shoe/sample_0/keypoint_overlays/recording.parquet": "117eb1832d54d31547efcdc40b1c0966d43a491590f98321dd16b2081931b76c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/solution/flip_then_arrange_shoe/constraints.py": "46a1eba7ac9a592375d85a1e6e215f50b2f29189cd9f149fd32883108ae97e90",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/data/visualization/flip_then_arrange_shoe/sample_0/inputs.json": "f661bafdf8e235095d2ae3d7436d7c7edd2bde3b878da8d3cb4a4e3d3dcc6a1f",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/data/visualization/flip_then_arrange_shoe/sample_0/keypoint_overlays/config.yaml": "7c2ebdf3ba219ede83dd5059b865253a5e2d1e074f7950f2d666f5ee888382d0",
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/flip_then_arrange_shoe/sample_0/validation.json": "845e8547ff079b390311d6a99ea3c899c608ae217e870ba9ada9f360c5435b3c"
+  },
+  "max_keypoint_error_m": 6.847189621588468e-05,
+  "source_fps": 50,
+  "source_frames": 507,
+  "keypoints": {
+    "left_gripper": {
+      "index": -2,
+      "site": "left_finger_site",
+      "visual": "left_finger",
+      "color": "#3B76AF",
+      "kind": "robot"
+    },
+    "right_gripper": {
+      "index": -1,
+      "site": "right_finger_site",
+      "visual": "right_finger",
+      "color": "#3B76AF",
+      "kind": "robot"
+    },
+    "shoe_opening": {
+      "index": 1,
+      "site": "shoe_right_001_opening_1",
+      "visual": "shoe_right_visual_0",
+      "color": "#529E3F",
+      "kind": "object"
+    },
+    "shoe_grasp": {
+      "index": 6,
+      "site": "shoe_right_006_opening_6",
+      "visual": "shoe_right_visual_0",
+      "color": "#529E3F",
+      "kind": "object"
+    },
+    "shoe_sole": {
+      "index": 7,
+      "site": "shoe_right_007_opening_7",
+      "visual": "shoe_right_visual_0",
+      "color": "#529E3F",
+      "kind": "object"
+    },
+    "tray_slot": {
+      "index": 12,
+      "site": "shoe_tray_001",
+      "visual": "shoe_tray_visual",
+      "color": "#B98A00",
+      "kind": "target"
+    }
+  },
+  "media_sha256": {
+    "demo.mp4": "f6e02fdb27f48598fc6c8bf10d80af4ee48aca09bf98a7596e35be05abe56477",
+    "poster.jpg": "313536938a3efb86ae72c6c12ad580c0d1903e71e39b7e5a32ade60d41c75061"
+  }
+}

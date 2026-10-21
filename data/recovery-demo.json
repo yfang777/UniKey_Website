@@ -1,0 +1,57 @@
+{
+  "fps": 30,
+  "frame_count": 385,
+  "resolution": [
+    1920,
+    1440
+  ],
+  "duration_seconds": 12.833333333333334,
+  "controller_seconds": 9.35999999999989,
+  "initial_hold_seconds": 1.5,
+  "final_hold_seconds": 2.0,
+  "timing": "50 Hz controller timeline resampled at 30 fps; no playback acceleration",
+  "events": [
+    {
+      "stage": 1,
+      "key": "w",
+      "count": 1,
+      "controller_seconds": 0.19999999999999998
+    },
+    {
+      "stage": 2,
+      "key": "a",
+      "count": 1,
+      "controller_seconds": 2.4400000000000017
+    },
+    {
+      "stage": 4,
+      "key": "s",
+      "count": 1,
+      "controller_seconds": 4.699999999999988
+    },
+    {
+      "stage": 6,
+      "key": "d",
+      "count": 1,
+      "controller_seconds": 8.8799999999999
+    }
+  ],
+  "controls_visible": false,
+  "control_source": "sol.py",
+  "task": "hang_mug",
+  "disturbance_distance_m": 0.01,
+  "judge_passed": true,
+  "speed_limit_m_s": 0.2,
+  "maximum_measured_speed_m_s": 0.1617103229374819,
+  "maximum_hand_object_penetration_m": 4.549456084627662e-05,
+  "key_directions": {
+    "w": "-X",
+    "s": "+X",
+    "a": "-Y",
+    "d": "+Y",
+    "q": "+Z",
+    "e": "-Z"
+  },
+  "controller": "force-limited Cartesian actuator controller with payload gravity compensation",
+  "video_sha256": "9b2d727a1b4723a186ea25acf0d09f4c355b9060beb2d2d3a3bf2b6e0ead7772"
+}

@@ -1,0 +1,643 @@
+{
+  "fps": 30,
+  "frames": 426,
+  "duration_s": 14.2,
+  "execution_duration_s": 6.2,
+  "orbit_cameras": [
+    {
+      "frame": 0,
+      "azimuth": 180.0,
+      "elevation": -30.0,
+      "source_row": 0
+    },
+    {
+      "frame": 1,
+      "azimuth": 182.7636306268315,
+      "elevation": -30.014162999474657,
+      "source_row": 0
+    },
+    {
+      "frame": 2,
+      "azimuth": 185.49594821437023,
+      "elevation": -30.056491525455332,
+      "source_row": 0
+    },
+    {
+      "frame": 3,
+      "azimuth": 188.16599451257068,
+      "elevation": -30.126505978829048,
+      "source_row": 0
+    },
+    {
+      "frame": 4,
+      "azimuth": 190.74351682997784,
+      "elevation": -30.223413067862715,
+      "source_row": 0
+    },
+    {
+      "frame": 5,
+      "azimuth": 193.19931080880983,
+      "elevation": -30.346114796515486,
+      "source_row": 0
+    },
+    {
+      "frame": 6,
+      "azimuth": 195.50555132200103,
+      "elevation": -30.493220905172592,
+      "source_row": 0
+    },
+    {
+      "frame": 7,
+      "azimuth": 197.63610774301003,
+      "elevation": -30.66306462284233,
+      "source_row": 0
+    },
+    {
+      "frame": 8,
+      "azimuth": 199.5668400162596,
+      "elevation": -30.853721552337404,
+      "source_row": 0
+    },
+    {
+      "frame": 9,
+      "azimuth": 201.27587217361238,
+      "elevation": -31.063031474463983,
+      "source_row": 0
+    },
+    {
+      "frame": 10,
+      "azimuth": 202.743840197831,
+      "elevation": -31.288622824168375,
+      "source_row": 0
+    },
+    {
+      "frame": 11,
+      "azimuth": 203.95411142463075,
+      "elevation": -31.5279395613167,
+      "source_row": 0
+    },
+    {
+      "frame": 12,
+      "azimuth": 204.89297299741213,
+      "elevation": -31.77827013165095,
+      "source_row": 0
+    },
+    {
+      "frame": 13,
+      "azimuth": 205.54978723940553,
+      "elevation": -32.03677818978221,
+      "source_row": 0
+    },
+    {
+      "frame": 14,
+      "azimuth": 205.9171121827995,
+      "elevation": -32.30053473611729,
+      "source_row": 0
+    },
+    {
+      "frame": 15,
+      "azimuth": 205.99078588920977,
+      "elevation": -32.56655130359444,
+      "source_row": 0
+    },
+    {
+      "frame": 16,
+      "azimuth": 205.7699736061042,
+      "elevation": -32.831813818209305,
+      "source_row": 0
+    },
+    {
+      "frame": 17,
+      "azimuth": 205.25717722488247,
+      "elevation": -33.09331674967779,
+      "source_row": 0
+    },
+    {
+      "frame": 18,
+      "azimuth": 204.45820693344686,
+      "elevation": -33.34809716529507,
+      "source_row": 0
+    },
+    {
+      "frame": 19,
+      "azimuth": 203.3821153844517,
+      "elevation": -33.59326830114714,
+      "source_row": 0
+    },
+    {
+      "frame": 20,
+      "azimuth": 202.04109512513145,
+      "elevation": -33.82605227029936,
+      "source_row": 0
+    },
+    {
+      "frame": 21,
+      "azimuth": 200.4503404508687,
+      "elevation": -34.04381153736548,
+      "source_row": 0
+    },
+    {
+      "frame": 22,
+      "azimuth": 198.6278752477562,
+      "elevation": -34.244078802837464,
+      "source_row": 0
+    },
+    {
+      "frame": 23,
+      "azimuth": 196.5943487747653,
+      "elevation": -34.42458495857477,
+      "source_row": 0
+    },
+    {
+      "frame": 24,
+      "azimuth": 194.37280169939103,
+      "elevation": -34.583284797706284,
+      "source_row": 0
+    },
+    {
+      "frame": 25,
+      "azimuth": 191.98840503768247,
+      "elevation": -34.71838018764143,
+      "source_row": 0
+    },
+    {
+      "frame": 26,
+      "azimuth": 189.46817495657336,
+      "elevation": -34.82834044363085,
+      "source_row": 0
+    },
+    {
+      "frame": 27,
+      "azimuth": 186.84066666991555,
+      "elevation": -34.91191967203629,
+      "source_row": 0
+    },
+    {
+      "frame": 28,
+      "azimuth": 184.13565089649586,
+      "elevation": -34.968170886803364,
+      "source_row": 0
+    },
+    {
+      "frame": 29,
+      "azimuth": 181.38377654589664,
+      "elevation": -34.996456739191906,
+      "source_row": 0
+    },
+    {
+      "frame": 30,
+      "azimuth": 178.61622345410336,
+      "elevation": -34.996456739191906,
+      "source_row": 0
+    },
+    {
+      "frame": 31,
+      "azimuth": 175.8643491035041,
+      "elevation": -34.968170886803364,
+      "source_row": 0
+    },
+    {
+      "frame": 32,
+      "azimuth": 173.15933333008445,
+      "elevation": -34.91191967203629,
+      "source_row": 0
+    },
+    {
+      "frame": 33,
+      "azimuth": 170.53182504342664,
+      "elevation": -34.82834044363085,
+      "source_row": 0
+    },
+    {
+      "frame": 34,
+      "azimuth": 168.01159496231753,
+      "elevation": -34.71838018764143,
+      "source_row": 0
+    },
+    {
+      "frame": 35,
+      "azimuth": 165.62719830060897,
+      "elevation": -34.58328479770629,
+      "source_row": 0
+    },
+    {
+      "frame": 36,
+      "azimuth": 163.4056512252347,
+      "elevation": -34.42458495857477,
+      "source_row": 0
+    },
+    {
+      "frame": 37,
+      "azimuth": 161.3721247522438,
+      "elevation": -34.244078802837464,
+      "source_row": 0
+    },
+    {
+      "frame": 38,
+      "azimuth": 159.5496595491313,
+      "elevation": -34.04381153736548,
+      "source_row": 0
+    },
+    {
+      "frame": 39,
+      "azimuth": 157.95890487486855,
+      "elevation": -33.82605227029936,
+      "source_row": 0
+    },
+    {
+      "frame": 40,
+      "azimuth": 156.6178846155483,
+      "elevation": -33.59326830114714,
+      "source_row": 0
+    },
+    {
+      "frame": 41,
+      "azimuth": 155.54179306655314,
+      "elevation": -33.34809716529507,
+      "source_row": 0
+    },
+    {
+      "frame": 42,
+      "azimuth": 154.74282277511753,
+      "elevation": -33.09331674967779,
+      "source_row": 0
+    },
+    {
+      "frame": 43,
+      "azimuth": 154.23002639389583,
+      "elevation": -32.831813818209305,
+      "source_row": 0
+    },
+    {
+      "frame": 44,
+      "azimuth": 154.00921411079023,
+      "elevation": -32.56655130359444,
+      "source_row": 0
+    },
+    {
+      "frame": 45,
+      "azimuth": 154.0828878172005,
+      "elevation": -32.30053473611729,
+      "source_row": 0
+    },
+    {
+      "frame": 46,
+      "azimuth": 154.45021276059447,
+      "elevation": -32.03677818978221,
+      "source_row": 0
+    },
+    {
+      "frame": 47,
+      "azimuth": 155.10702700258784,
+      "elevation": -31.77827013165095,
+      "source_row": 0
+    },
+    {
+      "frame": 48,
+      "azimuth": 156.04588857536928,
+      "elevation": -31.5279395613167,
+      "source_row": 0
+    },
+    {
+      "frame": 49,
+      "azimuth": 157.256159802169,
+      "elevation": -31.288622824168375,
+      "source_row": 0
+    },
+    {
+      "frame": 50,
+      "azimuth": 158.7241278263876,
+      "elevation": -31.063031474463983,
+      "source_row": 0
+    },
+    {
+      "frame": 51,
+      "azimuth": 160.4331599837404,
+      "elevation": -30.853721552337404,
+      "source_row": 0
+    },
+    {
+      "frame": 52,
+      "azimuth": 162.36389225698997,
+      "elevation": -30.66306462284233,
+      "source_row": 0
+    },
+    {
+      "frame": 53,
+      "azimuth": 164.49444867799897,
+      "elevation": -30.493220905172592,
+      "source_row": 0
+    },
+    {
+      "frame": 54,
+      "azimuth": 166.80068919119014,
+      "elevation": -30.346114796515486,
+      "source_row": 0
+    },
+    {
+      "frame": 55,
+      "azimuth": 169.25648317002216,
+      "elevation": -30.223413067862715,
+      "source_row": 0
+    },
+    {
+      "frame": 56,
+      "azimuth": 171.83400548742932,
+      "elevation": -30.126505978829048,
+      "source_row": 0
+    },
+    {
+      "frame": 57,
+      "azimuth": 174.50405178562977,
+      "elevation": -30.056491525455332,
+      "source_row": 0
+    },
+    {
+      "frame": 58,
+      "azimuth": 177.2363693731685,
+      "elevation": -30.014162999474657,
+      "source_row": 0
+    },
+    {
+      "frame": 59,
+      "azimuth": 180.0,
+      "elevation": -30.0,
+      "source_row": 0
+    }
+  ],
+  "camera": {
+    "lookat": [
+      0.23,
+      -0.08,
+      0.18
+    ],
+    "distance": 1.1,
+    "azimuth": 180,
+    "elevation": -30
+  },
+  "source_sha256": {
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/hang_mug/sample_12_modified/scene/sample_0/tmp_scene.xml": "f2441f7fc59336680603a6bdd47b94cfe646c21ca34e9a97547793e0e3baab15",
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/hang_mug/sample_12_modified/scene/sample_0/gripper.xml": "2797aa9041891f52dfa40c739f51460b1bd99eb05ff81f760042bbe14db21ab2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link_base.stl": "cf52275a913a0977595f5d12373f06583513e26fe18b8cf2827c74da94a4f0be",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link1.stl": "34b541122df84d2ef5fcb91b715eb19659dc15ad8d44a191dde481f780265636",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link2.stl": "61e641cd47c169ecef779683332e00e4914db729bf02dfb61bfbe69351827455",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link3.stl": "9e2798e7946dd70046c95455d5ba96392d0b54a6069caba91dc4ca66e1379b42",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link4.stl": "c757fee95f873191a0633c355c07a360032960771cabbd7593a6cdb0f1ffb089",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link5.stl": "715ad5787c5dab57589937fd47289882707b5e1eb997e340d567785b02f4ec90",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link6.stl": "85b320aa420497827223d16d492bba8de091173374e361396fc7a5dad7bdb0cb",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/link7.stl": "97115d848fbf802cb770cd9be639ae2af993103b9d9bbb0c50c943c738a36f18",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/wrist_camera_mount_v4.stl": "28ac39b65ccedcf7fd90ddfa51435fcde81ed3568ad1776085a8a814f84a47f4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/end_tool.stl": "e06112781cdd615b7df536569f50addb445a6f4b4acced6d53b0742018b6c768",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/base_link.stl": "cdaa4cff22f7c9cff05c6a8ed32f94fd2b11a69d37dd97a159ccee2d8dd32f13",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/left_outer_knuckle.stl": "501665812b08d67e764390db781e839adc6896a9540301d60adf606f57648921",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/left_finger.stl": "a44756eb72f9c214cb37e61dc209cd7073fdff3e4271a7423476ef6fd090d2d4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/left_inner_knuckle.stl": "e8e48692ad26837bb3d6a97582c89784d09948fc09bfe4e5a59017859ff04dac",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/right_outer_knuckle.stl": "75ca1107d0a42a0f03802a9a49cab48419b31851ee8935f8f1ca06be1c1c91e8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/right_finger.stl": "c5dee87c7f37baf554b8456ebfe0b3e8ed0b22b8938bd1add6505c2ad6d32c7d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/xarm7_gripper/right_inner_knuckle.stl": "b41dd2c2c550281bf78d7cc6fa117b14786700e5c453560a0cb5fd6dfa0ffb3e",
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/hang_mug/sample_12_modified/scene/sample_0/039_mug_1.xml": "40639ea9384e3bdce08662d79b413f1db73956123806a89310bebcd4ac4b6a47",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/measured_mug.obj": "113491a7c7958ebc25f409c7176dcb0744b2c4825d04f20a95ba2c0b0b233683",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/material_0.png": "c0ce114497c655f8c6192159f022ccbce88b1286ac589a6149711fa183eb04b2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_000.obj": "bbf79fd9df69ac0df3bbacb8c61f5d0ec63632cb0b12a42c37e90a159111d5a7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_001.obj": "9c33be45f7861dec762aad1b864f78f62b84e09f7302d3b780015804e2dd0253",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_002.obj": "4b91662a09cef957e6bc05ebb43769aef14e2f14df2715af767c2ff40a7f6724",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_003.obj": "2a3dc06388498a80200667a073341bc2d049bca5ac1a634058bd8b1da4d9b7d5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_004.obj": "0964fe9013d47c9372f42d52b4947f3fc10e683a08268a77e0dab3556c7ee497",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_005.obj": "328e43630218ff5bba974451807a8acc66aa331f5b21940bfadee0bf8766a49d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_006.obj": "83d241e91184f84cbc4df1143102ff3b58a2b4e621ba5818518db85dc6f66a33",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_007.obj": "621caea25f2eac677b7cedef2d90e6531f755c9aad9a4cf2be6ea53e8dd2bb13",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_008.obj": "d1b40ff161681edf5db7c7a6cba27cc1942b5f196c76bf6626a7d7fcde236606",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_009.obj": "5f6cc9166332aa781a2fc1f3c363d29b4efe0a0a5bd89f393f3416ccc919ba44",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_010.obj": "82734ae87602ff8baaa12842893febefa489bce0318404611b9b76409cca3ace",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_011.obj": "c5b725d684e36099cb33bebcd899c14e695d016e9d72dca1887b65e41b58a3d7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_012.obj": "34acf93fa5f62fb93e39100bb734f7f503e35754ce1a2824c3ce94f3fcb68ded",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_013.obj": "6eb53d3ec567f5158b7b844ef748bdf652ebb530bdf6655f7825b22e6db7e88f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_014.obj": "9464348ef194a5e90259664cf34cf7504ea53977256386d9eeda300c509199b9",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_015.obj": "aa132570853ed2eb797234d757a58d724f501a67b79a11ca4b95ac2c84ec26d4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_016.obj": "00f0ddfd12916550b74f63a4bbcc033a23ab29f84b00229257e8c410bc81db3d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_017.obj": "ba8f3dabae6cf1a7287eb5da5baf394d7d39e4ab3bd074da4f56c6cc909e2c51",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_018.obj": "3b27cebfd0eb00410a6a8198056b79364a944914185df9a1940e63245d521960",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_019.obj": "fa7ffc89ce25b17d94f2a8dd33921cf69025bc63304dd5020ae11a7cd99443d4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_020.obj": "f04db70c10f7746bf907b7198f9931913b92c345df7a6d4da5ac67acb3e789b0",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_021.obj": "452622a7bd0d5f7e99ee1eee52de1674f8f5cf8e98b3fe7f0b186ca7a8ed8e4a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_022.obj": "b2c17451e343200a90866dbd6f2495419600787f97988bf5b5fac0c279dbe130",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_023.obj": "0aa3f752f5acaa798096673167f601b6b978dca3e36f1d716d96fb6b8f3a2caa",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_024.obj": "cfede8ee96aa95721dc2dc2b2fc8b08dae621d61d4c6fcd7358414218fa6d50a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_025.obj": "1bc87b5f862ef46e2c845de84da203f6d2eef5d805d03bd049a72b550252ca38",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_026.obj": "e2bd36aa5e6252a0a6d08d0bcb1e3d273757e0c6614b3325697c47734918eed5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_027.obj": "5cd89234aeb0dbd931cb969286f9d0374862d3f5e3416fdac840158f629b790e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_028.obj": "28a0c78ea7a4b917768fd260d98e4a64b24ee4f54d1d605f2c39e6e15625c881",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_029.obj": "73318a5c50073483618fed9dad5eb1430f925a9e9c11961b4d06dd9f04f6ef11",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_030.obj": "08a883de6e2a90c8bc3041002ba2425710725fa9b310af45fd60f36aed38312e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_031.obj": "dbc3631c6c6908e79befd5a7b61bf638848a8fbf74e40cc97ccbd5043f7d123d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_032.obj": "84af06dcff545b4e3c6762b72fec19bcf054bde2315fd7acaa4e9e897d6f7b89",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_033.obj": "db111df771b4b0a1a0fe7c05ecf8c9cdfa0e4a19e6bc5bd16acf3cc0da0ca4cd",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_034.obj": "757597db44bf8e4fd7efa288c4918b2f9fadf1251f4ddce9799fbbd0bb3c196e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_035.obj": "6574ba54c20990ab67fb9f01d40c6979e6a5de04cdb037bc6aac6b5f07303830",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_036.obj": "b7a1b3ca21d182bf9bbf81f9f9bfd9ef944a6f12e85643ec040e858becf4d421",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_037.obj": "4182137955eb7e9461e0bb4680314cfdc5c62660f5a80923c66ce86558770ea6",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_038.obj": "c819337eff1d9cf3093684d281811966866ba292d1a59a7cc68c9d1c26be49dc",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_039.obj": "02885fbc058ffc4d7c691d8ecece382c087ad8791e34ea423ab418c1f4e49637",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_040.obj": "a63ec69b24fde48cd2f49c6a5c0286a3e7c231bae1fbd7cfec3609d5824f9343",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_041.obj": "2915be133a5a425a80959bc6c75477c87c30d257628e099a664194f94e90173f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_042.obj": "febb166c06edecff3002eb0af33de2f030e60adb185ea7354eadd0ef60612744",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_043.obj": "68838a98087f11ef29c99ab2994fec981f9d6b908e8e6178625094ae5fbe241f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_044.obj": "b39ec04e28a9e2e0ab598affde03b03df7b8ca8e8cd5e80109de1f3ec19c7b0d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_045.obj": "dcc09977904393c9a86da32e6ffcdc03badd432e60686c44ede4a0988a61f86f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_046.obj": "3330873d727e94d46485b560a5b6ad9ae88c490458d48980ec539e8b0dc00a63",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_047.obj": "22214a817ba484013d18ca819d6308ff6db767637ba57e7b6e7b62f2df6d6f7d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_048.obj": "c65e43139e736fd8f8318d5681f9c6b6c1f7e94b24825f9c77e6b6cebbe74ed4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_049.obj": "028321a36698d2079a5f2492e36b761f16dbe69cc9349c5e753deb8559996d45",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_050.obj": "b7f11a25c78a964391f6c576e7912ac578f112929172b08f650780a5678a85ca",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_051.obj": "f98d37e0e8a79eb317038838f1e3d69036b01f11533e27ef51ecc15cd084cbc6",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_052.obj": "981b6c33ba69cc9e4712d0167dd07893d67e6b081db17572a42106e0d9c81853",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_053.obj": "d4157fd07163ad6eb8fc53ba948541f5da1b20ca984811c8251b4c15b7f8659d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_054.obj": "bf93128bb3b210bfe3f8fc42ca3d713a21152339c608244f8afa47c04d767f6c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_055.obj": "8f6f6ecff93e7908581f8a13c9c87e9216d120717f86adaafa108845690e8236",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_056.obj": "4fa45022f9eb189271efe8e95ab1594cbae340e63512f158c5db9a3cd6a609d5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_057.obj": "6791c1fba86001f8a5fe459057a24035a44395a06277ce84176e8b7474b74cb1",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_058.obj": "f5a102c8052cfbf60dc2dd4e3c553d25d9a708dfd3108283fa78fb7d10013267",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_059.obj": "82d931abac9af0f74728312704af0b754203abe438516c712049aaa38f05dfa2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_060.obj": "0822b3b9b1eda8a01f05ff608f0e264ebf88b496da6138705f1cb8b39121784e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_061.obj": "c52c6059eaa054fe00b71bab2ec0b5b9ecf8c26c12e919bc1064d3b8ba40ad2b",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_062.obj": "dc774b7d5c390db5d4e874e8e584aa7583c321557bfb08f9c8c3c606d346253f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/039_mug/1/measured/decomposed/meshy_green_mug_collision_063.obj": "f1c26f1e4c1eb740d1e17e01e6029ef3bedcfa8c95325b19d22a3099c15467cf",
+    "/home/yuan/codegen/Codegen_Datagen/data/visualization/hang_mug/sample_12_modified/scene/sample_0/040_rack_1.xml": "0a6ee43980ba24667d88be34f76118056e243b37b30bc8953138705a4a01cbb2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack_dr/meshy_bamboo_rack/meshy_bamboo_rack_aligned.obj": "f9e565696e74411607d2fb00a9f0b5a9466af784b8296ed577adeac8a2f48c12",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack_dr/meshy_bamboo_rack/meshy_bamboo_rack_texture.png": "eb3a9bd7bd21d9be531f6b92af8a9da8d0eed979d49ef62d43d21e27d6d9a86f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_000.stl": "b893139229f0d2fb8442e23c260ec47fdebf94e689c2aedf7b0e49c85f6e2975",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_001.stl": "9821a29955315f541f292f72ea49e40ddba4ab8fe7b8a332d4c4ecaf969f0c2f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_002.stl": "61a7f473d9e3aab052ab3c89d2368d1c9911b1d8b13848127020821e778ddba2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_003.stl": "b209dcb6d58f538c91dc6519f07d99637dad2f5fbfa396aaad381493c99065d4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_004.stl": "09b20f70d1b82567634908dc1676637fc93c289a6a423548b4db9a0bb3595437",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_005.stl": "1717293f5f24ac4a8e1c689ab61ec87e4ccaf6f532147764698c13775ccea49a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_006.stl": "802466873b85dc5aecb57aaed2c7ea0d58d3e8612f0a4482bc071cdbfc9f61ff",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_007.stl": "53fca4a5228bc5b35bc980a8bc7a9578a6127e6d242b3bb78a6ef78a5f4caf86",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_008.stl": "d6efe96051f89fe1eaa91fcbf53f7c403a8c944cd75a10e1daf886c26407f9d8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_009.stl": "bfa4c986b4a07db4bc4ab99798f5788f54a22f60048840721a190691563ab086",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_010.stl": "c56c9aac9b27ee303fbf1a4e551edd5336ce9e3e6f8c81ecd0711c4309426785",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_011.stl": "5d59e062b838c95ba69251997206f830ce26d48a50ffaacf51d2667c927d06ce",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_012.stl": "95db082efff4627c95afd8ea7269020758b6bb9b3081176a031f9ce5e35fb77f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_013.stl": "ffd2e112d7f7bfcc8814449bd0e801e9e10e2138b106cfd09aa11a7b2bf8c6b1",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_014.stl": "1e428006e6ed525ec52e472d69899a0f4b9b022a09ff5098ccba3998deb4f4aa",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_015.stl": "1d0488d8d56a143a2112ed0f156240796bfe2f296124bb9f84344372272f42c5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_016.stl": "112b7dedad14ed2d37c9bfc8976df80d5311c2b74a8cad5e5dfd53409cb597a1",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_017.stl": "3b0150584cbddb99cbc2537128b1a01e1c17cf730ea5cd10f6fcd0ae5b7dc9ab",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_018.stl": "9606f1d1c051d7d36687bfb2c4eb873d2fed392d6ff3a145b5f24da2c4f1a8ce",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_019.stl": "2c3f20ad56dc78b6c7a421fb1b13cc2c9ad19a9cbd2916bfbaabd05792ec06df",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_020.stl": "dd364c92348c84c9a032300d7454e96d4a80da782855f59b4b4b3dd348363835",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_021.stl": "f1351e6604ad26eb3eed621bde47e5b8f11d090abf94451ab1a8a0e67e787dc3",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_022.stl": "02ce9b0cd33b86ad6ac1722b701ac4717fbb016bda9691d800fd459bc0543ff1",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_023.stl": "69d96867d2b121aece4d82cd7a4cb0bb942eecb1ba3f5c4c681632da12e45ba7",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_024.stl": "4176ca1c9bee4e9c10d175d29382cc388b4c77a873ca4450ccdf216f3530e507",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_025.stl": "11fb6af7cf85790417e70b7d9a92e95dc28307b4d0a5352f3495833424fc2e07",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_026.stl": "53b543575e218ac617c0f3ce70908e8216bf12bc53372fb35e9cea912ae9e629",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_027.stl": "4e7b2dcce693cd9bac8f857d9ac3d7959e82916a7dc57fd21827d2bb91b3c14c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_028.stl": "4d587eb99813dff67e26b5b57a395e2ee0092175524ff3d46c1b1a55bfa309cf",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_029.stl": "1885caf4fae7f04d831968df9bafd454f38aab53f90b60d74e318c57965f6613",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_030.stl": "38ab803dd1b05069cc8000897158032046c54e6abcdab046a8be55c3a774bb71",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_031.stl": "f515a7f3f5a87fbb020d1ae92c1981fadb4b89d563f35b03308507a86633cc1c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_032.stl": "504857f706ee4c61871304d2d492213b5404d0ce41f3a353df207a5188ff42d2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_033.stl": "19ca7ff0d5a70c09b282f2f93af61d30c3dfd91e91efedc92aaf8c89d3254ace",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_034.stl": "2bfba95d8e8d3b76943e8e159f032088f35a457a72584da9c108ae7953d10ac0",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_035.stl": "24def38035c79f12b628024a23bfa390eed40f2d2afa5c6a608c628399844813",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_036.stl": "3f5252f0e4c206d21553685fc3a26ed8eacc16bee0de9168c81d06a22e8627ca",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_037.stl": "9b0c9c0b09bb74ab295c5ecee3613db958fcfb8abc78adeee683b39d905fc7c2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_038.stl": "5d93b8492f7c33d4cb1e9d5f98281bd2719895b6cd8c47dea5a07dfb910ceb86",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_039.stl": "ce0bd97463567186d703de60758a422b865fc471d94e8d40d5ad97ccf3ae1fa3",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_040.stl": "1906cdadc0691716890bb30a34c6154bdd72845470722b78517e3c1aab734351",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_041.stl": "5ac625d4acde3851e21e2c57dbb1b71381aa04dd7da4ddbf430c10ec47324fdb",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_042.stl": "1a7602677aeccf974492502b76d50471c21203b6652f18a8138000baf7808fff",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_043.stl": "7972e64c41ee58c748dfb84e91b4848abe51cfd17b23e75ad113f9b552e826b4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_044.stl": "a4aa4d72ff3bb2286a94c5afd3383d09b1ecd5fa60ff873f8a982e1b0f2f518b",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_045.stl": "3b0957803b4e5789547d3afb091a045e32185887d774c09302aa5986609cde3a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_046.stl": "1d96d06ad36cb9e636044e0454816e5338a2a2c6c4f7e1a5463512ca77d14757",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_047.stl": "aeb38d929a792dda1bc09b18002665456063716096a1b6cabbc5bc6ccc0fd6e1",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_048.stl": "67d3b249e317d314e8656e51a179cb6cf456f1070ac87cf2c97a0272be929bf8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_049.stl": "fb0eed28dbd20a7909ec0c96f7b0f6cbc1fa805985dc5f44709f2f16795953a1",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_050.stl": "abf6b501e22958edbc659deda74ad2ea9997ccbadbebe2635125bf30c515e50c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_051.stl": "a34b96bc9aeeccde99a8b625d020d1cdc8249d6070bb5a864b877961e9a51ee4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_052.stl": "8370bc536805d50cc511b58579f2fb81ef9d86eff6b758bd30737b6245bcdefc",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_053.stl": "5df514d9bd402b63f6dc0a335874b3deb30f396084e51c38d1f5956a3401e26d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_054.stl": "f96bfb49040812189447c86b494e6a564952b5f3783931bb0cbb8d6d298da821",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_055.stl": "d6981187630fd7227a3041ebefda9180c182c64fbe9311a0801c4ebec95b998f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_056.stl": "2a0616cb382d529220d150e046d406379cd69c8ce0936ee015fd0e82ba24cc4e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_057.stl": "daf7584394e2d7e85759f8dcf0608df5ba04251000d8efe574f7396d9cf94a15",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_058.stl": "cba95d60bbae8b0bf37dc227b946f72cdae9af913125098b13eb15b549adce1d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_059.stl": "237af36cdc5f3393cac0e852970d16d5b1c66e6026725035f7ecf7e186f2f90d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_060.stl": "ac4c076dc8ad50cdca2b2c4438066dc07d2f67eb3bb1a691bf1b6b7ff24715ee",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_061.stl": "8af692a340794620807b16edb0d9e8d8165f7b8a13e90086b87d2b7021fdc100",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_062.stl": "70ef747bb5422ee427534a2675369bbd4fe11d7c345711f079126c32dc31bf5f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_063.stl": "ac0f945fe42813c84a88443616f57b3ba7ad44c7121234f3013c410ad623dd58",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_064.stl": "3126a98d3e60a6eff2913d00726148d56aee73d2bf12550eb73b36913d885dfa",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_065.stl": "ffc0c4505a69caf602f8d8d7857c857029eff2cb9a11e88a6affbcb3964eb921",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_066.stl": "d722c36d37ab6beeb3b85190ea8a0a963fa78a838c07bb703b576bd78c9556ed",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_067.stl": "2729b5c35379c76fac15ce8b3edf1117acd313063d9b8139a7375acc4147a21d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_068.stl": "1f172f5a97562e42206b2680add55b7e39d5916a5a082aeb2b90885aa659d52d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_069.stl": "5d10fc7063a817dfad1032c2af81cd59d75a68d8f42770359d2bc179e29e3584",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_070.stl": "3141a3d8dc89637e48777a2e35ef683efd2b75f2767f1cb14c3f089c30fb9eba",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_071.stl": "c2f90ea8ee7e5e8623d49629195d87a368729c590a70a3cd5fd989c4ff3d8310",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_072.stl": "5955f6b2bb68f42873d86a5c57f4e0cb4f55e6acff7ff56754a47567d1d4ad3b",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_073.stl": "1e2876e4e43c21cec414300fc19695cd22f577e7d0469853b945bfbd49981297",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_074.stl": "e3382d76d74a646114583940e8351d869a41ae92353b23a5541ba964b51ba488",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_075.stl": "46dfe45daf52a128f3c3b147f92290221ebb18e6a3f51dc259f0fb00c855a51d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_076.stl": "8698e3a4786c7d4e182df241cdc9a49b787ea0ab08a6f099b10709f89a805819",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_077.stl": "8092619040d083b0e3302a7e6b24fd15a678e9fc03ab7b86f0295f0735951c41",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_078.stl": "75869869274679018b7bf5013dd8488cc58528675b61211f22970db7f847483c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_079.stl": "46e3b277b01d7c8fbf54e8725756f5b727d481ead46ee6917ebe204f51854654",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_080.stl": "c83c5da33a51a4d65389566e9247b19f34a1df29675b4bc97964e52629608cae",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_081.stl": "55f5e89d145e6e52bbb0bf7782da636968882eaad5ed6fce4c147ac9f8226c35",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_082.stl": "0fc3a827ecb7a0408914bebf09338d89093154ebf3910a7af104350bcc7599f1",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_083.stl": "7bba610f5ba24e364592d58fe56d6768010c1b1bea6662473c985c428c84679c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_084.stl": "cac04d8ceff486eda7bad64caf3e761004463698b33710efaab50a9fc62cb1d0",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_085.stl": "1ab353d3280d2188a594a58d48d2a422e3cf5a63e09bea630d4f4fe7d6e3db38",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_086.stl": "23a115780c3886cf7c70dfc23973139bebf30da8850dfdd7167c1c6326ec24ed",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_087.stl": "8260c38c3520a6b8db0abecdb226856f4069c71545fc762859129a7ca8052360",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_088.stl": "588eee1c0c823c3f01d9a61e0059d959d915df26530c828715ef003bbed34c55",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_089.stl": "48e4300d025be64c5072a2945e8fea83b541d1e1a71f965a074952de978f7716",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_090.stl": "3ebf280e1635fb55c9d939ad176d3fa913f74b57bf4e380aae3e5aaf607a1913",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_091.stl": "788f1f0ee72173ce3a19c9215a3a9174d1dfe14f5cba01aff196ff338029eab8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_092.stl": "e64f532d95fb10456e48af3d2e1ee82d6a96d923705be4c71f57e05e8e01fce5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_093.stl": "a0b5aa9d3a63ffae7c896596af421e3ab8e8529bf3adb833527ea2f5843ca319",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_094.stl": "41d0602fa98e58c114eb743442ffb17e0944fb821bfac9845976517ea5302168",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_095.stl": "77f69611c06ccef022817686d77130769479254d1d47b952d4a61e3bd76cd2b8",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_096.stl": "fd2918c5c129a6b4ede0203a8a477adfb0e966cc0edf2e05559295479e008424",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_097.stl": "8a41817afbd739eaf5a208103b4b8179b97b74bd5d0031315825ec275c995d6c",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_098.stl": "f8cf2ce10b6a004115f3b3809330266ccc50d0f9023ef3b94ad14d7f099ab44e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_099.stl": "d8a8fb81ebe6f16433657b246e1b0b60db1d1f4292c26d0631ceb50ba9675f5f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_100.stl": "fb4f9bfbdba4739882dcafbc88a7edeaa0f2733d2fbea8cf1302f92e8e1d94df",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_101.stl": "fab0369db564d62bcca8992f156a4b658294960a0ea387f242deaf27b92e282f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_102.stl": "498e7d3dbeac6250230ca2a02150ce2fb3de8bbe33989516dcb1d5245cc0c0d5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_103.stl": "cee31273651a68d4d88893ab1e66a1f08e6bb34f812d9958ff1aa3f5f7504708",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_104.stl": "a2e3845df8132e581c6b149af0d17ab2dc8a65f2665333508f257c39f25a0903",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_105.stl": "8ce3f2a9276dcf2254f35e4ae2db25c859d370d0621e64f3492502d06eb0542b",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_106.stl": "9752c5098eaa1c24d3e2368521c32666b9409b64a4ce7194268f6d670517b245",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_107.stl": "3b27d97ae2e2bd0fa9f4928e3f6214d39bfa5c3c3913596705775e0e5f48506a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_108.stl": "071d343e9d3d273779b2fe345c692eada99430a68396b77c0f4e83643a0e2d11",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_109.stl": "d14ac382a9cdd1aecf85159377ecd8adaefac61bbfb65efcb2608f968c5c9aec",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_110.stl": "2b0aed6c84ce739429e0b112c700412d69b4d54f3f1a307a89287a39dba65d19",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_111.stl": "553e638386b1776141040e56e98cfc858d972b2e310d9c57e23dea0c80fde3a1",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_112.stl": "93bee7482eb34c8e98345cde2f0033adc816e6224a9055a06ea8afb55f702a66",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_113.stl": "63705dc0ea2d0f20bd46d046130de0018529f0fee9efb878137a93afcaabea2e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_114.stl": "beb90d8523454420a065121ceb68bb729b8fde3ef87a8c3e0946a9af1a7fc4f9",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_115.stl": "3beb38e9608484c51a73242d69a682505cd77225f9c20464aaf4e6c52bd0d96d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_116.stl": "0100e475e54a4b093b8583879284533a88aee6decb66097a828f7025196eea7e",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_117.stl": "c9f581202e9785bf5a509cf562eafc7fef3302dac05227454b87601187c2f602",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_118.stl": "7a10381533555897a7fb847be89edc0109c9d15e805d5fff7acbd9478375a28a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_119.stl": "664389c84169b1e938dd35878a6edc8e880829a101c0ca87f6b07fccd4e04c15",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_120.stl": "1717a0e715dfca7ff30f89609875974917adf328e8d8b55635d53d69e25c59e3",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_121.stl": "3776bd1f8450ccb0dac82c3a66bcbc3a7473b4617dfa5e22a8e477182533ea1a",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_122.stl": "eb2f181add124d87d22fa81a34ed4f7712f0fe0926dbb8d8e545c87b3e091bc9",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_123.stl": "ffb292dc59a1073a71d129fcccaed104b94b5e57e4fb0a2ca67245fbbcbaa6a2",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_124.stl": "c5e20dceeb2269b3ef7a3380f10cf06b6f96d8fcd65dc342b9fb5a53b738e1f4",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_125.stl": "582b40dc93cdc260fe8a911d12df8f084f50324e1627dfa5d541a7c2c16fdfce",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_126.stl": "79d64c15b5309d19e19ceb24c4a386a051365656645031d04dc71611e2fa54e5",
+    "/home/yuan/codegen/Codegen_Datagen/assets/objects/hang_mug/040_rack/1/measured/decomposed/rack_collision_127.stl": "3b7f9ca86a9b1a8dd91cc09bfa97bfb5852ad563c030e897345a82327d1ddd4f",
+    "/home/yuan/codegen/Codegen_Datagen/assets/materials/table_arrange/wood_e68650.png": "b3d31a265804f6f3d494256f38a9ffabf4d31ae4d8cb2084d8df29bba1614af9",
+    "/home/yuan/codegen/Codegen_Datagen/assets/materials/table_arrange/carpet_gray_woven.png": "343a7d5558e0ebef18fd9c60f6ea973f59fe7ce383fb73b738376bad5418701c",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/data/visualization/hang_mug/sample_12_modified/planner_from_scratch/sample_12.parquet": "9906037a87ea27bd39268b299ce2a8aa63a1fa1c613f70d374608234038e348d",
+    "/home/yuan/codegen/Codegen_Datagen/assets/solution/hang_mug/constraints.py": "3899636b1cd832f910cf650b7bdc9e634f98b212837ac5301be51bcef56532fa",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/data/visualization/hang_mug/sample_12_modified/planner_from_scratch/stages.json": "c2b41997d8818ec68dee5364ac785dc502e0421fd1103eef2c05950e3d724978",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/data/visualization/hang_mug/sample_12_modified/planner_from_scratch/validation.json": "931f91f7ac8a87fc9c4982d56d1377a02dc6434ea9b926a0358ba87ed96b18a3",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/data/visualization/hang_mug/sample_12_modified/planner_from_scratch/provenance.json": "526d4d5f630dbcb6b92dceee8ca7777f36752ca63ced550a3b20b0760a3b3d3e"
+  },
+  "max_keypoint_error_m": 2.81336188738736e-05,
+  "source_fps": 50,
+  "source_frames": 309,
+  "keypoints": {
+    "left_gripper": {
+      "index": -2,
+      "site": "left_finger_site",
+      "kind": "robot"
+    },
+    "right_gripper": {
+      "index": -1,
+      "site": "right_finger_site",
+      "kind": "robot"
+    },
+    "handle_top": {
+      "index": 1,
+      "site": "039_mug_1_kp_0",
+      "kind": "object"
+    },
+    "handle_bottom": {
+      "index": 3,
+      "site": "039_mug_1_kp_2",
+      "kind": "object"
+    },
+    "mug_grasp": {
+      "index": 8,
+      "site": "039_mug_1_kp_7",
+      "kind": "object"
+    },
+    "rack_tip": {
+      "index": 9,
+      "site": "040_rack_1_kp_0",
+      "kind": "target"
+    }
+  },
+  "media_sha256": {
+    "demo.mp4": "f83be759b3e5527ab7d30884edb9523a854f43918ede0ae04b01d105de0f31ac",
+    "poster.jpg": "08e386be4a7c5e6be39fc0c72bd97e5ad9b83f24c572aa8d267f6cbe474ce6e9"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "description": "MuJoCo keypoint program demonstrations without stage captions.",
+  "tasks": [
+    {
+      "task": "01_adjust_bottle_01",
+      "episode": "episode_000",
+      "frames": 392,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 7.84,
+      "sha256": {
+        "rollout.mp4": "ad47c550ad89989a2fee08b4af5d7bf9b893ddcb1ed07be86794bf9064326449",
+        "poster.jpg": "eee7ad1a49fe289d6483c327d89f2a1bee94def9e51b78854841094f926b7c6c"
+      },
+      "source_sha256": {
+        "clean.mp4": "447b37dacd4e1f03736b82ee8ee237a80e400e1d828c9046ce9a6bf436f40b59",
+        "coordinates.json": "817381fbdec97cf2393b41b42ee04bc1623406d9a737056dc78220c7113c01a3",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    },
+    {
+      "task": "02_beat_block_hammer_01",
+      "episode": "episode_000",
+      "frames": 339,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 6.78,
+      "sha256": {
+        "rollout.mp4": "d64bed362033c6c0cc0c5df15b4ca8064e9b8d4926937d78e0f7b38bce6c24a7",
+        "poster.jpg": "57990d1a5e68ea44b5a14da605b1608b5dbbdf8dd093d2a41f53c67485182b3d"
+      },
+      "source_sha256": {
+        "clean.mp4": "d71134d25e1b39038ff5ac9e91d7f0d0caefd889ff79b545555d6652f9ea61ad",
+        "coordinates.json": "9f541aca83bc708c89484297979db29392fdd2069579ba4ee9e03ad79fa900ba",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    },
+    {
+      "task": "03_blocks_ranking_rgb",
+      "episode": "episode_000",
+      "frames": 1013,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 20.26,
+      "sha256": {
+        "rollout.mp4": "05529f1d855e31480e7dc845570d630511030485e930b2f8aab2a8ed1af1927e",
+        "poster.jpg": "12db0c64e1f2738f27ec027b42c443cc1032674caf10b791a612adf7af9e0304"
+      },
+      "source_sha256": {
+        "clean.mp4": "fbd1f7893b179f32413d72553ccffb2280172261fcbf94a8e9ed5da4a32fa5e1",
+        "coordinates.json": "489b34b201ea5c9ee2ac971946c5cc49b64f7266e5ef658e02d47c891f795600",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    },
+    {
+      "task": "04_blocks_ranking_size",
+      "episode": "episode_000",
+      "frames": 1027,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 20.54,
+      "sha256": {
+        "rollout.mp4": "4c2f291abd7a8346d9045e19186360dbbb0db30d50850ee7537e30590230bd8c",
+        "poster.jpg": "be059d64d48cf5ee70bc3cbd45d8928de6799b592881b450968425beeaaf2b4f"
+      },
+      "source_sha256": {
+        "clean.mp4": "0ef677daeb332922a85375cc883d6a2750b9adc80e0bd05ee1269ba145e1afc6",
+        "coordinates.json": "daeb3ed12757d96d1407046a3ddae94aaf9221327845b0376aefa0ba0e84c336",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    },
+    {
+      "task": "05_click_alarmclock_01",
+      "episode": "episode_000",
+      "frames": 154,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 3.08,
+      "sha256": {
+        "rollout.mp4": "a77353e37048c090c1f40db99aba2667cc9ee44ef987655120ec4745e046457d",
+        "poster.jpg": "552747413791812429dfa84241bcfa6ad722210af53ab042f690192c1445a1ec"
+      },
+      "source_sha256": {
+        "clean.mp4": "4ed707e2f25afa9ececeedf465a049cfa44714c603dd98d557fc678560afbfe6",
+        "coordinates.json": "141236f906f36d4b9616d2338fa67a8dd35e213c87357df84da78e29af25ebb0",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    },
+    {
+      "task": "06_click_bell_00",
+      "episode": "episode_000",
+      "frames": 163,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 3.26,
+      "sha256": {
+        "rollout.mp4": "179b44fbe953ad2460372d45e36574401498e6d40ff4585b09719cb67436eb44",
+        "poster.jpg": "cfa4a2b6b7e68fcd371dd9a8bcbc0a5c9b9fc0fb33c3bfaf416e44c115ef4d22"
+      },
+      "source_sha256": {
+        "clean.mp4": "716a0daf32fa54c855ca081cf3f2c6dfa4d6285d817a452f9e2111f733e1cd53",
+        "coordinates.json": "d78629fec5a72e91d78e7a26411f8488ea594480c374971aa0a845ba3ebbcd4d",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    },
+    {
+      "task": "07_dump_bin_bigbin_00",
+      "episode": "episode_000",
+      "frames": 630,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 12.6,
+      "sha256": {
+        "rollout.mp4": "dc7b054c7fbc73d9bae7a6ee49d0a6d7b44e549515064497c0995de6d651ceff",
+        "poster.jpg": "f68b62dbcd0833befee5839a28a1d488fc799a537f5647fc6fd7d1548264b8b4"
+      },
+      "source_sha256": {
+        "clean.mp4": "40241e9d92b00ce576589210604d5529a7aed0ce737cad5858e35b0615705548",
+        "coordinates.json": "9001b93c92b874e6007e06265c50fcf8cb3bbb4a3a47f44d998fcb64573a6bd4",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    },
+    {
+      "task": "08_move_can_pot_00",
+      "episode": "episode_000",
+      "frames": 605,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 12.1,
+      "sha256": {
+        "rollout.mp4": "27dab28d34fd342167882df8d5a8716d456f588e3b167f3e7d2d7e62b686bf64",
+        "poster.jpg": "bf2660f3c4aa37650eee24144f7d5ab21a583bf7856c9188e736aa095e9a8879"
+      },
+      "source_sha256": {
+        "clean.mp4": "08c8f73f70bc4a777a007bffee42deec413d4281996ecb4a39762815fd5be573",
+        "coordinates.json": "65829713e4908f0043bffcc71a4783c82e6f3da240544f450187bdff609718c3",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    },
+    {
+      "task": "09_Move_Playingcard_Away",
+      "episode": "episode_000",
+      "frames": 377,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 7.54,
+      "sha256": {
+        "rollout.mp4": "408f199c7669df9013c30f23d1a810fca834389f26f5fa3975c54c74b485b581",
+        "poster.jpg": "dcf6da82bb456b2e481be1c8437d7322c6eadb788172c0a1f4e25881c65a4836"
+      },
+      "source_sha256": {
+        "clean.mp4": "0d553ee2b369bc782af4f387c5dce65229a01a4dd39909957bb88b15697113fd",
+        "coordinates.json": "c4c2b544d15db9fd503492a16062e49426e80e3999ba32a725f450af104d5db7",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    },
+    {
+      "task": "10_Move_Stapler_Pad",
+      "episode": "episode_000",
+      "frames": 438,
+      "fps": 50,
+      "resolution": [
+        1440,
+        1080
+      ],
+      "duration_s": 8.76,
+      "sha256": {
+        "rollout.mp4": "e8be138380c24e43b051d6ba11685a94493338fc3884ea27d4f014fead7341a5",
+        "poster.jpg": "f2116ecb87396b43ef8171757df70c40495f7e357ecf837fabd3c55b74e5ff1a"
+      },
+      "source_sha256": {
+        "clean.mp4": "d07cecafb40a22b0bf8406ebfd984d7c9f6b9bf916adf72e3c9131fad66e8e65",
+        "coordinates.json": "1349dbdb00f0cbb04b90c4752a9a0d4dada8073a590f1ed4a2479486acf175a3",
+        "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
+      },
+      "stage_labels": false
+    }
+  ]
+}

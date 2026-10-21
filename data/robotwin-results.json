@@ -1,0 +1,2163 @@
+{
+  "source_archive": "robotwin-results.tar.gz",
+  "source_sha256": "47e892bdd7b8505af97d36fdaf63a24f2b158b9290d0e0faf5b28a1ea14a7dce",
+  "selection": "Experiments matched to the original website curve legends and labeled points. All available checkpoints from those variants are retained.",
+  "shared_initial": "The initial point is the dense-sampling evaluation reused in the original curves. The v19 training code copies the initial dense dataset/checkpoint; model files are not included in the export.",
+  "uncertainty": "Exact nonparametric bootstrap distribution of the mean of 100 binary rollout outcomes: Binomial(n, successes/n) / n, shown over its central 95% interval. This is evaluation sampling uncertainty, not training-seed variation. At 0% and 100% the empirical bootstrap is degenerate.",
+  "tasks": [
+    {
+      "id": "adjust-bottle",
+      "media_directory": "01_adjust_bottle_01",
+      "experiment": "01_adjust_bottle_01_v2/v19/01_adjust_bottle_01_pos_0p02_time_3",
+      "initial": {
+        "steps": 2000,
+        "successes": 45,
+        "trials": 100,
+        "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 2000,
+          "successes": 45,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+        },
+        {
+          "steps": 3000,
+          "successes": 60,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_3000/ACT_rollout_seed_1/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 85,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_4000/ACT_rollout_seed_1/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 87,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 85,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 89,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 92,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 95,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 94,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 97,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 99,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 99,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 99,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 99,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 99,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 98,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 99,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 99,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 99,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 3000,
+          "successes": 91,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/v19/01_adjust_bottle_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 98,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/v19/01_adjust_bottle_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 100,
+          "trials": 100,
+          "source": "01_adjust_bottle_01_v2/v19/01_adjust_bottle_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_5000_test_rollout/info.json"
+        }
+      ]
+    },
+    {
+      "id": "beat-block-hammer",
+      "media_directory": "02_beat_block_hammer_01",
+      "experiment": "02_beat_block_hammer_01/v19/02_beat_block_hammer_01_pos_0p04_time_3",
+      "initial": {
+        "steps": 2000,
+        "successes": 58,
+        "trials": 100,
+        "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 2000,
+          "successes": 58,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+        },
+        {
+          "steps": 3000,
+          "successes": 79,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_3000/ACT_rollout_seed_1/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 90,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_4000/ACT_rollout_seed_1/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 89,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 94,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 95,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 93,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 98,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 99,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 3000,
+          "successes": 96,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/v19/02_beat_block_hammer_01_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 95,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/v19/02_beat_block_hammer_01_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 95,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/v19/02_beat_block_hammer_01_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 95,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/v19/02_beat_block_hammer_01_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 100,
+          "trials": 100,
+          "source": "02_beat_block_hammer_01/v19/02_beat_block_hammer_01_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json"
+        }
+      ]
+    },
+    {
+      "id": "rank-blocks-color",
+      "media_directory": "03_blocks_ranking_rgb",
+      "experiment": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3",
+      "initial": {
+        "steps": 5000,
+        "successes": 7,
+        "trials": 100,
+        "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 5000,
+          "successes": 7,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 21,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 16,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 26,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 29,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 27,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 34,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 35,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 41,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 40,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 41,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 44,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 50,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 47,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 54,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 55,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        },
+        {
+          "steps": 21000,
+          "successes": 53,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_21000/ACT_rollout_seed_1/dataset_step_21000_test_rollout/info.json"
+        },
+        {
+          "steps": 22000,
+          "successes": 56,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_22000/ACT_rollout_seed_1/dataset_step_22000_test_rollout/info.json"
+        },
+        {
+          "steps": 23000,
+          "successes": 63,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_23000/ACT_rollout_seed_1/dataset_step_23000_test_rollout/info.json"
+        },
+        {
+          "steps": 24000,
+          "successes": 60,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_24000/ACT_rollout_seed_1/dataset_step_24000_test_rollout/info.json"
+        },
+        {
+          "steps": 25000,
+          "successes": 64,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_25000/ACT_rollout_seed_1/dataset_step_25000_test_rollout/info.json"
+        },
+        {
+          "steps": 26000,
+          "successes": 69,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_26000/ACT_rollout_seed_1/dataset_step_26000_test_rollout/info.json"
+        },
+        {
+          "steps": 27000,
+          "successes": 69,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_27000/ACT_rollout_seed_1/dataset_step_27000_test_rollout/info.json"
+        },
+        {
+          "steps": 28000,
+          "successes": 74,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_28000/ACT_rollout_seed_1/dataset_step_28000_test_rollout/info.json"
+        },
+        {
+          "steps": 29000,
+          "successes": 72,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_29000/ACT_rollout_seed_1/dataset_step_29000_test_rollout/info.json"
+        },
+        {
+          "steps": 30000,
+          "successes": 76,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/dense_sample/rgb_abs_action/dataset_step_30000/ACT_rollout_seed_1/dataset_step_30000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 6000,
+          "successes": 14,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 17,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 26,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 25,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 28,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 42,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 40,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 45,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 65,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 65,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 80,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 84,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 83,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 88,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 91,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json"
+        },
+        {
+          "steps": 21000,
+          "successes": 93,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_21000_test_rollout/info.json"
+        },
+        {
+          "steps": 22000,
+          "successes": 89,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_22000_test_rollout/info.json"
+        },
+        {
+          "steps": 23000,
+          "successes": 97,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_23000_test_rollout/info.json"
+        },
+        {
+          "steps": 24000,
+          "successes": 100,
+          "trials": 100,
+          "source": "03_blocks_ranking_rgb/v19/03_blocks_ranking_rgb_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_24000_test_rollout/info.json"
+        }
+      ]
+    },
+    {
+      "id": "rank-blocks-size",
+      "media_directory": "04_blocks_ranking_size",
+      "experiment": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5",
+      "initial": {
+        "steps": 5000,
+        "successes": 46,
+        "trials": 100,
+        "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 5000,
+          "successes": 46,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 54,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 59,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 66,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 63,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 62,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 65,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 71,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 71,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 71,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 79,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 80,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 86,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 87,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 87,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 87,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        },
+        {
+          "steps": 21000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_21000/ACT_rollout_seed_1/dataset_step_21000_test_rollout/info.json"
+        },
+        {
+          "steps": 22000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_22000/ACT_rollout_seed_1/dataset_step_22000_test_rollout/info.json"
+        },
+        {
+          "steps": 23000,
+          "successes": 93,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_23000/ACT_rollout_seed_1/dataset_step_23000_test_rollout/info.json"
+        },
+        {
+          "steps": 24000,
+          "successes": 91,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_24000/ACT_rollout_seed_1/dataset_step_24000_test_rollout/info.json"
+        },
+        {
+          "steps": 25000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_25000/ACT_rollout_seed_1/dataset_step_25000_test_rollout/info.json"
+        },
+        {
+          "steps": 26000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_26000/ACT_rollout_seed_1/dataset_step_26000_test_rollout/info.json"
+        },
+        {
+          "steps": 27000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_27000/ACT_rollout_seed_1/dataset_step_27000_test_rollout/info.json"
+        },
+        {
+          "steps": 28000,
+          "successes": 91,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_28000/ACT_rollout_seed_1/dataset_step_28000_test_rollout/info.json"
+        },
+        {
+          "steps": 29000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_29000/ACT_rollout_seed_1/dataset_step_29000_test_rollout/info.json"
+        },
+        {
+          "steps": 30000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_30000/ACT_rollout_seed_1/dataset_step_30000_test_rollout/info.json"
+        },
+        {
+          "steps": 31000,
+          "successes": 91,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_31000/ACT_rollout_seed_1/dataset_step_31000_test_rollout/info.json"
+        },
+        {
+          "steps": 32000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_32000/ACT_rollout_seed_1/dataset_step_32000_test_rollout/info.json"
+        },
+        {
+          "steps": 33000,
+          "successes": 93,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_33000/ACT_rollout_seed_1/dataset_step_33000_test_rollout/info.json"
+        },
+        {
+          "steps": 34000,
+          "successes": 91,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_34000/ACT_rollout_seed_1/dataset_step_34000_test_rollout/info.json"
+        },
+        {
+          "steps": 35000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_35000/ACT_rollout_seed_1/dataset_step_35000_test_rollout/info.json"
+        },
+        {
+          "steps": 36000,
+          "successes": 95,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_36000/ACT_rollout_seed_1/dataset_step_36000_test_rollout/info.json"
+        },
+        {
+          "steps": 37000,
+          "successes": 95,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_37000/ACT_rollout_seed_1/dataset_step_37000_test_rollout/info.json"
+        },
+        {
+          "steps": 38000,
+          "successes": 95,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_38000/ACT_rollout_seed_1/dataset_step_38000_test_rollout/info.json"
+        },
+        {
+          "steps": 39000,
+          "successes": 97,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_39000/ACT_rollout_seed_1/dataset_step_39000_test_rollout/info.json"
+        },
+        {
+          "steps": 40000,
+          "successes": 96,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/dense_sample/rgb_abs_action/dataset_step_40000/ACT_rollout_seed_1/dataset_step_40000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 6000,
+          "successes": 34,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 51,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 52,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 55,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 56,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 66,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 75,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 85,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 83,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 90,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 82,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 93,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 91,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 92,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 96,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json"
+        },
+        {
+          "steps": 21000,
+          "successes": 98,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_21000_test_rollout/info.json"
+        },
+        {
+          "steps": 22000,
+          "successes": 99,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_22000_test_rollout/info.json"
+        },
+        {
+          "steps": 23000,
+          "successes": 100,
+          "trials": 100,
+          "source": "04_blocks_ranking_size/v19/04_blocks_ranking_size_pos_0p03_time_5/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_23000_test_rollout/info.json"
+        }
+      ]
+    },
+    {
+      "id": "click-alarm-clock",
+      "media_directory": "05_click_alarmclock_01",
+      "experiment": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3",
+      "initial": {
+        "steps": 2000,
+        "successes": 8,
+        "trials": 100,
+        "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 2000,
+          "successes": 8,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+        },
+        {
+          "steps": 3000,
+          "successes": 15,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_3000/ACT_rollout_seed_1/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 21,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_4000/ACT_rollout_seed_1/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 35,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 45,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 48,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 62,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 56,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 56,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 60,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 74,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 73,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 83,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 75,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 75,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 80,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 85,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 89,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 89,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 3000,
+          "successes": 19,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 22,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 43,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 64,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 74,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 83,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 87,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 96,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 88,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 89,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 91,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 98,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 100,
+          "trials": 100,
+          "source": "05_click_alarmclock_01/v19/05_click_alarmclock_01_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json"
+        }
+      ]
+    },
+    {
+      "id": "click-bell",
+      "media_directory": "06_click_bell_00",
+      "experiment": "06_click_bell_00/v19/06_click_bell_00_pos_0p02_time_3",
+      "initial": {
+        "steps": 2000,
+        "successes": 16,
+        "trials": 100,
+        "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 2000,
+          "successes": 16,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+        },
+        {
+          "steps": 3000,
+          "successes": 23,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_3000/ACT_rollout_seed_1/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 44,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_4000/ACT_rollout_seed_1/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 50,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 61,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 63,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 77,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 81,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 81,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 86,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 91,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 89,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 90,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 90,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 90,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 89,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 90,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 91,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 91,
+          "trials": 100,
+          "source": "06_click_bell_00/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 3000,
+          "successes": 24,
+          "trials": 100,
+          "source": "06_click_bell_00/v19/06_click_bell_00_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 47,
+          "trials": 100,
+          "source": "06_click_bell_00/v19/06_click_bell_00_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 58,
+          "trials": 100,
+          "source": "06_click_bell_00/v19/06_click_bell_00_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 75,
+          "trials": 100,
+          "source": "06_click_bell_00/v19/06_click_bell_00_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 93,
+          "trials": 100,
+          "source": "06_click_bell_00/v19/06_click_bell_00_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 88,
+          "trials": 100,
+          "source": "06_click_bell_00/v19/06_click_bell_00_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 96,
+          "trials": 100,
+          "source": "06_click_bell_00/v19/06_click_bell_00_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 100,
+          "trials": 100,
+          "source": "06_click_bell_00/v19/06_click_bell_00_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json"
+        }
+      ]
+    },
+    {
+      "id": "dump-bin-bigbin",
+      "media_directory": "07_dump_bin_bigbin_00",
+      "experiment": "07_dump_bin_bigbin_00/v19/07_dump_bin_bigbin_00_pos_0p02_time_3",
+      "initial": {
+        "steps": 2000,
+        "successes": 70,
+        "trials": 100,
+        "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 2000,
+          "successes": 70,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+        },
+        {
+          "steps": 3000,
+          "successes": 87,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_3000/ACT_rollout_seed_1/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 94,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_4000/ACT_rollout_seed_1/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 3000,
+          "successes": 100,
+          "trials": 100,
+          "source": "07_dump_bin_bigbin_00/v19/07_dump_bin_bigbin_00_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_3000_test_rollout/info.json"
+        }
+      ]
+    },
+    {
+      "id": "move-can-pot",
+      "media_directory": "08_move_can_pot_00",
+      "experiment": "08_move_can_pot_00/v19/08_move_can_pot_00_pos_0p04_time_3",
+      "initial": {
+        "steps": 2000,
+        "successes": 25,
+        "trials": 100,
+        "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 2000,
+          "successes": 25,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+        },
+        {
+          "steps": 3000,
+          "successes": 35,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_3000/ACT_rollout_seed_1/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 40,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_4000/ACT_rollout_seed_1/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 46,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 42,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 65,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 65,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 78,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 87,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 84,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 90,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 94,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 93,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 92,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 93,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 94,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 95,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 96,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 95,
+          "trials": 100,
+          "source": "08_move_can_pot_00/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 3000,
+          "successes": 48,
+          "trials": 100,
+          "source": "08_move_can_pot_00/v19/08_move_can_pot_00_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 59,
+          "trials": 100,
+          "source": "08_move_can_pot_00/v19/08_move_can_pot_00_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 73,
+          "trials": 100,
+          "source": "08_move_can_pot_00/v19/08_move_can_pot_00_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 88,
+          "trials": 100,
+          "source": "08_move_can_pot_00/v19/08_move_can_pot_00_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 87,
+          "trials": 100,
+          "source": "08_move_can_pot_00/v19/08_move_can_pot_00_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 95,
+          "trials": 100,
+          "source": "08_move_can_pot_00/v19/08_move_can_pot_00_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 95,
+          "trials": 100,
+          "source": "08_move_can_pot_00/v19/08_move_can_pot_00_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 100,
+          "trials": 100,
+          "source": "08_move_can_pot_00/v19/08_move_can_pot_00_pos_0p04_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json"
+        }
+      ]
+    },
+    {
+      "id": "move-playingcard-away",
+      "media_directory": "09_Move_Playingcard_Away",
+      "experiment": "09_Move_Playingcard_Away/v19/09_Move_Playingcard_Away_pos_0p02_time_3",
+      "initial": {
+        "steps": 2000,
+        "successes": 18,
+        "trials": 100,
+        "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 2000,
+          "successes": 18,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+        },
+        {
+          "steps": 3000,
+          "successes": 34,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_3000/ACT_rollout_seed_1/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 54,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_4000/ACT_rollout_seed_1/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 59,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 72,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 75,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 75,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 77,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 79,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 82,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 81,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 85,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 84,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 88,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 87,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 91,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 88,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 93,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 96,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 3000,
+          "successes": 53,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/v19/09_Move_Playingcard_Away_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 82,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/v19/09_Move_Playingcard_Away_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 89,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/v19/09_Move_Playingcard_Away_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 96,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/v19/09_Move_Playingcard_Away_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 99,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/v19/09_Move_Playingcard_Away_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 98,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/v19/09_Move_Playingcard_Away_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 100,
+          "trials": 100,
+          "source": "09_Move_Playingcard_Away/v19/09_Move_Playingcard_Away_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json"
+        }
+      ]
+    },
+    {
+      "id": "move-stapler-pad",
+      "media_directory": "10_Move_Stapler_Pad",
+      "experiment": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3",
+      "initial": {
+        "steps": 2000,
+        "successes": 0,
+        "trials": 100,
+        "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+      },
+      "dense": [
+        {
+          "steps": 2000,
+          "successes": 0,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_2000/ACT_rollout_seed_1/dataset_step_2000_test_rollout/info.json"
+        },
+        {
+          "steps": 3000,
+          "successes": 3,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_3000/ACT_rollout_seed_1/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 4,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_4000/ACT_rollout_seed_1/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 10,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 14,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 14,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 19,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 21,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 28,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 30,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 32,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 33,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 33,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 32,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 36,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 30,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 34,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 37,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 41,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json"
+        },
+        {
+          "steps": 21000,
+          "successes": 35,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_21000/ACT_rollout_seed_1/dataset_step_21000_test_rollout/info.json"
+        },
+        {
+          "steps": 22000,
+          "successes": 34,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_22000/ACT_rollout_seed_1/dataset_step_22000_test_rollout/info.json"
+        },
+        {
+          "steps": 23000,
+          "successes": 36,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_23000/ACT_rollout_seed_1/dataset_step_23000_test_rollout/info.json"
+        },
+        {
+          "steps": 24000,
+          "successes": 36,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_24000/ACT_rollout_seed_1/dataset_step_24000_test_rollout/info.json"
+        },
+        {
+          "steps": 25000,
+          "successes": 37,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_25000/ACT_rollout_seed_1/dataset_step_25000_test_rollout/info.json"
+        },
+        {
+          "steps": 26000,
+          "successes": 37,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_26000/ACT_rollout_seed_1/dataset_step_26000_test_rollout/info.json"
+        },
+        {
+          "steps": 27000,
+          "successes": 38,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_27000/ACT_rollout_seed_1/dataset_step_27000_test_rollout/info.json"
+        },
+        {
+          "steps": 28000,
+          "successes": 39,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_28000/ACT_rollout_seed_1/dataset_step_28000_test_rollout/info.json"
+        },
+        {
+          "steps": 29000,
+          "successes": 35,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_29000/ACT_rollout_seed_1/dataset_step_29000_test_rollout/info.json"
+        },
+        {
+          "steps": 30000,
+          "successes": 38,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/dense_sample/rgb_abs_action/dataset_step_30000/ACT_rollout_seed_1/dataset_step_30000_test_rollout/info.json"
+        }
+      ],
+      "unikey": [
+        {
+          "steps": 3000,
+          "successes": 5,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_3000_test_rollout/info.json"
+        },
+        {
+          "steps": 4000,
+          "successes": 5,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_4000_test_rollout/info.json"
+        },
+        {
+          "steps": 5000,
+          "successes": 10,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_5000_test_rollout/info.json"
+        },
+        {
+          "steps": 6000,
+          "successes": 19,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json"
+        },
+        {
+          "steps": 7000,
+          "successes": 24,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json"
+        },
+        {
+          "steps": 8000,
+          "successes": 22,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json"
+        },
+        {
+          "steps": 9000,
+          "successes": 25,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json"
+        },
+        {
+          "steps": 10000,
+          "successes": 39,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json"
+        },
+        {
+          "steps": 11000,
+          "successes": 44,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json"
+        },
+        {
+          "steps": 12000,
+          "successes": 56,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json"
+        },
+        {
+          "steps": 13000,
+          "successes": 62,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json"
+        },
+        {
+          "steps": 14000,
+          "successes": 64,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json"
+        },
+        {
+          "steps": 15000,
+          "successes": 73,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json"
+        },
+        {
+          "steps": 16000,
+          "successes": 70,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json"
+        },
+        {
+          "steps": 17000,
+          "successes": 67,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json"
+        },
+        {
+          "steps": 18000,
+          "successes": 79,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json"
+        },
+        {
+          "steps": 19000,
+          "successes": 82,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json"
+        },
+        {
+          "steps": 20000,
+          "successes": 81,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json"
+        },
+        {
+          "steps": 21000,
+          "successes": 81,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_21000_test_rollout/info.json"
+        },
+        {
+          "steps": 22000,
+          "successes": 82,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_22000_test_rollout/info.json"
+        },
+        {
+          "steps": 23000,
+          "successes": 75,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_23000_test_rollout/info.json"
+        },
+        {
+          "steps": 24000,
+          "successes": 85,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_24000_test_rollout/info.json"
+        },
+        {
+          "steps": 25000,
+          "successes": 82,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_25000_test_rollout/info.json"
+        },
+        {
+          "steps": 26000,
+          "successes": 85,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_26000_test_rollout/info.json"
+        },
+        {
+          "steps": 27000,
+          "successes": 82,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_27000_test_rollout/info.json"
+        },
+        {
+          "steps": 28000,
+          "successes": 91,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_28000_test_rollout/info.json"
+        },
+        {
+          "steps": 29000,
+          "successes": 90,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_29000_test_rollout/info.json"
+        },
+        {
+          "steps": 30000,
+          "successes": 90,
+          "trials": 100,
+          "source": "10_Move_Stapler_Pad/v19/10_Move_Stapler_Pad_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_30000_test_rollout/info.json"
+        }
+      ]
+    }
+  ]
+}
