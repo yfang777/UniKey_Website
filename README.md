@@ -18,6 +18,8 @@ Repository: [yfang777/UniKey_Website](https://github.com/yfang777/UniKey_Website
 
 The GitHub Pages deployment target is [https://yfang777.github.io/UniKey_Website/](https://yfang777.github.io/UniKey_Website/).
 
+The composed introduction video is included at [output/social/unikey-introduction.mp4](https://yfang777.github.io/UniKey_Website/output/social/unikey-introduction.mp4). Follow deployment progress in [GitHub Actions](https://github.com/yfang777/UniKey_Website/actions/workflows/deploy-pages.yml).
+
 Enable the repository's **Settings → Pages → Build and deployment → Source → GitHub Actions** once. The `Deploy website to GitHub Pages` workflow then validates and deploys every push to `main`; it can also be run manually from the Actions tab. Deployment status and the published URL appear in the `github-pages` environment.
 
 The workflow runs the interaction and JavaScript checks, then uses `scripts/package_site.py` to build `_site/` and verify local HTML and stylesheet asset paths. The bundle contains `index.html`, `.nojekyll`, `assets/`, `data/`, `media/`, and the composed social video and poster from `output/social/`. Original uploads, Python caches, source notes, and composition helper files are excluded from the deployed bundle. The repository remains available for development documentation and source scripts.

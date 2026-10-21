@@ -60,7 +60,7 @@ No real-world demonstrations or real-world policy fine-tuning.
 
 Columbia University + Toyota Research Institute
 
-[PROJECT_WEBSITE_URL]
+https://yfang777.github.io/UniKey_Website/
 ```
 
 ## Video Attachments
@@ -95,6 +95,6 @@ These links point to the original local source files. Durations and resolutions 
 
 ## Editing Notes
 
-- Replace `[PROJECT_WEBSITE_URL]` in post 6 with the public project URL.
+- Post 6 includes the public project URL: https://yfang777.github.io/UniKey_Website/.
 - The V2+V3 combination, four-task rollout montage, and website end card are optional follow-on edits.
 - The copy uses “30 minutes” to match the evaluation reported on the website. The training claim refers to using no real-world demonstrations or real-world policy fine-tuning.
