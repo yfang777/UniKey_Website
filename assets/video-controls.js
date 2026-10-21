@@ -15,8 +15,8 @@
   }
 
   function timeLabel(seconds) {
-    if (!Number.isFinite(seconds)) return "0:00";
-    return `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, "0")}`;
+    if (!Number.isFinite(seconds)) return "—";
+    return `${Math.round(seconds)}s`;
   }
 
   document.querySelectorAll(".article-shell video").forEach(video => {
@@ -39,23 +39,33 @@
     seek.value = "0";
     seek.disabled = true;
     seek.setAttribute("aria-label", `${label} video progress`);
+    const duration = document.createElement("span");
+    duration.className = "video-duration";
     const expand = iconButton(expandPath, `Expand ${label} video`);
-    const rates = [0.5, 1, 2, 4, 8];
+    // Real-world clips already contain 30× footage; 60× and 100× use 2× and 10/3× file playback.
+    const baseSpeed = Number(video.dataset.baseSpeed) || 1;
+    const rates = baseSpeed === 30 ? [1, 2, 100 / 30] : [0.5, 1, 2, 4, 8];
+    const durationHint = Number(video.dataset.duration) || NaN;
 
     function updatePlayback() {
       toggle.setAttribute("aria-label", `${video.paused ? "Play" : "Pause"} ${label}`);
       toggle.querySelector("path").setAttribute("d", video.paused ? playPath : pausePath);
-      speed.textContent = `${video.playbackRate}×`;
-      speed.setAttribute("aria-label", `${label} playback speed ${video.playbackRate}×. Click to change speed.`);
+      const effectiveSpeed = Number((video.playbackRate * baseSpeed).toFixed(2));
+      speed.textContent = `${effectiveSpeed}×`;
+      speed.setAttribute("aria-label", `${label} playback speed ${effectiveSpeed}×. Click to change speed.`);
+      updateProgress();
     }
 
     function updateProgress() {
       const ready = Number.isFinite(video.duration) && video.duration > 0;
+      const total = ready ? video.duration : durationHint;
       seek.disabled = !ready;
       const fraction = ready ? video.currentTime / video.duration : 0;
       seek.value = String(Math.round(fraction * 1000));
       seek.style.setProperty("--progress", `${fraction * 100}%`);
-      seek.setAttribute("aria-valuetext", `${timeLabel(video.currentTime)} of ${timeLabel(video.duration)}`);
+      seek.setAttribute("aria-valuetext", `${timeLabel(video.currentTime / video.playbackRate)} of ${timeLabel(total / video.playbackRate)}`);
+      duration.textContent = timeLabel(total / video.playbackRate);
+      duration.setAttribute("aria-label", `${label} video length ${duration.textContent} at the selected speed`);
     }
 
     toggle.addEventListener("click", () => {
@@ -84,11 +94,10 @@
     ["play", "pause", "ended", "ratechange"].forEach(event => video.addEventListener(event, updatePlayback));
     ["loadedmetadata", "durationchange", "timeupdate", "seeked", "emptied"].forEach(event => video.addEventListener(event, updateProgress));
     video.addEventListener("error", () => { video.controls = true; });
-    toolbar.append(toggle, speed, seek, expand);
+    toolbar.append(toggle, speed, seek, duration, expand);
     video.replaceWith(player);
     player.append(video, toolbar);
     video.controls = false;
     updatePlayback();
-    updateProgress();
   });
 })();

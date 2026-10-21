@@ -12,8 +12,8 @@ const readingOrder = ['Introducing UniKey', 'Data Generation', 'Corrective Data 
 const navigation = html.match(/<nav class="section-nav"[\s\S]*?<\/nav>/)[0];
 assert.deepStrictEqual(Array.from(navigation.matchAll(/<a href="#[^"]+" data-level="1"[^>]*>([^<]+)<\/a>/g), match => match[1]), readingOrder);
 assert.deepStrictEqual(Array.from(html.matchAll(/<h2[^>]*>([^<]+)<\/h2>/g), match => match[1]), readingOrder);
-assert.deepStrictEqual(Array.from(html.matchAll(/<h3 id="(?:failure-detection-correction|data-efficiency|scalability)-title">([^<]+)<\/h3>/g), match => match[1]),
-  ['Policy Failure Detection and Correction', 'Data Efficiency and Robustness', 'Scalability']);
+assert.deepStrictEqual(Array.from(html.matchAll(/<div class="technical-subsection"[^>]*>\s*<h3[^>]*>([^<]+)<\/h3>/g), match => match[1]),
+  ['Policy Failure Detection and Correction', 'Data Efficiency and Robustness', 'Robotwin Benchmark']);
 for (const match of navigation.matchAll(/href="#([^"]+)"/g)) {
   assert(html.includes('id="' + match[1] + '"'), 'section navigation must resolve to an existing section');
 }
@@ -89,18 +89,17 @@ function fixture(hash = '') {
   const detectionPicker = new Element(), detectionAnnouncement = new Element();
   const detectionPanels = pipelineTasks.map((task, index) => {
     const markup = html.match(new RegExp('<div class="detection-task" id="detection-' + task + '"([^>]*)>([\\s\\S]*?)\\n            </div>'));
-    assert.strictEqual(/\bhidden\b/.test(markup[1]), index !== 0, 'Hang Mug is the default detection/correction pair');
-    const directory = './assets/videos/pipeline/failure-detection-correction/' + (task === 'hang-mug' ? '' : task + '/');
-    for (const name of ['policy_brown', 'correction_green']) {
-      assert(markup[2].includes(directory + name + '.mp4'));
-      assert(fs.existsSync(root + '/' + directory + name + '.mp4'));
-      assert(fs.existsSync(root + '/' + directory + name + '-poster.jpg'));
+    assert.strictEqual(/\bhidden\b/.test(markup[1]), index !== 0, 'Hang Mug is the default corrective data generation video');
+    const directory = './assets/videos/pipeline/failure-detection-correction/' + task + '/';
+    for (const name of ['rollout.mp4', 'poster.jpg']) {
+      assert(markup[2].includes(directory + name));
+      assert(fs.existsSync(root + '/' + directory + name));
     }
-    assert.strictEqual((markup[2].match(/<video\b/g) || []).length, 2);
-    assert(markup[2].includes('width="1500" height="900"'));
-    assert(markup[2].includes('width="900" height="900"'));
+    assert.strictEqual((markup[2].match(/<video\b/g) || []).length, 1);
+    assert(!/<figcaption\b|detection-correction-grid|policy_brown|correction_green/.test(markup[2]));
+    assert(markup[2].includes('width="1920" height="1080"'));
     const panel = new Element(); panel.id = 'detection-' + task;
-    panel.children.videos = [new Element('video'), new Element('video')];
+    panel.children.videos = [new Element('video')];
     return panel;
   });
   const detectionButtons = pipelineTasks.map(task => {
@@ -265,11 +264,11 @@ f.detectionButtons.forEach((button, index) => {
 f.detectionPanels[3].children.videos.forEach(video => { video.paused = false; });
 f.detectionPanels[0].children.videos.forEach(video => { video.currentTime = 2; });
 f.detectionButtons[0].click(); f.detectionSelected(0);
-assert(f.detectionPanels[3].children.videos.every(video => video.paused), 'switching tasks pauses both outgoing videos');
-assert(f.detectionPanels[0].children.videos.every(video => video.currentTime === 0), 'switching tasks resets both incoming videos');
+assert(f.detectionPanels[3].children.videos.every(video => video.paused), 'switching tasks pauses the outgoing video');
+assert(f.detectionPanels[0].children.videos.every(video => video.currentTime === 0), 'switching tasks resets the incoming video');
 f.detectionPanels[0].children.videos.forEach(video => { video.paused = false; video.currentTime = 1; });
 f.detectionButtons[0].click();
-assert(f.detectionPanels[0].children.videos.every(video => !video.paused && video.currentTime === 1), 'active task clicks preserve both players');
+assert(f.detectionPanels[0].children.videos.every(video => !video.paused && video.currentTime === 1), 'active task clicks preserve playback');
 f.domainButtons[2].click(); f.domainSelected(2); f.detectionSelected(0);
 assert(f.detectionPanels[0].children.videos.every(video => !video.paused && video.currentTime === 1));
 f.detectionPicker.fire('keydown', { key: 'End' }); f.detectionSelected(3); assert(f.detectionButtons[3].focused);
@@ -278,6 +277,6 @@ f.detectionPicker.fire('keydown', { key: 'Home' }); f.detectionSelected(0);
 assert(f.detectionAnnouncement.textContent.includes('Hang Mug: Policy Failure Detection and Correction'));
 f.detectionPanels[0].children.videos.forEach(video => { video.paused = false; });
 f.doc.fire('visibilitychange');
-assert(f.detectionPanels[0].children.videos.every(video => video.paused), 'both videos pause when the page is hidden');
+assert(f.detectionPanels[0].children.videos.every(video => video.paused), 'the video pauses when the page is hidden');
 linked.detectionSelected(0);
-console.log('PASS: independent four-task agentic/domain/detection selectors, eight policy/correction videos, paired playback controls, matching media, keyboard behavior, and all ten RoboTwin tasks.');
+console.log('PASS: independent four-task agentic/domain/detection selectors, four single-player corrective videos without captions, matching media, playback controls, keyboard behavior, and all ten RoboTwin tasks.');

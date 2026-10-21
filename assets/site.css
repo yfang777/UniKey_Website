@@ -68,7 +68,9 @@ h1 { margin: 0; font-size: clamp(34px, 4vw, 48px); font-weight: 400; line-height
 h1 > span { display: block; }
 .title-brand { color: inherit; }
 .authors { margin: 24px 0 0; color: #0c0c0cd6; font-size: 18px; line-height: 1.55; }
-.venue { margin: 22px 0 0; font-size: 21px; font-weight: 600; line-height: 1.5; }
+.authors span { white-space: nowrap; }
+.affiliations { margin: 12px 0 0; color: #0c0c0cb8; font-size: 16px; line-height: 1.5; }
+.authors sup, .affiliations sup { font-size: .7em; line-height: 0; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 7px 14px; border: 1px solid #0c0c0c38; border-radius: 8px; font-size: 16px; line-height: 1.4; background: transparent; transition: border-color .16s, background .16s; }
 .button svg { width: 16px; height: 16px; }
@@ -110,19 +112,12 @@ h2 { margin: 0; font-size: clamp(31px, 2.5vw, 36px); font-weight: 400; line-heig
 .task-picker button.active { box-shadow: inset 0 -2px 0 var(--ink); }
 .task-picker.pipeline-picker, .task-picker.detection-picker, .task-picker.domain-randomization-picker { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .pipeline-videos, .detection-videos, .domain-randomization-videos { margin-top: 20px; }
-.pipeline-videos video { display: block; width: 100%; height: auto; aspect-ratio: 8 / 3; border: 1px solid var(--line); border-radius: 6px; background: #efefe8; }
-.detection-correction-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 3fr); align-items: start; gap: 18px; }
-.detection-correction-grid figure { min-width: 0; }
-.detection-correction-grid figcaption { margin-bottom: 10px; font-size: 15px; line-height: 1.4; }
-.detection-policy figcaption { color: #92582f; }
-.detection-correction figcaption { color: #3d7049; }
-.detection-correction-grid video { display: block; width: 100%; height: auto; object-fit: contain; border: 1px solid var(--line); border-radius: 6px; background: #efefe8; }
-.detection-policy video { aspect-ratio: 5 / 3; }
-.detection-correction video { aspect-ratio: 1; }
+.pipeline-video { width: 100%; margin-inline: auto; }
+.pipeline-videos video, .detection-videos video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; border: 1px solid var(--line); border-radius: 6px; background: #efefe8; }
 .detection-videos + .pipeline-copy { margin-top: 24px; }
-.automatic-corrections-video { margin-top: 26px; }
-.automatic-corrections-video figcaption { margin-bottom: 12px; font-size: 19px; line-height: 1.6; }
+.automatic-corrections-video { max-width: 800px; margin: 26px auto 0; }
 .automatic-corrections-video video, .domain-randomization-video video { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; border: 1px solid var(--line); border-radius: 6px; background: #efefe8; }
+.automatic-corrections-video video { aspect-ratio: 20 / 9; }
 .task-list { margin-top: 22px; }
 .task-card { min-width: 0; }
 .task-card + .task-card { margin-top: 28px; }
@@ -140,6 +135,7 @@ h2 { margin: 0; font-size: clamp(31px, 2.5vw, 36px); font-weight: 400; line-heig
 .video-controls button { display: grid; place-items: center; flex-shrink: 0; min-width: 28px; height: 28px; padding: 0; border: 1px solid #0c0c0c38; border-radius: 6px; background: transparent; }
 .video-controls button:hover { border-color: #0c0c0c99; }
 .video-controls .video-speed { min-width: 32px; border: 0; font-size: 14px; }
+.video-duration { flex-shrink: 0; min-width: 3ch; font-size: 13px; font-variant-numeric: tabular-nums; text-align: right; }
 .video-controls input { --progress: 0%; appearance: none; flex: 1; min-width: 0; height: 3px; margin: 0 3px; border-radius: 0; background: linear-gradient(to right, #3b3d39 var(--progress), #3b3d3957 var(--progress)); cursor: pointer; }
 .video-controls input:disabled { cursor: default; }
 .video-controls input::-webkit-slider-thumb { appearance: none; width: 7px; height: 7px; border: 0; border-radius: 50%; background: #3b3d39; }
@@ -197,7 +193,6 @@ h2 { margin: 0; font-size: clamp(31px, 2.5vw, 36px); font-weight: 400; line-heig
 
 @media (max-width: 580px) {
   .realworld-rollouts, .media-grid { grid-template-columns: minmax(0, 1fr); }
-  .detection-correction-grid { grid-template-columns: minmax(0, 1fr); gap: 22px; }
   .task-picker, .task-picker.pipeline-picker, .task-picker.detection-picker, .task-picker.domain-randomization-picker { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .task-picker button { font-size: 14px; min-height: 44px; }
 }

@@ -1,2 +1,7 @@
 # Original uploads are retained locally; publish optimized web copies.
 /assets/videos/realworld/sources/
+
+# Generated Python caches and the GitHub Pages deployment bundle.
+__pycache__/
+*.py[cod]
+/_site/

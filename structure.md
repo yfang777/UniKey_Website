@@ -42,13 +42,13 @@ Explain how the keypoint program monitors execution, detects deviations, and sup
 
 #### Data Efficiency and Robustness
 
-Explain why corrective data helps, then present the comparison with dense sampling and the relevant sim-to-real and RoboTwin results. Introduce each figure with the question it answers and state its main takeaway.
+Explain why corrective data helps, then present the comparison with dense sampling and the relevant sim-to-real results. Introduce each figure with the question it answers and state its main takeaway.
+
+#### Robotwin Benchmark
+
+Compare UniKey and dense sampling across the 10 RoboTwin tasks, with task-selectable demonstrations and success-rate curves. Use the same heading format as Data Efficiency and Robustness.
 
 Keep data budgets, evaluation settings, and metric definitions close to the claims they qualify. Reconcile the manuscript and website results before choosing headline numbers.
-
-#### Scalability
-
-Explain how data generation and correction scale, supported by available experiments. Identify which scaling claims are measured and which remain open questions.
 
 ## Writing and visual principles
 

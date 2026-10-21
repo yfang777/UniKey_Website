@@ -1,0 +1,84 @@
+{
+  "output": "/home/yuan/codegen/UniKey_Website/output/social/unikey-introduction.mp4",
+  "duration_seconds": 25.733333333333334,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "sources": {
+    "generation": {
+      "path": "/home/yuan/codegen/Codegen_Blender_Visualization/data/live_text_generation/hang_mug_grid/hang_mug_v5_shrink_into_grid_4x3.mp4",
+      "sha256": "d618da8c2a6f97c862bdd88744ec123535a98a5f70e00bbaf6479dffbabede52"
+    },
+    "correction": {
+      "path": "/home/yuan/codegen/Codegen_Blender_Visualization/data/automatic_detection_correction/hang_mug_v5/policy_with_divergence_v4_3.mp4",
+      "sha256": "14b6003f2ade66e7722e7fb2acce9ed73f9aeef62649727dcb16022f2f5047b9"
+    },
+    "randomization": {
+      "path": "/home/yuan/codegen/Codegen_Blender_Visualization/data/domain_randomization/hang_mug/domain_randomization_mujoco.mp4",
+      "sha256": "8b95f5859ec06a178ce4e3f3c1f08371e00ebf773f21d01ebbde59cd61a18262"
+    },
+    "realworld": {
+      "path": "/home/yuan/Desktop/hang_mug_w_text.mp4",
+      "sha256": "98936079bf6f98895653dce21f83c0a506bed75d16a43a86f2b460553cb13594"
+    }
+  },
+  "edits": [
+    {
+      "chapter": "Data Generation",
+      "source": "generation",
+      "ranges_seconds": [
+        [
+          1.1,
+          4.1
+        ],
+        [
+          7.9,
+          10.7
+        ]
+      ],
+      "internal_crossfade_seconds": 0.2
+    },
+    {
+      "chapter": "Corrective Data Generation",
+      "source": "correction",
+      "ranges_seconds": [
+        [
+          0,
+          12.133333333333333
+        ]
+      ]
+    },
+    {
+      "chapter": "Domain Randomization",
+      "source": "randomization",
+      "ranges_seconds": [
+        [
+          0.6,
+          4.4
+        ]
+      ]
+    },
+    {
+      "chapter": "Real-World Rollout",
+      "source": "realworld",
+      "ranges_seconds": [
+        [
+          55.133333,
+          59.533333
+        ]
+      ],
+      "speed_already_encoded_in_source": 30
+    },
+    {
+      "chapter": "Closing Card",
+      "duration_seconds": 1.4
+    }
+  ],
+  "chapter_crossfade_seconds": 0.4,
+  "additional_playback_speed_multiplier": 1,
+  "audio": "Silent AAC stereo track",
+  "font": "/home/yuan/codegen/UniKey_Website/assets/fonts/source-serif-4-latin.woff2",
+  "background": "#f6f6ef"
+}
