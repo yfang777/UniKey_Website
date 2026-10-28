@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="UniKey uses keypoints to automate policy monitoring and corrective data generation, achieving 2.65× higher data efficiency than dense sampling and robust zero-shot sim-to-real transfer." />
+    <meta name="theme-color" content="#f6f6ef" />
+    <meta property="og:title" content="UniKey: Keypoints as a Unified Interface for Scalable Data Generation and Policy Learning" />
+    <meta property="og:description" content="Automatic corrective data generation for robust imitation learning, from simulation to the real world." />
+    <meta property="og:type" content="website" />
+    <title>Wrist Camera Preview · UniKey: Keypoints as a Unified Interface for Scalable Data Generation and Policy Learning</title>
+    <link rel="preload" href="./assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="./assets/site.css?v=1b3c70c98d0b" />
+    <script defer src="./assets/site.js?v=96c7bf23cf19"></script>
+    <script defer src="./assets/video-controls.js?v=99b1cdd6835e"></script>
+    <script defer src="./assets/video-autoplay.js?v=1937b2f18bd2"></script>
+    <script defer src="./assets/presentation.js?v=2782373aa03b"></script>
+    <script defer src="./assets/pipeline.js?v=ec218c591a13"></script>
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <main id="main">
+      <section class="opening" aria-label="UniKey opening demonstration">
+        <div class="opening-stage">
+          <video id="opening-video" controls autoplay loop muted playsinline preload="auto" poster="./assets/videos/hero/poster.jpg?v=f71ce4507bfb" width="1920" height="1080" aria-label="Hang Mug: monitored policy rollout, cinematic rewind, and automatic correction">
+            <source src="./assets/videos/hero/policy-then-correction.mp4?v=dce9d5199ff1" type="video/mp4" />
+            Your browser does not support embedded video. <a href="./assets/videos/hero/policy-then-correction.mp4?v=dce9d5199ff1">Watch the UniKey opening demonstration.</a>
+          </video>
+          <a class="scroll-cue" href="#article-content">Scroll to explore</a>
+          <button class="hero-playback" type="button" aria-label="Pause opening video" hidden>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 5v14M15 5v14" /></svg>
+          </button>
+        </div>
+      </section>
+      <div class="article-body" id="article-content">
+        <div class="article-layout">
+          <aside class="article-outline" aria-label="Article outline">
+          <nav class="section-nav" aria-label="Page sections">
+            <a href="#article-title" data-level="0" aria-current="location">Title</a>
+            <a href="#overview" data-level="1">Introducing UniKey</a>
+            <a href="#data-generation" data-level="1">Expert Data Generation</a>
+            <a href="#corrective-data-generation" data-level="1">Automated Detection and Correction of Failure</a>
+            <a href="#sim-to-real" data-level="1">Sim-to-Real</a>
+            <a href="#domain-randomization" data-level="2">Domain Randomization</a>
+            <a href="#evaluation" data-level="2">Real-World Execution</a>
+            <a href="#technical-details" data-level="1">Technical Details</a>
+            <a href="#failure-detection-correction-title" data-level="2">Policy Failure Detection and Correction</a>
+            <a href="#data-efficiency-title" data-level="2">Data Efficiency and Robustness</a>
+            <a href="#robotwin" data-level="2">Robotwin Benchmark</a>
+          </nav>
+          </aside>
+          <article class="article-shell">
+        <header class="article-header" id="article-title">
+          <h1 id="project-title">
+            <span class="title-mainline"><span class="title-brand">UniKey:</span> Keypoints as a Unified Interface</span>
+            <span class="title-tagline">for Scalable Data Generation and Policy Learning</span>
+          </h1>
+          <p class="authors">
+            <span>Yuan Fang<sup>1</sup></span>,
+            <span>Yixuan Wang<sup>1</sup></span>,
+            <span>Peng-Hao Hsu<sup>1</sup></span>,
+            <span>Richard Cheng<sup>2</sup></span>,<br />
+            <span>Changxi Zheng<sup>1</sup></span>,
+            <span>Katherine Liu<sup>2</sup></span>, and
+            <span>Yunzhu Li<sup>1</sup></span>
+          </p>
+          <p class="affiliations">
+            <sup>1</sup> Columbia University<br />
+            <sup>2</sup> Toyota Research Institute
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="./UniKey.pdf" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg> Paper</a>
+            <a class="button" href="https://anonymous.4open.science/r/UniKey-E549/README.md" target="_blank" rel="noopener" aria-label="UniKey anonymous code repository" title="UniKey anonymous code repository">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="M8 6 2 12 8 18M16 6l6 6-6 6M14 4l-4 16" />
+              </svg>
+              Code
+            </a>
+          </div>
+        </header>
+      <section class="section introduction-section" id="overview" aria-labelledby="introduction-title">
+        <div class="introduction" aria-labelledby="introduction-title">
+          <div class="section-head">
+            <h2 id="introduction-title">Introducing UniKey</h2>
+          </div>
+          <p class="pipeline-copy">Imitation learning policies can fail when small execution errors move the robot into states its demonstrations do not cover. Improving robustness often requires people to identify these failures and collect corrective demonstrations, a process that is costly to repeat across tasks.</p>
+          <p class="pipeline-copy">We introduce <strong>UniKey</strong>, a framework that uses keypoints as a unified interface for scalable data generation and policy learning. The same keypoint programs generate expert demonstrations, monitor policy execution, and plan corrections from policy failure states.</p>
+          <p class="pipeline-copy capability-lead">UniKey brings these capabilities together:</p>
+          <ul class="capability-list">
+            <li><a href="#data-generation">Expert Data Generation</a>: generate expert trajectories from keypoint programs designed by agents across different object initializations.</li>
+            <li><a href="#corrective-data-generation">Automated Detection and Correction of Failure</a>: automatically detect policy failures and collect corrective demonstrations for policy finetuning.</li>
+            <li><a href="#sim-to-real">Sim-to-Real</a>: finetune on domain-randomized data and deploy the policy directly in the real world.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section shell" id="data-generation" aria-labelledby="data-generation-title">
+        <div class="section-head">
+          <span id="pipeline" class="anchor-target" aria-hidden="true"></span>
+          <h2 id="data-generation-title">Expert Data Generation</h2>
+        </div>
+        <p class="pipeline-copy">UniKey uses vision-language model (VLM) agents to read the task description and robot and object geometry, then design keypoints and keypoint trajectories. By executing the resulting keypoint programs across different object initializations, UniKey generates expert demonstrations at scale.</p>
+          <div class="task-picker pipeline-picker" role="group" aria-label="Choose an agentic keypoint program task" hidden>
+            <button type="button" data-pipeline-task="hang-mug" aria-pressed="true" aria-controls="pipeline-hang-mug" class="active">Hang Mug</button>
+            <button type="button" data-pipeline-task="arrange-table" aria-pressed="false" aria-controls="pipeline-arrange-table">Arrange Table</button>
+            <button type="button" data-pipeline-task="flip-and-arrange-shoe" aria-pressed="false" aria-controls="pipeline-flip-and-arrange-shoe">Flip and Arrange Shoe</button>
+            <button type="button" data-pipeline-task="pack-battery" aria-pressed="false" aria-controls="pipeline-pack-battery">Pack Battery</button>
+          </div>
+          <p class="sr-only" id="pipeline-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+          <div class="pipeline-videos" role="region" aria-label="Selected agentic keypoint program video">
+            <figure class="pipeline-video" id="pipeline-hang-mug" aria-label="Hang Mug: Agentic Keypoint Programs">
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/hang-mug/poster.jpg?v=ce578dd0d98d" width="1920" height="1080" aria-label="Hang Mug: keypoint program followed by twelve robot demonstrations">
+                <source src="./assets/videos/pipeline/hang-mug/combined.mp4?v=d618da8c2a6f" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/hang-mug/combined.mp4?v=d618da8c2a6f">Open the Hang Mug demonstration.</a>
+              </video>
+            </figure>
+            <figure class="pipeline-video" id="pipeline-arrange-table" aria-label="Arrange Table: Agentic Keypoint Programs" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/arrange-table/poster.jpg?v=bbb5daaa5b80" width="1920" height="1080" aria-label="Arrange Table: keypoint program followed by twelve robot demonstrations">
+                <source src="./assets/videos/pipeline/arrange-table/combined.mp4?v=31a9e0cde8e1" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/arrange-table/combined.mp4?v=31a9e0cde8e1">Open the Arrange Table demonstration.</a>
+              </video>
+            </figure>
+            <figure class="pipeline-video" id="pipeline-flip-and-arrange-shoe" aria-label="Flip and Arrange Shoe: Agentic Keypoint Programs" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/flip-and-arrange-shoe/poster.jpg?v=55c9d227e55c" width="1920" height="1080" aria-label="Flip and Arrange Shoe: keypoint program followed by twelve robot demonstrations">
+                <source src="./assets/videos/pipeline/flip-and-arrange-shoe/combined.mp4?v=40d053f2a8ca" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/flip-and-arrange-shoe/combined.mp4?v=40d053f2a8ca">Open the Flip and Arrange Shoe demonstration.</a>
+              </video>
+            </figure>
+            <figure class="pipeline-video" id="pipeline-pack-battery" aria-label="Pack Battery: Agentic Keypoint Programs" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/pack-battery/poster.jpg?v=533777e38580" width="1920" height="1080" aria-label="Pack Battery: keypoint program followed by twelve robot demonstrations">
+                <source src="./assets/videos/pipeline/pack-battery/combined.mp4?v=79637c9d8835" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/pack-battery/combined.mp4?v=79637c9d8835">Open the Pack Battery demonstration.</a>
+              </video>
+            </figure>
+          </div>
+        <p class="media-caption">Select a task to see its keypoint program and the resulting demonstrations across different object initializations.</p>
+      </section>
+
+      <section class="section shell" id="corrective-data-generation" aria-labelledby="corrective-data-generation-title">
+        <div class="section-head">
+          <h2 id="corrective-data-generation-title">Automated Detection and Correction of Failure</h2>
+        </div>
+        <p class="pipeline-copy">Imitation learning still suffers from compounding errors during execution. To improve policy robustness, UniKey uses the same keypoint program to monitor policy execution and automatically generate corrective demonstrations from detected failure states.</p>
+          <div class="task-picker detection-picker" role="group" aria-label="Choose a task for automated detection and correction of failure" hidden>
+            <button type="button" data-detection-task="hang-mug" aria-pressed="true" aria-controls="detection-hang-mug" class="active">Hang Mug</button>
+            <button type="button" data-detection-task="arrange-table" aria-pressed="false" aria-controls="detection-arrange-table">Arrange Table</button>
+            <button type="button" data-detection-task="flip-and-arrange-shoe" aria-pressed="false" aria-controls="detection-flip-and-arrange-shoe">Flip and Arrange Shoe</button>
+            <button type="button" data-detection-task="pack-battery" aria-pressed="false" aria-controls="detection-pack-battery">Pack Battery</button>
+          </div>
+          <p class="sr-only" id="detection-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+          <div class="detection-videos" role="region" aria-label="Selected video for automated detection and correction of failure">
+            <div class="detection-task" id="detection-hang-mug" aria-label="Hang Mug: automated detection and correction of failure">
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/hang-mug/poster.jpg?v=a7f6e7b707b1" width="1920" height="1080" aria-label="Hang Mug: automated detection and correction of failure demonstration">
+                <source src="./assets/videos/pipeline/failure-detection-correction/hang-mug/rollout.mp4?v=a61691746f4f" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/hang-mug/rollout.mp4?v=a61691746f4f">Open the Hang Mug video for automated detection and correction of failure.</a>
+              </video>
+            </div>
+            <div class="detection-task" id="detection-arrange-table" aria-label="Arrange Table: automated detection and correction of failure" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/arrange-table/poster.jpg?v=3e289f72680d" width="1920" height="1080" aria-label="Arrange Table: automated detection and correction of failure demonstration">
+                <source src="./assets/videos/pipeline/failure-detection-correction/arrange-table/rollout.mp4?v=8e82841658b4" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/arrange-table/rollout.mp4?v=8e82841658b4">Open the Arrange Table video for automated detection and correction of failure.</a>
+              </video>
+            </div>
+            <div class="detection-task" id="detection-flip-and-arrange-shoe" aria-label="Flip and Arrange Shoe: automated detection and correction of failure" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/flip-and-arrange-shoe/poster.jpg?v=456ef194049b" width="1920" height="1080" aria-label="Flip and Arrange Shoe: automated detection and correction of failure demonstration">
+                <source src="./assets/videos/pipeline/failure-detection-correction/flip-and-arrange-shoe/rollout.mp4?v=25e8a7783ced" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/flip-and-arrange-shoe/rollout.mp4?v=25e8a7783ced">Open the Flip and Arrange Shoe video for automated detection and correction of failure.</a>
+              </video>
+            </div>
+            <div class="detection-task" id="detection-pack-battery" aria-label="Pack Battery: automated detection and correction of failure" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/pack-battery/poster.jpg?v=206ced6e17ef" width="1920" height="1080" aria-label="Pack Battery: automated detection and correction of failure demonstration">
+                <source src="./assets/videos/pipeline/failure-detection-correction/pack-battery/rollout.mp4?v=8949222aadfb" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/pack-battery/rollout.mp4?v=8949222aadfb">Open the Pack Battery video for automated detection and correction of failure.</a>
+              </video>
+            </div>
+          </div>
+          <p class="pipeline-copy">In each round, UniKey runs batched policy rollouts, generates corrective data in batches, and finetunes the policy on the aggregated dataset. After several rounds, corrective demonstrations begin at later stages of task execution.</p>
+          <div class="task-picker iterations-picker" role="group" aria-label="Choose a policy improvement task" hidden>
+            <button type="button" data-iterations-task="hang-mug" aria-pressed="true" aria-controls="iterations-hang-mug" class="active">Hang Mug</button>
+            <button type="button" data-iterations-task="arrange-table" aria-pressed="false" aria-controls="iterations-arrange-table">Arrange Table</button>
+            <button type="button" data-iterations-task="flip-and-arrange-shoe" aria-pressed="false" aria-controls="iterations-flip-and-arrange-shoe">Flip and Arrange Shoe</button>
+            <button type="button" data-iterations-task="pack-battery" aria-pressed="false" aria-controls="iterations-pack-battery">Pack Battery</button>
+          </div>
+          <p class="sr-only" id="iterations-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+          <div class="iterations-videos" role="region" aria-label="Selected policy improvement video">
+            <figure class="automatic-corrections-video" id="iterations-hang-mug" aria-label="Hang Mug policy improvement across training rounds">
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/automatic-corrections-across-rounds-poster.jpg?v=e808d408ed9b" width="800" height="360" aria-label="Hang Mug: policy rollouts and success rates across training rounds">
+                <source src="./assets/videos/pipeline/failure-detection-correction/automatic-corrections-across-rounds.mp4?v=635883a14a7a" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/automatic-corrections-across-rounds.mp4?v=635883a14a7a">Open the Hang Mug training rounds video.</a>
+              </video>
+            </figure>
+            <figure class="automatic-corrections-video" id="iterations-arrange-table" aria-label="Arrange Table policy improvement from base policy to final checkpoint" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/arrange-table/training-rounds-poster.jpg?v=bab1e78dde8d" width="1920" height="1080" aria-label="Arrange Table: corrections and success rates for the base policy and final checkpoint">
+                <source src="./assets/videos/pipeline/failure-detection-correction/arrange-table/training-rounds.mp4?v=406c34e2e45d" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/arrange-table/training-rounds.mp4?v=406c34e2e45d">Open the Arrange Table policy improvement video.</a>
+              </video>
+            </figure>
+            <figure class="automatic-corrections-video" id="iterations-flip-and-arrange-shoe" aria-label="Flip and Arrange Shoe policy improvement across training rounds" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/flip-and-arrange-shoe/training-rounds-poster.jpg?v=630f3a3239f0" width="1920" height="1080" aria-label="Flip and Arrange Shoe: policy rollouts and success rates across training rounds">
+                <source src="./assets/videos/pipeline/failure-detection-correction/flip-and-arrange-shoe/training-rounds.mp4?v=71654b609031" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/flip-and-arrange-shoe/training-rounds.mp4?v=71654b609031">Open the Flip and Arrange Shoe training rounds video.</a>
+              </video>
+            </figure>
+            <figure class="automatic-corrections-video" id="iterations-pack-battery" aria-label="Pack Battery policy improvement across training rounds" hidden>
+              <video controls muted playsinline preload="none" poster="./assets/videos/pipeline/failure-detection-correction/pack-battery/training-rounds-poster.jpg?v=bf80704fd843" width="1920" height="1080" aria-label="Pack Battery: policy rollouts and success rates across training rounds">
+                <source src="./assets/videos/pipeline/failure-detection-correction/pack-battery/training-rounds.mp4?v=0ab069d5aee7" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/pipeline/failure-detection-correction/pack-battery/training-rounds.mp4?v=0ab069d5aee7">Open the Pack Battery training rounds video.</a>
+              </video>
+            </figure>
+          </div>
+      </section>
+
+      <section class="section shell" id="sim-to-real" aria-labelledby="sim-to-real-title">
+        <div class="section-head">
+          <h2 id="sim-to-real-title">Sim-to-Real</h2>
+        </div>
+        <p class="pipeline-copy">UniKey trains policies entirely in simulation and transfers them directly to the real robot. After iterative corrective data generation, the policy is finetuned on a domain-randomized dataset to prepare it for real-world deployment.</p>
+        <div class="domain-randomization-block" id="domain-randomization" aria-labelledby="domain-randomization-title">
+          <h3 id="domain-randomization-title">Domain Randomization</h3>
+          <p class="pipeline-copy">UniKey applies domain randomization of lighting, object textures, background, and cameras to the collected dataset and finetunes the policy on the augmented dataset. The finetuned policy is then deployed in the real world <strong>zero-shot</strong>.</p>
+          <div class="task-picker domain-randomization-picker" role="group" aria-label="Choose a domain randomization task" hidden>
+            <button type="button" data-domain-randomization-task="hang-mug" aria-pressed="true" aria-controls="domain-randomization-hang-mug" class="active">Hang Mug</button>
+            <button type="button" data-domain-randomization-task="arrange-table" aria-pressed="false" aria-controls="domain-randomization-arrange-table">Arrange Table</button>
+            <button type="button" data-domain-randomization-task="flip-and-arrange-shoe" aria-pressed="false" aria-controls="domain-randomization-flip-and-arrange-shoe">Flip and Arrange Shoe</button>
+            <button type="button" data-domain-randomization-task="pack-battery" aria-pressed="false" aria-controls="domain-randomization-pack-battery">Pack Battery</button>
+          </div>
+          <p class="sr-only" id="domain-randomization-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+          <div class="domain-randomization-videos" role="region" aria-label="Selected domain randomization video">
+            <figure class="domain-randomization-video" id="domain-randomization-hang-mug" aria-label="Hang Mug domain randomization demonstration">
+              <video controls muted playsinline preload="none" poster="./output/previews/domain-randomization/hang-mug-poster.jpg?v=49167a0c0ddb" width="960" height="720" aria-label="Hang Mug: domain randomization of backgrounds, lighting, and camera perspective">
+                <source src="./output/previews/domain-randomization/hang-mug.mp4?v=6e4210e1b988" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./output/previews/domain-randomization/hang-mug.mp4?v=6e4210e1b988">Open the Hang Mug domain randomization demonstration.</a>
+              </video>
+            </figure>
+            <figure class="domain-randomization-video" id="domain-randomization-arrange-table" aria-label="Arrange Table domain randomization demonstration" hidden>
+              <video controls muted playsinline preload="none" poster="./output/previews/domain-randomization/arrange-table-poster.jpg?v=ffc4b9ae5ab2" width="960" height="720" aria-label="Arrange Table: domain randomization of backgrounds, lighting, and camera perspective">
+                <source src="./output/previews/domain-randomization/arrange-table.mp4?v=3583a3b2074f" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./output/previews/domain-randomization/arrange-table.mp4?v=3583a3b2074f">Open the Arrange Table domain randomization demonstration.</a>
+              </video>
+            </figure>
+            <figure class="domain-randomization-video" id="domain-randomization-flip-and-arrange-shoe" aria-label="Flip and Arrange Shoe domain randomization demonstration" hidden>
+              <video controls muted playsinline preload="none" poster="./output/previews/domain-randomization/flip-and-arrange-shoe-poster.jpg?v=bbc0ddb8dda3" width="960" height="720" aria-label="Flip and Arrange Shoe: domain randomization of backgrounds, lighting, and camera perspective">
+                <source src="./output/previews/domain-randomization/flip-and-arrange-shoe.mp4?v=ccd2e72f2c5e" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./output/previews/domain-randomization/flip-and-arrange-shoe.mp4?v=ccd2e72f2c5e">Open the Flip and Arrange Shoe domain randomization demonstration.</a>
+              </video>
+            </figure>
+            <figure class="domain-randomization-video" id="domain-randomization-pack-battery" aria-label="Pack Battery domain randomization demonstration" hidden>
+              <video controls muted playsinline preload="none" poster="./output/previews/domain-randomization/pack-battery-poster.jpg?v=bed91855b051" width="960" height="720" aria-label="Pack Battery: domain randomization of backgrounds, lighting, and camera perspective">
+                <source src="./output/previews/domain-randomization/pack-battery.mp4?v=e7e2b34657d1" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./output/previews/domain-randomization/pack-battery.mp4?v=e7e2b34657d1">Open the Pack Battery domain randomization demonstration.</a>
+              </video>
+            </figure>
+          </div>
+        </div>
+        <div class="realworld-block" id="evaluation" aria-labelledby="evaluation-title">
+          <div class="subsection-head">
+            <h3 id="evaluation-title">Real-World Execution</h3>
+          </div>
+          <p class="pipeline-copy">Our sim-to-real policy achieves a <strong>100% success rate for 30 minutes</strong> on the following tasks, without real-world demonstrations or real-world policy finetuning. We overlay the real-world and simulated initial scenes, as shown on the MacBook screen, to ensure that both rollouts start from the same scene configuration.</p>
+          <div class="realworld-rollouts">
+            <article aria-labelledby="hang-mug-title">
+              <h4 id="hang-mug-title">Hang Mug</h4>
+              <video controls muted playsinline preload="none" data-base-speed="30" data-duration="59.933333" poster="./assets/videos/realworld/hang-mug/poster.jpg?v=3a1855f9282a" width="1920" height="1080" aria-label="Hang Mug: real-world rollout">
+                <source src="./assets/videos/realworld/hang-mug/rollout.mp4?v=1c0b6fc0b464" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/realworld/hang-mug/rollout.mp4?v=1c0b6fc0b464">Open the Hang Mug video.</a>
+              </video>
+            </article>
+            <article aria-labelledby="table-arrange-title">
+              <h4 id="table-arrange-title">Arrange Table</h4>
+              <video controls muted playsinline preload="none" data-base-speed="30" data-duration="59.6" poster="./assets/videos/realworld/arrange-table/poster.jpg?v=2b5cde276f96" width="1920" height="1080" aria-label="Arrange Table: real-world rollout">
+                <source src="./assets/videos/realworld/arrange-table/rollout.mp4?v=4dc2ea7ac97a" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/realworld/arrange-table/rollout.mp4?v=4dc2ea7ac97a">Open the Arrange Table video.</a>
+              </video>
+            </article>
+            <article aria-labelledby="flip-arrange-shoe-title">
+              <h4 id="flip-arrange-shoe-title">Flip and Arrange Shoe</h4>
+              <video controls muted playsinline preload="none" data-base-speed="30" data-duration="59.833333" poster="./assets/videos/realworld/flip-and-arrange-shoe/poster.jpg?v=a07f212aaa8e" width="1920" height="1080" aria-label="Flip and Arrange Shoe: real-world rollout">
+                <source src="./assets/videos/realworld/flip-and-arrange-shoe/rollout.mp4?v=288afea38144" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/realworld/flip-and-arrange-shoe/rollout.mp4?v=288afea38144">Open the Flip and Arrange Shoe video.</a>
+              </video>
+            </article>
+            <article aria-labelledby="pack-battery-title">
+              <h4 id="pack-battery-title">Pack Battery</h4>
+              <video controls muted playsinline preload="none" data-base-speed="30" data-duration="60" poster="./assets/videos/realworld/pack-battery/poster.jpg?v=90617931f644" width="1920" height="1080" aria-label="Pack Battery: real-world rollout">
+                <source src="./assets/videos/realworld/pack-battery/rollout.mp4?v=35a500acfd2d" type="video/mp4" />
+                Your browser does not support embedded video. <a href="./assets/videos/realworld/pack-battery/rollout.mp4?v=35a500acfd2d">Open the Pack Battery video.</a>
+              </video>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell technical-details" id="technical-details" aria-labelledby="technical-details-title">
+        <div class="section-head">
+          <h2 id="technical-details-title">Technical Details</h2>
+        </div>
+        <div class="technical-subsection" aria-labelledby="failure-detection-correction-title">
+          <h3 id="failure-detection-correction-title">Policy Failure Detection and Correction</h3>
+          <p class="pipeline-copy">UniKey represents each task as a sequence of geometric constraints over keypoints. The planner uses these constraints to generate motion, and the monitor reuses them to evaluate policy progress in simulation.</p>
+          <ol class="technical-steps">
+            <li><strong>Find the failed stage.</strong> Evaluate the keypoint constraints in order to identify the stage the policy did not complete.</li>
+            <li><strong>Locate the divergent step.</strong> Compare three end-effector keypoints along the policy trajectory with a planner-generated reference. The first step whose deviation exceeds a predefined threshold identifies the correction state.</li>
+            <li><strong>Generate the correction.</strong> Restore the simulator to that state and run the remaining keypoint program for a fixed corrective horizon. Add the corrective data to the accumulated dataset and finetune the policy.</li>
+          </ol>
+          <figure class="paper-figure">
+            <a class="figure-link" href="./media/figures/method.pdf" target="_blank" rel="noopener" aria-label="Open the UniKey method figure as a full-resolution PDF">
+              <img src="./media/figures/method.png" width="3000" height="1179" loading="lazy" draggable="false" alt="UniKey overview: keypoint programs, stage-wise and step-wise policy failure detection, automatic corrective planning, and zero-shot sim-to-real transfer." />
+            </a>
+            <figcaption>One keypoint program connects demonstration generation, failure detection, and corrective planning. <a href="./media/figures/method.pdf" target="_blank" rel="noopener">View PDF ↗</a></figcaption>
+          </figure>
+        </div>
+        <div class="technical-subsection" aria-labelledby="data-efficiency-title">
+          <h3 id="data-efficiency-title">Data Efficiency and Robustness</h3>
+          <p class="pipeline-copy">Corrective demonstrations target states where the current policy fails. UniKey and dense sampling start from the same initial dataset and policy checkpoint, then add an equal number of expert action steps in each round. Both policies are finetuned on their accumulated datasets.</p>
+          <p class="pipeline-copy">UniKey achieves <strong>2.65× higher data efficiency</strong>, measured by the average dense-to-UniKey ratio of dataset steps needed to first reach 70%, 80%, and 90% success across the evaluated sim-to-real tasks and policy architectures.</p>
+          <div class="technical-results" id="sim-to-real-results" aria-labelledby="sim-to-real-results-title">
+            <div class="subsection-head">
+              <h4 id="sim-to-real-results-title">Sim-to-Real Results</h4>
+            </div>
+            <p class="pipeline-copy">We compare UniKey (which collects only corrective data) versus Dense Sampling (which collects complete episodes). UniKey achieves a higher final success rate and better sample efficiency in both simulation and the real world. The corrective data both expands the dataset's observation space and is more informative than data collected through usual dense sampling.</p>
+            <figure class="paper-figure">
+              <a class="figure-link" href="./media/figures/main-results.pdf" target="_blank" rel="noopener" aria-label="Open the Sim-to-Real Results figure as a full-resolution PDF">
+                <img src="./media/figures/main-results.png" width="3266" height="2245" loading="lazy" draggable="false" alt="Results comparing UniKey and dense sampling for ACT, Diffusion Policy, and PI05. Task success rates in simulation and zero-shot real-world deployment are plotted against dataset steps for hanging a mug, flipping then arranging a shoe, and arranging the fork, spoon and bowl." />
+              </a>
+              <figcaption>Success rates use 100 simulation rollouts and 20 real-world rollouts per evaluation. <a href="./media/figures/main-results.pdf" target="_blank" rel="noopener">View PDF ↗</a></figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="technical-subsection" id="robotwin" aria-labelledby="robotwin-title">
+          <h3 id="robotwin-title">Robotwin Benchmark</h3>
+          <p class="pipeline-copy">We also evaluate UniKey against dense sampling on 10 RoboTwin 2.0 tasks. UniKey outperforms dense sampling across all 10 tasks.</p>
+          <div class="task-picker" role="group" aria-label="Choose a RoboTwin task" hidden>
+            <button type="button" data-task="adjust-bottle" aria-pressed="false" aria-controls="adjust-bottle">Adjust Bottle</button>
+            <button type="button" data-task="beat-block-hammer" aria-pressed="false" aria-controls="beat-block-hammer">Beat Block with Hammer</button>
+            <button type="button" data-task="rank-blocks-color" aria-pressed="false" aria-controls="rank-blocks-color">Rank Blocks by Color</button>
+            <button type="button" data-task="rank-blocks-size" aria-pressed="false" aria-controls="rank-blocks-size">Rank Blocks by Size</button>
+            <button type="button" data-task="click-alarm-clock" aria-pressed="false" aria-controls="click-alarm-clock">Click Alarm Clock</button>
+            <button type="button" data-task="click-bell" aria-pressed="false" aria-controls="click-bell">Click Bell</button>
+            <button type="button" data-task="dump-bin-bigbin" aria-pressed="false" aria-controls="dump-bin-bigbin">Dump Bin into Big Bin</button>
+            <button type="button" data-task="move-can-pot" aria-pressed="false" aria-controls="move-can-pot">Move Can to Pot</button>
+            <button type="button" data-task="move-playingcard-away" aria-pressed="false" aria-controls="move-playingcard-away">Move Playing Card Away</button>
+            <button type="button" data-task="move-stapler-pad" aria-pressed="false" aria-controls="move-stapler-pad">Move Stapler to Pad</button>
+          </div>
+          <p class="sr-only" id="task-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+          <div class="task-list" id="task-list" role="region" aria-label="RoboTwin task videos and success-rate curves" tabindex="0">
+            <article class="task-card" id="adjust-bottle" aria-label="Adjust Bottle">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/01_adjust_bottle_01/poster.jpg?v=eee7ad1a49fe" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Adjust Bottle keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/01_adjust_bottle_01/rollout.mp4?v=ad47c550ad89" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/01_adjust_bottle_01/rollout.mp4?v=ad47c550ad89">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/01_adjust_bottle_01/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/01_adjust_bottle_01/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Adjust Bottle: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+            <article class="task-card" id="beat-block-hammer" aria-label="Beat Block with Hammer">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/02_beat_block_hammer_01/poster.jpg?v=57990d1a5e68" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Beat Block with Hammer keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/02_beat_block_hammer_01/rollout.mp4?v=d64bed362033" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/02_beat_block_hammer_01/rollout.mp4?v=d64bed362033">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/02_beat_block_hammer_01/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/02_beat_block_hammer_01/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Beat Block with Hammer: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+            <article class="task-card" id="rank-blocks-color" aria-label="Rank Blocks by Color">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/03_blocks_ranking_rgb/poster.jpg?v=12db0c64e1f2" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Rank Blocks by Color keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/03_blocks_ranking_rgb/rollout.mp4?v=05529f1d855e" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/03_blocks_ranking_rgb/rollout.mp4?v=05529f1d855e">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/03_blocks_ranking_rgb/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/03_blocks_ranking_rgb/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Rank Blocks by Color: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+            <article class="task-card" id="rank-blocks-size" aria-label="Rank Blocks by Size">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/04_blocks_ranking_size/poster.jpg?v=be059d64d48c" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Rank Blocks by Size keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/04_blocks_ranking_size/rollout.mp4?v=4c2f291abd7a" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/04_blocks_ranking_size/rollout.mp4?v=4c2f291abd7a">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/04_blocks_ranking_size/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/04_blocks_ranking_size/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Rank Blocks by Size: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+            <article class="task-card" id="click-alarm-clock" aria-label="Click Alarm Clock">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/05_click_alarmclock_01/poster.jpg?v=552747413791" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Click Alarm Clock keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/05_click_alarmclock_01/rollout.mp4?v=a77353e37048" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/05_click_alarmclock_01/rollout.mp4?v=a77353e37048">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/05_click_alarmclock_01/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/05_click_alarmclock_01/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Click Alarm Clock: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+            <article class="task-card" id="click-bell" aria-label="Click Bell">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/06_click_bell_00/poster.jpg?v=cfa4a2b6b7e6" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Click Bell keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/06_click_bell_00/rollout.mp4?v=179b44fbe953" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/06_click_bell_00/rollout.mp4?v=179b44fbe953">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/06_click_bell_00/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/06_click_bell_00/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Click Bell: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+            <article class="task-card" id="dump-bin-bigbin" aria-label="Dump Bin into Big Bin">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/07_dump_bin_bigbin_00/poster.jpg?v=f68b62dbcd08" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Dump Bin into Big Bin keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/07_dump_bin_bigbin_00/rollout.mp4?v=dc7b054c7fbc" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/07_dump_bin_bigbin_00/rollout.mp4?v=dc7b054c7fbc">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/07_dump_bin_bigbin_00/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/07_dump_bin_bigbin_00/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Dump Bin into Big Bin: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+            <article class="task-card" id="move-can-pot" aria-label="Move Can to Pot">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/08_move_can_pot_00/poster.jpg?v=bf2660f3c4aa" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Move Can to Pot keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/08_move_can_pot_00/rollout.mp4?v=27dab28d34fd" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/08_move_can_pot_00/rollout.mp4?v=27dab28d34fd">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/08_move_can_pot_00/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/08_move_can_pot_00/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Move Can to Pot: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+            <article class="task-card" id="move-playingcard-away" aria-label="Move Playing Card Away">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/09_Move_Playingcard_Away/poster.jpg?v=dcf6da82bb45" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Move Playing Card Away keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/09_Move_Playingcard_Away/rollout.mp4?v=408f199c7669" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/09_Move_Playingcard_Away/rollout.mp4?v=408f199c7669">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/09_Move_Playingcard_Away/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/09_Move_Playingcard_Away/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Move Playing Card Away: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+            <article class="task-card" id="move-stapler-pad" aria-label="Move Stapler to Pad">
+              <div class="media-grid">
+                <div class="video-wrap">
+                  <video poster="./media/robotwin/10_Move_Stapler_Pad/poster.jpg?v=f2116ecb8739" width="1440" height="1080" controls muted playsinline preload="none" aria-label="Move Stapler to Pad keypoint program demonstration in MuJoCo">
+                    <source src="./media/robotwin/10_Move_Stapler_Pad/rollout.mp4?v=e8be138380c2" type="video/mp4" />
+                    Your browser does not support embedded video. <a href="./media/robotwin/10_Move_Stapler_Pad/rollout.mp4?v=e8be138380c2">Download this demonstration.</a>
+                  </video>
+                </div>
+                <a class="figure-wrap" href="./media/robotwin/10_Move_Stapler_Pad/success-rate.svg" target="_blank" rel="noopener">
+                  <img src="./media/robotwin/10_Move_Stapler_Pad/success-rate.svg" width="1200" height="900" loading="lazy" draggable="false" alt="Move Stapler to Pad: UniKey and dense-sampling success rates by dataset steps" />
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+          </article>
+        </div>
+      </div>
+    </main>
+    <button class="contents-trigger" type="button" aria-haspopup="dialog" aria-controls="contents-dialog" aria-expanded="false" hidden>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M8 5h13M8 12h13M8 19h13M3 5h.01M3 12h.01M3 19h.01" /></svg>
+      Contents
+    </button>
+    <dialog id="contents-dialog" aria-labelledby="contents-title">
+      <div class="contents-head">
+        <span id="contents-title">Contents</span>
+        <button type="button" class="contents-close" aria-label="Close table of contents">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
+        </button>
+      </div>
+      <nav class="contents-links" aria-label="Table of contents"></nav>
+    </dialog>
+  </body>
+</html>

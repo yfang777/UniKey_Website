@@ -40,10 +40,6 @@ svg { flex-shrink: 0; }
 .opening-stage { position: relative; height: 100%; overflow: hidden; }
 .opening video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .opening-stage::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(#0000001a, #00000005 42%, #00000047); }
-.opening-title { position: absolute; z-index: 2; top: 42%; left: 50%; width: min(90%, 1000px); transform: translate(-50%, -50%); text-align: center; pointer-events: none; }
-.opening-wordmark { display: flex; justify-content: center; color: #fff; font-size: clamp(72px, 19vw, 280px); font-weight: 600; line-height: 1; letter-spacing: .02em; text-shadow: 0 2px 40px #0000008c; }
-.opening-wordmark > span { display: inline-block; animation: letter-reveal 1.5s cubic-bezier(.22, 1, .36, 1) both; animation-delay: calc(var(--letter) * .18s); }
-@keyframes letter-reveal { from { opacity: 0; filter: blur(12px); transform: translateY(25px); } to { opacity: 1; filter: blur(0); transform: translateY(0); } }
 .scroll-cue { position: absolute; z-index: 3; bottom: 30px; left: 50%; transform: translateX(-50%); color: #fff; font-size: 14px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; text-shadow: 0 1px 12px #000000b3; animation: scroll-cue-float 1.8s ease-in-out infinite; }
 .scroll-cue::after { content: ""; display: block; width: 2px; height: 24px; margin: 10px auto 0; border-radius: 2px; background: #fff; }
 @keyframes scroll-cue-float { 50% { transform: translate(-50%, 5px); } }
@@ -66,7 +62,7 @@ svg { flex-shrink: 0; }
 .article-header { margin: 0 0 72px; padding-bottom: 34px; border-bottom: 1px solid var(--line); }
 h1 { margin: 0; font-size: clamp(34px, 4vw, 48px); font-weight: 400; line-height: 1.06; letter-spacing: 0; text-wrap: balance; }
 h1 > span { display: block; }
-.title-brand { color: inherit; }
+.title-brand, .brand-name { color: var(--accent); }
 .authors { margin: 24px 0 0; color: #0c0c0cd6; font-size: 18px; line-height: 1.55; }
 .authors span { white-space: nowrap; }
 .affiliations { margin: 12px 0 0; color: #0c0c0cb8; font-size: 16px; line-height: 1.5; }
@@ -177,8 +173,6 @@ h2 { margin: 0; font-size: clamp(31px, 2.5vw, 36px); font-weight: 400; line-heig
   .opening-stage { height: auto; max-width: 965px; margin: 0 auto; padding: 64px 20px 8px; overflow: visible; }
   .opening video { position: static; display: block; width: 100%; height: auto; object-fit: contain; border-radius: 6px; }
   .opening-stage::after { inset: 64px 20px 8px; border-radius: 6px; }
-  .opening-title { top: calc(50% + 28px); width: calc(100% - 40px); }
-  .opening-wordmark { font-size: clamp(48px, 19vw, 96px); }
   .scroll-cue { display: none; }
   .hero-playback { right: 30px; bottom: 18px; width: 30px; height: 30px; }
   .article-body { padding: 46px 20px 76px; }

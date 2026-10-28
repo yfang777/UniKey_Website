@@ -16,7 +16,10 @@
         panel.hidden = !selected;
         panel.querySelectorAll("video").forEach(video => {
           if (!selected) video.pause();
-          else if (video.readyState >= 1) video.currentTime = 0;
+          else {
+            if (video.readyState >= 1) video.currentTime = 0;
+            video.dispatchEvent(new Event("unikey:task-selected"));
+          }
         });
         buttons[i].classList.toggle("active", selected);
         buttons[i].setAttribute("aria-pressed", String(selected));

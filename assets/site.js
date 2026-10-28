@@ -40,7 +40,10 @@
       const video = card.querySelector("video");
       card.hidden = !selected;
       if (!selected) video.pause();
-      else if (video.readyState >= 1) video.currentTime = 0;
+      else {
+        if (video.readyState >= 1) video.currentTime = 0;
+        video.dispatchEvent(new Event("unikey:task-selected"));
+      }
       taskButtons[i].classList.toggle("active", selected);
       taskButtons[i].setAttribute("aria-pressed", String(selected));
     });
@@ -77,14 +80,6 @@
   }
   window.addEventListener("hashchange", revealHashTarget);
   window.addEventListener("popstate", revealHashTarget);
-
-  const videoVisibility = new IntersectionObserver(entries => {
-    entries.forEach(entry => { if (!entry.isIntersecting) entry.target.pause(); });
-  });
-  document.querySelectorAll("video").forEach(video => videoVisibility.observe(video));
-  document.addEventListener("visibilitychange", () => {
-    if (document.hidden) document.querySelectorAll("video").forEach(video => video.pause());
-  });
 
   window.addEventListener("scroll", scheduleNavigationUpdate, { passive: true });
   window.addEventListener("resize", scheduleNavigationUpdate);

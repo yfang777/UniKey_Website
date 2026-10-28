@@ -1,0 +1,206 @@
+{
+  "hang-mug": {
+    "source_sha256": "20ae7c9dec6bfa99daee3c2b47fcf52197a64d000afe0dd001ddfe511da60aed",
+    "preview_sha256": "6e4210e1b988643a41f72046ef55c26282b9fcc987466551ad4b0869b1e1a46b",
+    "width": 960,
+    "height": 720,
+    "r_frame_rate": "50/1",
+    "duration": "5.120000",
+    "nb_frames": "256",
+    "inset": {
+      "width": 432,
+      "height": 243,
+      "margin": 12,
+      "border": 2,
+      "label": "wrist camera",
+      "label_position": "top-center",
+      "label_font_size": 20
+    },
+    "preview_render": {
+      "engine": "Cycles",
+      "resolution": [
+        576,
+        324
+      ],
+      "samples": 24
+    },
+    "task": "hang-mug",
+    "source": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/20261008T164407Z/data/visualization/hang_mug/sample_12/planner_d/camera_perspective_1/domain_randomization_camera_4x3",
+    "source_animation": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/20261008T164407Z/data/visualization/hang_mug/sample_12/planner_d/camera_perspective_1/animation.pkl",
+    "animation_sha256": "f10060cd3686d09a49e2f1f9242128ef9f7fa708e645b16a6cc112b33ae2966d",
+    "scene": "/home/yuan/codegen/Codegen_Datagen/data/visualization/hang_mug/sample_12/corrective_3p4s/scene/sample_0/tmp_scene.xml",
+    "scene_sha256": "8a8f2e1f78ee4d052e31d7bea72a7b6bc06691a849210955770e24a9cbc7784a",
+    "camera": "D405_130322271320",
+    "camera_reference_geom": "end_tool",
+    "camera_intrinsics": {
+      "resolution": [
+        1280,
+        720
+      ],
+      "focalpixel": [
+        634.0862274169922,
+        649.3457651138306
+      ],
+      "principalpixel": [
+        0.0,
+        0.0
+      ]
+    },
+    "frame_count": 256,
+    "fps": 50,
+    "domains_sha256": "fb0ae1ba1c53916cc0ecb9a168233c2d91c1762162fde485c16b0205cff5e3ae"
+  },
+  "arrange-table": {
+    "source_sha256": "f3da8a96d90a19024d608fd4dc4a78bacf7a5fadf1ce0624e36226568e75ce1c",
+    "preview_sha256": "3583a3b2074fa1d9c87fe0741ce0a9e53305189d9acd139c178b3d716d410066",
+    "width": 960,
+    "height": 720,
+    "r_frame_rate": "50/1",
+    "duration": "5.000000",
+    "nb_frames": "250",
+    "inset": {
+      "width": 432,
+      "height": 243,
+      "margin": 12,
+      "border": 2,
+      "label": "wrist camera",
+      "label_position": "top-center",
+      "label_font_size": 20
+    },
+    "preview_render": {
+      "engine": "MuJoCo OpenGL",
+      "resolution": [
+        576,
+        324
+      ],
+      "samples": 4
+    },
+    "task": "arrange-table",
+    "source": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/domain_randomization_other_tasks_5s_4x3/table_arrange/rendered",
+    "source_animation": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/domain_randomization_other_tasks_5s_4x3/table_arrange/animation.pkl",
+    "animation_sha256": "ca73d3ac77ae5def078b2b33c896c11d13cd94ca7d0daf668a0cd467ae9f7c6d",
+    "scene": "/home/yuan/codegen/Codegen_Blender_Visualization/examples/render_episodes/table_arrange/scene.xml",
+    "scene_sha256": "7696e54850eb7df5ba0c84bf13282668fbbced8d291c756f342248d77b945a10",
+    "camera": "D405_130322271320",
+    "camera_reference_geom": "end_tool",
+    "camera_intrinsics": {
+      "resolution": [
+        1280,
+        720
+      ],
+      "focalpixel": [
+        634.0862274169922,
+        649.3457651138306
+      ],
+      "principalpixel": [
+        0.0,
+        0.0
+      ]
+    },
+    "frame_count": 250,
+    "fps": 50,
+    "domains_sha256": "96fdb48153aae0e5ad713c817f858bf93275a09432c2fea5b0b47971817d17fc"
+  },
+  "flip-and-arrange-shoe": {
+    "source_sha256": "8f9bf53f9fa917188ae8065f6c4bab6c1ebdd227db7cdad520ae857c7c48f52d",
+    "preview_sha256": "ccd2e72f2c5e569502c5058ac9378fe8e5af6723824ab9c1c4d4e9b8d7c82e77",
+    "width": 960,
+    "height": 720,
+    "r_frame_rate": "50/1",
+    "duration": "5.000000",
+    "nb_frames": "250",
+    "inset": {
+      "width": 432,
+      "height": 243,
+      "margin": 12,
+      "border": 2,
+      "label": "wrist camera",
+      "label_position": "top-center",
+      "label_font_size": 20
+    },
+    "preview_render": {
+      "engine": "MuJoCo OpenGL",
+      "resolution": [
+        576,
+        324
+      ],
+      "samples": 4
+    },
+    "task": "flip-and-arrange-shoe",
+    "source": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/domain_randomization_other_tasks_5s_4x3/flip_then_arrange_shoe/rendered",
+    "source_animation": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/domain_randomization_other_tasks_5s_4x3/flip_then_arrange_shoe/animation.pkl",
+    "animation_sha256": "1acfb14d4fb5777a5f2540d8a0327163eebb7109255d4fc922be88f845157890",
+    "scene": "/home/yuan/codegen/Codegen_Blender_Visualization/examples/render_episodes/flip_then_arrange_shoe/scene.xml",
+    "scene_sha256": "e64ef63e2b48edf7b7883fb1d7bf311970b344fb94dc6467d0c87b204376d1a0",
+    "camera": "D405_130322271320",
+    "camera_reference_geom": "end_tool",
+    "camera_intrinsics": {
+      "resolution": [
+        1280,
+        720
+      ],
+      "focalpixel": [
+        634.0862274169922,
+        649.3457651138306
+      ],
+      "principalpixel": [
+        0.0,
+        0.0
+      ]
+    },
+    "frame_count": 250,
+    "fps": 50,
+    "domains_sha256": "c4416b8280a108dbc4426b4260bbbcbfb5551fd9a4f798b62287eb23b6c7b025"
+  },
+  "pack-battery": {
+    "source_sha256": "51106975ec4fbeda7d139dc1fb1cc3eb6ef53f00766dc9dff69407b8bea58ce8",
+    "preview_sha256": "e7e2b34657d1e6f703476ffd04ee105359daa82500d454a7d8a1e67becd91db8",
+    "width": 960,
+    "height": 720,
+    "r_frame_rate": "50/1",
+    "duration": "5.000000",
+    "nb_frames": "250",
+    "inset": {
+      "width": 432,
+      "height": 243,
+      "margin": 12,
+      "border": 2,
+      "label": "wrist camera",
+      "label_position": "top-center",
+      "label_font_size": 20
+    },
+    "preview_render": {
+      "engine": "MuJoCo OpenGL",
+      "resolution": [
+        576,
+        324
+      ],
+      "samples": 4
+    },
+    "task": "pack-battery",
+    "source": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/domain_randomization_other_tasks_5s_4x3/pack_battery/rendered",
+    "source_animation": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/domain_randomization_other_tasks_5s_4x3/pack_battery/animation.pkl",
+    "animation_sha256": "1bfb797cb5f1daf11dcbb9ddc13cc6a07cb7f23f825b02d73400f096e0068d28",
+    "scene": "/home/yuan/codegen/Codegen_Blender_Visualization/examples/render_episodes/pack_battery/scene.xml",
+    "scene_sha256": "bff0b6a0141ea85e1b020761e0d6c17a667ec6b7e4a8ddb02b4259ef3bd356ea",
+    "camera": "D405_130322271320",
+    "camera_reference_geom": "end_tool",
+    "camera_intrinsics": {
+      "resolution": [
+        1280,
+        720
+      ],
+      "focalpixel": [
+        634.0862274169922,
+        649.3457651138306
+      ],
+      "principalpixel": [
+        0.0,
+        0.0
+      ]
+    },
+    "frame_count": 250,
+    "fps": 50,
+    "domains_sha256": "ef72cc25c96688453ee188b6cee9207e0a60cbe460a54a1ffd4169852eefeed4"
+  }
+}

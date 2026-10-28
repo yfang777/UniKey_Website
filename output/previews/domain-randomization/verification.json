@@ -1,0 +1,81 @@
+{
+  "page_assets_resolve": true,
+  "http_page": 200,
+  "browser_ui_checked": false,
+  "browser_ui_note": "No connected browser is available.",
+  "videos": {
+    "hang-mug": {
+      "source_unchanged": true,
+      "byte_range_delivery": 206,
+      "outside_inset_ssim": 0.993762,
+      "frames": 256,
+      "duration_seconds": 5.12,
+      "fps": "50/1",
+      "preview_sha256": "6e4210e1b988643a41f72046ef55c26282b9fcc987466551ad4b0869b1e1a46b",
+      "inset": {
+        "width": 432,
+        "height": 243,
+        "margin": 12,
+        "border": 2,
+        "label": "wrist camera",
+        "label_position": "top-center",
+        "label_font_size": 20
+      }
+    },
+    "arrange-table": {
+      "source_unchanged": true,
+      "byte_range_delivery": 206,
+      "outside_inset_ssim": 0.993356,
+      "frames": 250,
+      "duration_seconds": 5.0,
+      "fps": "50/1",
+      "preview_sha256": "3583a3b2074fa1d9c87fe0741ce0a9e53305189d9acd139c178b3d716d410066",
+      "inset": {
+        "width": 432,
+        "height": 243,
+        "margin": 12,
+        "border": 2,
+        "label": "wrist camera",
+        "label_position": "top-center",
+        "label_font_size": 20
+      }
+    },
+    "flip-and-arrange-shoe": {
+      "source_unchanged": true,
+      "byte_range_delivery": 206,
+      "outside_inset_ssim": 0.993403,
+      "frames": 250,
+      "duration_seconds": 5.0,
+      "fps": "50/1",
+      "preview_sha256": "ccd2e72f2c5e569502c5058ac9378fe8e5af6723824ab9c1c4d4e9b8d7c82e77",
+      "inset": {
+        "width": 432,
+        "height": 243,
+        "margin": 12,
+        "border": 2,
+        "label": "wrist camera",
+        "label_position": "top-center",
+        "label_font_size": 20
+      }
+    },
+    "pack-battery": {
+      "source_unchanged": true,
+      "byte_range_delivery": 206,
+      "outside_inset_ssim": 0.993074,
+      "frames": 250,
+      "duration_seconds": 5.0,
+      "fps": "50/1",
+      "preview_sha256": "e7e2b34657d1e6f703476ffd04ee105359daa82500d454a7d8a1e67becd91db8",
+      "inset": {
+        "width": 432,
+        "height": 243,
+        "margin": 12,
+        "border": 2,
+        "label": "wrist camera",
+        "label_position": "top-center",
+        "label_font_size": 20
+      }
+    }
+  },
+  "rendered_layout_checked": true
+}

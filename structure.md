@@ -1,6 +1,6 @@
 # UniKey Blog Structure
 
-The website keeps the agreed reading order below. Its visual design follows ENPIRE: a video opening, animated UniKey wordmark, cream background, serif typography, and an article outline with a mobile contents drawer. These notes remain open for discussion in chat.
+The website keeps the agreed reading order below. Its visual design follows ENPIRE: a video opening with top-centered phase captions, cream background, serif typography, and an article outline with a mobile contents drawer. These notes remain open for discussion in chat.
 
 ## Lessons from the references
 
@@ -20,11 +20,11 @@ Possible title: **UniKey: From Keypoint Programs to Robust Robot Policies**.
 
 Briefly introduce the challenge, the shared keypoint interface, and UniKey's main capabilities. Give readers an overview before explaining individual stages.
 
-### 2. Data Generation
+### 2. Expert Data Generation
 
 Show how UniKey generates demonstrations from keypoint programs across different object initializations. Lead with the capability and examples; keep detailed mechanics for Technical Details.
 
-### 3. Corrective Data Generation
+### 3. Automated Detection and Correction of Failure
 
 Show a policy failure and the resulting corrective data. Explain the cycle of policy rollout, corrective data generation, and policy finetuning at a high level.
 
@@ -38,7 +38,7 @@ After the capability demonstrations, explain the underlying mechanisms and quant
 
 #### Policy Failure Detection and Correction
 
-Explain how the keypoint program monitors execution, detects deviations, and supplies corrective motion planning. Connect the mechanism to the examples in Corrective Data Generation.
+Explain how the keypoint program monitors execution, detects deviations, and supplies corrective motion planning. Connect the mechanism to the examples in Automated Detection and Correction of Failure.
 
 #### Data Efficiency and Robustness
 

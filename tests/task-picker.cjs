@@ -7,11 +7,12 @@ const taskData = JSON.parse(fs.readFileSync(root + '/data/robotwin-results.json'
 const html = fs.readFileSync(root + '/index.html', 'utf8');
 const source = fs.readFileSync(root + '/assets/site.js', 'utf8');
 const pipelineSource = fs.readFileSync(root + '/assets/pipeline.js', 'utf8');
+const autoplaySource = fs.readFileSync(root + '/assets/video-autoplay.js', 'utf8');
 const pipelineTasks = ['hang-mug', 'arrange-table', 'flip-and-arrange-shoe', 'pack-battery'];
-const readingOrder = ['Introducing UniKey', 'Data Generation', 'Corrective Data Generation', 'Sim-to-Real', 'Technical Details'];
+const readingOrder = ['Introducing UniKey', 'Expert Data Generation', 'Automated Detection and Correction of Failure', 'Sim-to-Real', 'Technical Details'];
 const navigation = html.match(/<nav class="section-nav"[\s\S]*?<\/nav>/)[0];
-assert.deepStrictEqual(Array.from(navigation.matchAll(/<a href="#[^"]+" data-level="1"[^>]*>([^<]+)<\/a>/g), match => match[1]), readingOrder);
-assert.deepStrictEqual(Array.from(html.matchAll(/<h2[^>]*>([^<]+)<\/h2>/g), match => match[1]), readingOrder);
+assert.deepStrictEqual(Array.from(navigation.matchAll(/<a href="#[^"]+" data-level="1"[^>]*>([\s\S]*?)<\/a>/g), match => match[1].replace(/<[^>]+>/g, '')), readingOrder);
+assert.deepStrictEqual(Array.from(html.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/g), match => match[1].replace(/<[^>]+>/g, '')), readingOrder);
 assert.deepStrictEqual(Array.from(html.matchAll(/<div class="technical-subsection"[^>]*>\s*<h3[^>]*>([^<]+)<\/h3>/g), match => match[1]),
   ['Policy Failure Detection and Correction', 'Data Efficiency and Robustness', 'Robotwin Benchmark']);
 for (const match of navigation.matchAll(/href="#([^"]+)"/g)) {
@@ -31,6 +32,8 @@ class Element {
     (this.listeners[name] || []).forEach(fn => fn(event)); return event;
   }
   click() { this.fire('click'); }
+  dispatchEvent(event) { this.fire(event.type, event); }
+  closest(selector) { return selector === '[hidden]' && this.parent && this.parent.hidden ? this.parent : null; }
   querySelector(selector) { return this.children[selector]; }
   querySelectorAll(selector) { return selector === 'video' ? (this.children.videos || [this.children.video]) : this.children[selector]; }
   setAttribute(key, value) { this.attrs[key] = value; }
@@ -38,7 +41,8 @@ class Element {
   getBoundingClientRect() { return { top: 500 }; }
   scrollIntoView() { this.scrolledIntoView = true; }
   focus() { this.focused = true; }
-  pause() { this.paused = true; }
+  pause() { const playing = !this.paused; this.paused = true; if (playing) this.fire('pause'); }
+  play() { this.paused = false; this.playCalls = (this.playCalls || 0) + 1; return Promise.resolve(); }
 }
 
 function fixture(hash = '') {
@@ -89,7 +93,7 @@ function fixture(hash = '') {
   const detectionPicker = new Element(), detectionAnnouncement = new Element();
   const detectionPanels = pipelineTasks.map((task, index) => {
     const markup = html.match(new RegExp('<div class="detection-task" id="detection-' + task + '"([^>]*)>([\\s\\S]*?)\\n            </div>'));
-    assert.strictEqual(/\bhidden\b/.test(markup[1]), index !== 0, 'Hang Mug is the default corrective data generation video');
+    assert.strictEqual(/\bhidden\b/.test(markup[1]), index !== 0, 'Hang Mug is the default video for automated detection and correction of failure');
     const directory = './assets/videos/pipeline/failure-detection-correction/' + task + '/';
     for (const name of ['rollout.mp4', 'poster.jpg']) {
       assert(markup[2].includes(directory + name));
@@ -150,9 +154,15 @@ function fixture(hash = '') {
     selector === '#corrective-data-generation .automatic-corrections-video' ? iterationsPanels :
     [...cards, ...pipelinePanels, ...domainPanels, ...detectionPanels, ...iterationsPanels].flatMap(panel => panel.children.videos || [panel.children.video]);
   const observers = [];
-  vm.runInNewContext(source, { window: win, document: doc,
-    IntersectionObserver: class { constructor(callback) { observers.push(callback); } observe() {} } });
-  vm.runInNewContext(pipelineSource, { document: doc });
+  const motion = new Element(); motion.matches = false; win.matchMedia = () => motion;
+  [...cards, ...pipelinePanels, ...domainPanels, ...detectionPanels, ...iterationsPanels].forEach(panel => {
+    (panel.children.videos || [panel.children.video]).forEach(video => { video.parent = panel; });
+  });
+  const Event = class { constructor(type) { this.type = type; } };
+  vm.runInNewContext(source, { window: win, document: doc, Event });
+  vm.runInNewContext(autoplaySource, { window: win, document: doc,
+    IntersectionObserver: class { constructor(callback) { observers.push(callback); } observe() {} unobserve() {} } });
+  vm.runInNewContext(pipelineSource, { document: doc, Event });
   function selected(index) {
     assert.deepStrictEqual(cards.map(card => card.hidden), cards.map((_, i) => i !== index));
     assert.deepStrictEqual(buttons.map(button => button.attrs['aria-pressed']), cards.map((_, i) => String(i === index)));
@@ -183,7 +193,7 @@ function fixture(hash = '') {
     assert.strictEqual(iterationsPanels.filter(panel => !panel.hidden).length, 1);
     assert(iterationsButtons[index].classList.contains('active'));
   }
-  return { visualization, picker, announcement, cards, buttons, win, doc, observers, frames, selected,
+  return { visualization, picker, announcement, cards, buttons, win, doc, motion, observers, frames, selected,
     pipelinePicker, pipelineAnnouncement, pipelinePanels, pipelineButtons, pipelineSelected,
     domainPicker, domainAnnouncement, domainPanels, domainButtons, domainSelected,
     detectionPicker, detectionAnnouncement, detectionPanels, detectionButtons, detectionSelected,
@@ -338,3 +348,52 @@ f.iterationsPanels[0].children.video.paused = false;
 f.doc.fire('visibilitychange'); assert(f.iterationsPanels[0].children.video.paused);
 linked.iterationsSelected(0);
 console.log('PASS: independent agentic/domain/detection/iteration selectors, matching media, playback controls, keyboard behavior, and all ten RoboTwin tasks.');
+
+(async () => {
+  const a = fixture();
+  const video = a.pipelinePanels[0].children.video;
+  const intersect = (v, ratio) => a.observers[0]([{ target: v, isIntersecting: ratio > 0, intersectionRatio: ratio }]);
+  video.playbackRate = 2;
+  intersect(video, .3); assert(video.paused, 'a sliver of the player must not start playback');
+  intersect(video, .6); await Promise.resolve(); assert(!video.paused, 'entering the section starts playback');
+  assert(video.muted && video.playsInline);
+  video.currentTime = 3;
+  intersect(video, 0); assert(video.paused);
+  intersect(video, .7); await Promise.resolve(); assert(!video.paused);
+  assert.strictEqual(video.currentTime, 3, 'returning resumes the same position');
+  assert.strictEqual(video.playbackRate, 2, 'scrolling preserves speed');
+  video.fire('unikey:playback-intent', { detail: 'pause' }); video.pause();
+  intersect(video, 0); intersect(video, .8); assert(video.paused, 'manual pause survives scrolling');
+  video.fire('unikey:playback-intent', { detail: 'play' }); await video.play();
+  a.doc.hidden = true; a.doc.fire('visibilitychange'); assert(video.paused);
+  a.doc.hidden = false; a.doc.fire('visibilitychange'); await Promise.resolve(); assert(!video.paused);
+  a.pipelineButtons[1].click(); assert(video.paused);
+  const next = a.pipelinePanels[1].children.video;
+  intersect(next, .8); await Promise.resolve(); assert(!next.paused, 'selecting an in-view task starts its clip');
+  intersect(video, .8); assert(video.paused, 'a hidden task never autoplays');
+  a.motion.matches = true; a.motion.fire('change'); assert(next.paused);
+  intersect(next, 0); intersect(next, .8); assert(next.paused, 'reduced motion disables scroll autoplay');
+  next.fire('unikey:playback-intent', { detail: 'play' }); await next.play(); assert(!next.paused);
+  a.motion.matches = false; next.ended = true; next.pause();
+  intersect(next, 0); intersect(next, .8); assert(next.paused, 'completed clips do not restart on scroll');
+  const b = fixture(); const late = b.pipelinePanels[0].children.video;
+  let resolvePlay;
+  late.play = () => new Promise(resolve => { resolvePlay = () => { late.paused = false; resolve(); }; });
+  b.observers[0]([{ target: late, isIntersecting: true, intersectionRatio: .8 }]);
+  b.pipelineButtons[1].click(); resolvePlay(); await Promise.resolve();
+  assert(late.paused, 'a delayed play promise cannot restart a hidden task');
+  const c = fixture(); const interrupted = c.pipelinePanels[0].children.video;
+  let rejectPlay, attempts = 0;
+  interrupted.play = () => {
+    attempts += 1;
+    if (attempts === 1) return new Promise((resolve, reject) => { rejectPlay = reject; });
+    interrupted.paused = false; return Promise.resolve();
+  };
+  const entry = ratio => c.observers[0]([{ target: interrupted, isIntersecting: ratio > 0, intersectionRatio: ratio }]);
+  entry(.8); entry(0); entry(.8);
+  rejectPlay({ name: 'AbortError' });
+  await Promise.resolve(); await Promise.resolve(); await Promise.resolve();
+  assert.strictEqual(attempts, 2, 'returning during a cancelled load retries playback once');
+  assert(!interrupted.paused);
+  console.log('PASS: scroll autoplay, task visibility, resume, manual pause, reduced motion, speed preservation, and delayed playback.');
+})().catch(error => { console.error(error); process.exitCode = 1; });

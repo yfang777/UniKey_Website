@@ -28,9 +28,11 @@
     toolbar.setAttribute("role", "group");
     toolbar.setAttribute("aria-label", `${label} video controls`);
     const toggle = iconButton(playPath, `Play ${label}`);
-    const speed = document.createElement("button");
-    speed.type = "button";
-    speed.className = "video-speed";
+    const speed = video.closest(".realworld-rollouts") ? document.createElement("button") : null;
+    if (speed) {
+      speed.type = "button";
+      speed.className = "video-speed";
+    }
     const seek = document.createElement("input");
     seek.type = "range";
     seek.min = "0";
@@ -44,15 +46,17 @@
     const expand = iconButton(expandPath, `Expand ${label} video`);
     // Real-world clips already contain 30× footage; 60× and 100× use 2× and 10/3× file playback.
     const baseSpeed = Number(video.dataset.baseSpeed) || 1;
-    const rates = baseSpeed === 30 ? [1, 2, 100 / 30] : [0.5, 1, 2, 4, 8];
+    const rates = [1, 2, 100 / 30];
     const durationHint = Number(video.dataset.duration) || NaN;
 
     function updatePlayback() {
       toggle.setAttribute("aria-label", `${video.paused ? "Play" : "Pause"} ${label}`);
       toggle.querySelector("path").setAttribute("d", video.paused ? playPath : pausePath);
-      const effectiveSpeed = Number((video.playbackRate * baseSpeed).toFixed(2));
-      speed.textContent = `${effectiveSpeed}×`;
-      speed.setAttribute("aria-label", `${label} playback speed ${effectiveSpeed}×. Click to change speed.`);
+      if (speed) {
+        const effectiveSpeed = Number((video.playbackRate * baseSpeed).toFixed(2));
+        speed.textContent = `${effectiveSpeed}×`;
+        speed.setAttribute("aria-label", `${label} playback speed ${effectiveSpeed}×. Click to change speed.`);
+      }
       updateProgress();
     }
 
@@ -69,13 +73,16 @@
     }
 
     toggle.addEventListener("click", () => {
+      video.dispatchEvent(new CustomEvent("unikey:playback-intent", { detail: video.paused ? "play" : "pause" }));
       if (video.paused) video.play().catch(() => { video.controls = true; });
       else video.pause();
     });
-    speed.addEventListener("click", () => {
-      video.playbackRate = rates[(rates.indexOf(video.playbackRate) + 1) % rates.length];
-      updatePlayback();
-    });
+    if (speed) {
+      speed.addEventListener("click", () => {
+        video.playbackRate = rates[(rates.indexOf(video.playbackRate) + 1) % rates.length];
+        updatePlayback();
+      });
+    }
     seek.addEventListener("input", () => {
       if (Number.isFinite(video.duration)) video.currentTime = Number(seek.value) / 1000 * video.duration;
       updateProgress();
@@ -94,7 +101,9 @@
     ["play", "pause", "ended", "ratechange"].forEach(event => video.addEventListener(event, updatePlayback));
     ["loadedmetadata", "durationchange", "timeupdate", "seeked", "emptied"].forEach(event => video.addEventListener(event, updateProgress));
     video.addEventListener("error", () => { video.controls = true; });
-    toolbar.append(toggle, speed, seek, duration, expand);
+    toolbar.append(toggle);
+    if (speed) toolbar.append(speed);
+    toolbar.append(seek, duration, expand);
     video.replaceWith(player);
     player.append(video, toolbar);
     video.controls = false;
