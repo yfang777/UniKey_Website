@@ -32,11 +32,13 @@ jobs:
       - name: Check website interactions and JavaScript
         run: |
           node tests/task-picker.cjs
+          node tests/round-improvement.cjs
           node --check assets/site.js
           node --check assets/pipeline.js
           node --check assets/presentation.js
           node --check assets/video-controls.js
           node --check assets/video-autoplay.js
+          node --check assets/round-improvement.js
 
       - name: Package website and validate local assets
         run: python3 scripts/package_site.py

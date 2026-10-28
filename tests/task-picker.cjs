@@ -101,7 +101,7 @@ function fixture(hash = '') {
     }
     assert.strictEqual((markup[2].match(/<video\b/g) || []).length, 1);
     assert(!/<figcaption\b|detection-correction-grid|policy_brown|correction_green/.test(markup[2]));
-    assert(markup[2].includes('width="1920" height="1080"'));
+    assert(markup[2].includes(index === 0 ? 'width="1920" height="1080"' : 'width="1904" height="1080"'));
     const panel = new Element(); panel.id = 'detection-' + task;
     panel.children.videos = [new Element('video')];
     return panel;
@@ -117,11 +117,11 @@ function fixture(hash = '') {
     const markup = html.match(new RegExp('<figure class="automatic-corrections-video" id="iterations-' + task + '"([^>]*)>([\\s\\S]*?)</figure>'));
     assert(markup, 'each task must have a policy improvement panel');
     assert.strictEqual(/\bhidden\b/.test(markup[1]), index !== 0, 'Hang Mug is the default policy improvement video');
-    assert(markup[2].includes(index === 0 ? 'width="800" height="360"' : 'width="1920" height="1080"'));
+    assert(markup[2].includes(index === 0 ? 'width="1440" height="1080"' : 'width="1920" height="1080"'));
     assert.strictEqual((markup[2].match(/<video\b/g) || []).length, 1);
     for (const attribute of ['src', 'poster']) {
       const mediaPath = markup[2].match(new RegExp(attribute + '="([^"?]+)'))[1];
-      const expected = index === 0 ? 'automatic-corrections-across-rounds' : task + '/training-rounds';
+      const expected = task + '/training-rounds';
       assert(mediaPath.includes('/failure-detection-correction/' + expected));
       assert(fs.existsSync(root + '/' + mediaPath), 'policy improvement media must exist: ' + mediaPath);
     }

@@ -1,0 +1,9 @@
+{
+  "scenes": 100,
+  "successes": 90,
+  "failures": 10,
+  "success_rate": 0.9,
+  "failure_last_success_stage": {
+    "0": 10
+  }
+}

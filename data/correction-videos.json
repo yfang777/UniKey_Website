@@ -1,0 +1,109 @@
+{
+  "arrange-table": {
+    "source": "data/automatic_detection_correction/table_arrange_v9",
+    "source_video_sha256": "047f441ed89d3b911062de60977b68c78753de2d3c1cec1e0b58e16464624aef",
+    "source_timeline_sha256": "7289852fbb8a091425e562e3c512f2c1b54872f09b14933844b79b1cfa781c9c",
+    "video_sha256": "ed5683f6e36537cd06cd9eec9f0d4f49a8f3e3e615cca9c0ee20996a23c8b0ee",
+    "poster_sha256": "de2cf74642558f7b5c99af5fa947683355ed18f25e451172df1d09eed1ce59d3",
+    "resolution": [
+      1904,
+      1080
+    ],
+    "fps": 30,
+    "frames": 414,
+    "duration_seconds": 13.8,
+    "source_crop_xywh": [
+      16,
+      0,
+      1904,
+      1080
+    ],
+    "scene_stretched": false,
+    "decoded_frames_compared": 414,
+    "timestamps_verified": true,
+    "maximum_encoded_pixel_error": 1.2442982285506796,
+    "maximum_encoded_chart_error": 0.48485048010973936,
+    "maximum_left_edge_white_fraction": 0.0,
+    "threshold_trigger": {
+      "threshold_cm": 2.0,
+      "first_crossing_frame_zero_based": 41,
+      "first_crossing_seconds": 1.3666666666666667,
+      "first_crossing_value_cm": 2.002125,
+      "rewind_start_frame_zero_based": 42,
+      "rewind_start_seconds": 1.4
+    },
+    "rewind_frames_matched_to_forward_values": 20,
+    "rewind_distinct_bar_height_states": 20,
+    "fixed_axis_max_cm": 2.3529411764705883,
+    "threshold_cm": 2.0
+  },
+  "flip-and-arrange-shoe": {
+    "source": "data/automatic_detection_correction/flip_then_arrange_shoe_v7",
+    "source_video_sha256": "25e8a7783cedb73b43b4ac93165834aed5cc5fe2dbc0b79a1260a70267446071",
+    "source_timeline_sha256": "c3ec9d2255d0a824f4813eaabcdfc000360ca73bba8b3deef62af2b76f51832d",
+    "video_sha256": "a965476ad67edb956595e247d78dd12d2c987106e31dce8b29642c337a0636f2",
+    "poster_sha256": "c5a37c5af354e4098db48d710473a8f2381308971cf205c98cbdd6c763c3c4c3",
+    "resolution": [
+      1904,
+      1080
+    ],
+    "fps": 30,
+    "frames": 535,
+    "duration_seconds": 17.833333333333332,
+    "source_crop_xywh": [
+      16,
+      0,
+      1904,
+      1080
+    ],
+    "scene_stretched": false,
+    "decoded_frames_compared": 535,
+    "timestamps_verified": true,
+    "maximum_encoded_pixel_error": 1.2699262112252307,
+    "maximum_encoded_chart_error": 0.4576056241426612,
+    "maximum_left_edge_white_fraction": 0.0,
+    "threshold_trigger": null,
+    "rewind_frames_matched_to_forward_values": 32,
+    "rewind_distinct_bar_height_states": 29,
+    "fixed_axis_max_cm": 2.3529411764705883,
+    "threshold_cm": 2.0
+  },
+  "pack-battery": {
+    "source": "data/automatic_detection_correction/pack_battery_v8",
+    "source_video_sha256": "d46427105aa13e14d1542c340057a85107035b61b0978c0f53fd72ec68cb56b4",
+    "source_timeline_sha256": "6c9d26a1d817e08e3205abc44d526943cc3af34b5464d3effc979ddff53d3e33",
+    "video_sha256": "0150d4a8ff459a24825413cd018da3b9cbcf2a756d36138e00b143eb0e2f5cd7",
+    "poster_sha256": "3ab12c84827df00a57f524304a1319c2e5b341315d5aec2fef41fc6619e6e8e7",
+    "resolution": [
+      1904,
+      1080
+    ],
+    "fps": 30,
+    "frames": 306,
+    "duration_seconds": 10.2,
+    "source_crop_xywh": [
+      16,
+      0,
+      1904,
+      1080
+    ],
+    "scene_stretched": false,
+    "decoded_frames_compared": 306,
+    "timestamps_verified": true,
+    "maximum_encoded_pixel_error": 1.299413191202407,
+    "maximum_encoded_chart_error": 0.5168799725651577,
+    "maximum_left_edge_white_fraction": 0.0,
+    "threshold_trigger": {
+      "threshold_cm": 2.0,
+      "first_crossing_frame_zero_based": 114,
+      "first_crossing_seconds": 3.8,
+      "first_crossing_value_cm": 2.004707434768789,
+      "rewind_start_frame_zero_based": 115,
+      "rewind_start_seconds": 3.8333333333333335
+    },
+    "rewind_frames_matched_to_forward_values": 24,
+    "rewind_distinct_bar_height_states": 24,
+    "fixed_axis_max_cm": 2.3529411764705883,
+    "threshold_cm": 2.0
+  }
+}

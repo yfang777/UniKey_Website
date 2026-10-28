@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "video": "/home/yuan/codegen/UniKey_Website/tmp_hang_mug_grid_v1/hang_mug_text_generation_and_grid.mp4",
+  "sha256": "939cc8e777cb1d38b7610d9f7be25bdd041e2dd0003bd0d4e96b284a05b17a8f",
+  "stream": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "avg_frame_rate": "30/1",
+    "time_base": "1/15360",
+    "duration": "16.566667",
+    "nb_frames": "497"
+  },
+  "caption": "Generate expert data for different object  initializations",
+  "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+  "font_family": [
+    "DejaVu Sans",
+    "Book"
+  ],
+  "font_size_px": 54,
+  "caption_style_source": "render/create_teaser_rewind_variants.py:175",
+  "caption_center_xy": [
+    960,
+    75
+  ],
+  "caption_panel_xyxy": [
+    180.0,
+    30,
+    1740.0,
+    120
+  ],
+  "intro_frames": 245,
+  "shrink_frames": 15,
+  "grid_frames": 237,
+  "grid_start_frame_zero_based": 260,
+  "grid_start_seconds": 8.666666666666666,
+  "intro_decoded_pixels_identical": true,
+  "all_joined_decoded_frames_match_segments": true,
+  "packet_timestamps_verified": true,
+  "full_decode_passed": true,
+  "captioned_grid_sample_checks": [
+    {
+      "frame": 1,
+      "mean_pixel_error": 1.2413541666666668,
+      "caption_region_mean_error": 1.7209974053724053
+    },
+    {
+      "frame": 119,
+      "mean_pixel_error": 1.421887377829218,
+      "caption_region_mean_error": 1.6696695665445664
+    },
+    {
+      "frame": 237,
+      "mean_pixel_error": 1.3575032150205761,
+      "caption_region_mean_error": 1.66202876984127
+    }
+  ],
+  "source_sha256": {
+    "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/live_text_1920x1080_v5/hang_mug_v5/hang_mug_v5.mp4": "ce8491314002bb49081bac08287ee8cab93a080ef65be5376fb5c869f86415d5",
+    "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/live_text_shrink_grid_05s_all_tasks/hang_mug/hang_mug_v5_shrink_into_grid_4x3.mp4": "d618da8c2a6f97c862bdd88744ec123535a98a5f70e00bbaf6479dffbabede52",
+    "/home/yuan/codegen/UniKey_Website/tmp_hang_mug_grid_v1/hang_mug_grid_4x3_blender_fast.mp4": "6e2ecafcd44238d54e50dd5a306081ea3839b154a4e3fcd7bb3effb5c4ea19e8",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf": "690243adfefe0ce154b547db6205794bd30ac4277275179517a90994f4980648",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/render/create_teaser_rewind_variants.py": "01e921588f5ca714a0063ad6ab58bae61095bbc353f33f70844530c7e7719ed6"
+  },
+  "selected_grid": "/home/yuan/codegen/UniKey_Website/tmp_hang_mug_grid_v1/hang_mug_grid_4x3_blender_fast.mp4",
+  "captioned_grid": "/home/yuan/codegen/UniKey_Website/tmp_hang_mug_grid_v1/hang_mug_grid_4x3_blender_fast_captioned.mp4",
+  "poster": "/home/yuan/codegen/UniKey_Website/tmp_hang_mug_grid_v1/website_composition/poster.jpg",
+  "website_video": "assets/videos/pipeline/hang-mug/combined.mp4",
+  "website_sha256": "939cc8e777cb1d38b7610d9f7be25bdd041e2dd0003bd0d4e96b284a05b17a8f",
+  "website_poster_sha256": "f3713e7d7b1180db4865c2e84c112a4707e21f1ee1660fabf0a799dfb0dea8ef"
+}

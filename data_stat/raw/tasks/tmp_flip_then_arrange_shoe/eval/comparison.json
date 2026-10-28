@@ -1,0 +1,26 @@
+{
+  "scenes": 100,
+  "base_success_rate": 0.9,
+  "finetuned_success_rate": 0.92,
+  "change_percentage_points": 2.0000000000000018,
+  "improved_scenes": [
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_7/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_32/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_35/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_39/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_50/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_65/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_70/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_81/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_90/tmp_scene.xml"
+  ],
+  "regressed_scenes": [
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_10/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_22/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_27/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_64/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_82/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_84/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_86/tmp_scene.xml"
+  ]
+}

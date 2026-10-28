@@ -1,5 +1,5 @@
 {
-  "description": "MuJoCo keypoint program demonstrations without stage captions.",
+  "description": "RoboTwin keypoint program demonstrations without stage captions.",
   "tasks": [
     {
       "task": "01_adjust_bottle_01",
@@ -12,15 +12,18 @@
       ],
       "duration_s": 7.84,
       "sha256": {
-        "rollout.mp4": "ad47c550ad89989a2fee08b4af5d7bf9b893ddcb1ed07be86794bf9064326449",
-        "poster.jpg": "eee7ad1a49fe289d6483c327d89f2a1bee94def9e51b78854841094f926b7c6c"
+        "rollout.mp4": "3b8370c06119c5247102ec187e4543a6d78ca8b5ef07e415b2dceca32a3670f2",
+        "poster.jpg": "3b916a6940cf646829107ee2b21073fe91f2746b7a9149992a7ea310193d6643",
+        "render-info.json": "9fbd7ac8ed7dace96fa7853bac33319c29b93487bbb7b46afe4c979b0d8357de"
       },
       "source_sha256": {
-        "clean.mp4": "447b37dacd4e1f03736b82ee8ee237a80e400e1d828c9046ce9a6bf436f40b59",
+        "clean.mp4": "b29e6f20215e4c7286242279452e36f4ac2c7af8efaafdf92532020c91c65a48",
         "coordinates.json": "817381fbdec97cf2393b41b42ee04bc1623406d9a737056dc78220c7113c01a3",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/01_adjust_bottle_01/render-info.json"
     },
     {
       "task": "02_beat_block_hammer_01",
@@ -33,15 +36,18 @@
       ],
       "duration_s": 6.78,
       "sha256": {
-        "rollout.mp4": "d64bed362033c6c0cc0c5df15b4ca8064e9b8d4926937d78e0f7b38bce6c24a7",
-        "poster.jpg": "57990d1a5e68ea44b5a14da605b1608b5dbbdf8dd093d2a41f53c67485182b3d"
+        "rollout.mp4": "096696f5cfa5011a4abe5a91a9fffa9b3cec2c7743ca703a182881ce8b309dd8",
+        "poster.jpg": "dc5a40af715c9e5cb6ffc644a57a41fcd50cbd48e9ffef4bcf8290b13f145ae0",
+        "render-info.json": "52ce5428af77f67d719f1d1909ee5ce60a0231a1714dab20b7bf302c0ba9d134"
       },
       "source_sha256": {
-        "clean.mp4": "d71134d25e1b39038ff5ac9e91d7f0d0caefd889ff79b545555d6652f9ea61ad",
+        "clean.mp4": "62978553294d1de7035fc82c567a86e5a7eb120cb3f5d36f92e51d1d332b5ce3",
         "coordinates.json": "9f541aca83bc708c89484297979db29392fdd2069579ba4ee9e03ad79fa900ba",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/02_beat_block_hammer_01/render-info.json"
     },
     {
       "task": "03_blocks_ranking_rgb",
@@ -54,15 +60,18 @@
       ],
       "duration_s": 20.26,
       "sha256": {
-        "rollout.mp4": "05529f1d855e31480e7dc845570d630511030485e930b2f8aab2a8ed1af1927e",
-        "poster.jpg": "12db0c64e1f2738f27ec027b42c443cc1032674caf10b791a612adf7af9e0304"
+        "rollout.mp4": "09ef7e97b6953cf62956a6c7c4ac450e490c656d01b9b35b93498d708910dbe7",
+        "poster.jpg": "a29bca023c53135fc7bf09c73dbcd8b43a6f627593cb058c7526484d42331a61",
+        "render-info.json": "d5c4136e5b62f36810189abbaf5f7f8f26aeb9603ad9b3d89a5328172ff0504c"
       },
       "source_sha256": {
-        "clean.mp4": "fbd1f7893b179f32413d72553ccffb2280172261fcbf94a8e9ed5da4a32fa5e1",
+        "clean.mp4": "9df9f18f5f82aa62fa8323501730a9a40334428c203c5406908467b7545239dd",
         "coordinates.json": "489b34b201ea5c9ee2ac971946c5cc49b64f7266e5ef658e02d47c891f795600",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/03_blocks_ranking_rgb/render-info.json"
     },
     {
       "task": "04_blocks_ranking_size",
@@ -75,15 +84,18 @@
       ],
       "duration_s": 20.54,
       "sha256": {
-        "rollout.mp4": "4c2f291abd7a8346d9045e19186360dbbb0db30d50850ee7537e30590230bd8c",
-        "poster.jpg": "be059d64d48cf5ee70bc3cbd45d8928de6799b592881b450968425beeaaf2b4f"
+        "rollout.mp4": "09f2db2ad69f7c21b3c59a3b668bb0e26ff51c2bdb303b577b805bd2d379ea0e",
+        "poster.jpg": "dcb87ea42e66624f84ab18544adcf1a28b7d1123677f9de63555c7fdae75afa2",
+        "render-info.json": "5792b9bfb37df33bd5fbd0a7f833cec0b851c34372566ae5a832999f6e3c3fed"
       },
       "source_sha256": {
-        "clean.mp4": "0ef677daeb332922a85375cc883d6a2750b9adc80e0bd05ee1269ba145e1afc6",
+        "clean.mp4": "ef4b7f142e9f332d7983058d7be637878894c9e38091f9386f1ebd45099d4f46",
         "coordinates.json": "daeb3ed12757d96d1407046a3ddae94aaf9221327845b0376aefa0ba0e84c336",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/04_blocks_ranking_size/render-info.json"
     },
     {
       "task": "05_click_alarmclock_01",
@@ -96,15 +108,18 @@
       ],
       "duration_s": 3.08,
       "sha256": {
-        "rollout.mp4": "a77353e37048c090c1f40db99aba2667cc9ee44ef987655120ec4745e046457d",
-        "poster.jpg": "552747413791812429dfa84241bcfa6ad722210af53ab042f690192c1445a1ec"
+        "rollout.mp4": "3062bf8dbc29be54668fcc1784d8623fb5277ae996de30fae03bd911cd7aa2ec",
+        "poster.jpg": "ba28ae225597a91ca45d29b8decc0aec1b0a7952d945efed2c88ffa1899df9d9",
+        "render-info.json": "1f4a4a58c7b92d9fd146e5397ba0bf34494a865eada68615299c107df48ad19e"
       },
       "source_sha256": {
-        "clean.mp4": "4ed707e2f25afa9ececeedf465a049cfa44714c603dd98d557fc678560afbfe6",
+        "clean.mp4": "f7b8db3851046a40f3bae5c40b9bc355d14cc9a6b1a397037cfceb01257e700b",
         "coordinates.json": "141236f906f36d4b9616d2338fa67a8dd35e213c87357df84da78e29af25ebb0",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/05_click_alarmclock_01/render-info.json"
     },
     {
       "task": "06_click_bell_00",
@@ -117,15 +132,18 @@
       ],
       "duration_s": 3.26,
       "sha256": {
-        "rollout.mp4": "179b44fbe953ad2460372d45e36574401498e6d40ff4585b09719cb67436eb44",
-        "poster.jpg": "cfa4a2b6b7e68fcd371dd9a8bcbc0a5c9b9fc0fb33c3bfaf416e44c115ef4d22"
+        "rollout.mp4": "3baec075063613b350edd2b5a83e5060c1ee57230027cab821f3a64bdbc5755f",
+        "poster.jpg": "f64e6fb9c528481f7e8908c7a1e74b289ee49ce92a6df3cb131b5d7c5791bab4",
+        "render-info.json": "a96df950ed897eb4e8090459d406c2b30ec8942071d832524d1dbf41cdf15497"
       },
       "source_sha256": {
-        "clean.mp4": "716a0daf32fa54c855ca081cf3f2c6dfa4d6285d817a452f9e2111f733e1cd53",
+        "clean.mp4": "f32d40b3625b9b3b5fb6c9e7b3ba6845b1aa9e2db1187fc2744d374dfe0b9077",
         "coordinates.json": "d78629fec5a72e91d78e7a26411f8488ea594480c374971aa0a845ba3ebbcd4d",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/06_click_bell_00/render-info.json"
     },
     {
       "task": "07_dump_bin_bigbin_00",
@@ -138,15 +156,18 @@
       ],
       "duration_s": 12.6,
       "sha256": {
-        "rollout.mp4": "dc7b054c7fbc73d9bae7a6ee49d0a6d7b44e549515064497c0995de6d651ceff",
-        "poster.jpg": "f68b62dbcd0833befee5839a28a1d488fc799a537f5647fc6fd7d1548264b8b4"
+        "rollout.mp4": "01dda309dc2f9869658b64f6969e9dffd05c16ef1b79341b0211dd992d1fae6c",
+        "poster.jpg": "27a4b0d8dd93b56e79c31a8674184c89aab3bb299d73b5007a00a97b0269f4be",
+        "render-info.json": "6ec60405e2f2ceeb57efc69ad986678274e4b56c82db73d7761dae96e8ce5f02"
       },
       "source_sha256": {
-        "clean.mp4": "40241e9d92b00ce576589210604d5529a7aed0ce737cad5858e35b0615705548",
+        "clean.mp4": "ff9f1b14f2b7814760fb0f30b169aa44ca5470c9429b3243c700a4741d789e34",
         "coordinates.json": "9001b93c92b874e6007e06265c50fcf8cb3bbb4a3a47f44d998fcb64573a6bd4",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/07_dump_bin_bigbin_00/render-info.json"
     },
     {
       "task": "08_move_can_pot_00",
@@ -159,15 +180,18 @@
       ],
       "duration_s": 12.1,
       "sha256": {
-        "rollout.mp4": "27dab28d34fd342167882df8d5a8716d456f588e3b167f3e7d2d7e62b686bf64",
-        "poster.jpg": "bf2660f3c4aa37650eee24144f7d5ab21a583bf7856c9188e736aa095e9a8879"
+        "rollout.mp4": "ee2310d8e0a92e477e699926c512c01a5b03770f28bfc935244518d49d26f175",
+        "poster.jpg": "4ef53b09d59b42b208dbc6bff25d14e3c3433dc312db8a1774afd059dcd07d76",
+        "render-info.json": "114d6d75db25c5a30f9ed51256489579a8d2942fb7d98cad07639566104c859f"
       },
       "source_sha256": {
-        "clean.mp4": "08c8f73f70bc4a777a007bffee42deec413d4281996ecb4a39762815fd5be573",
+        "clean.mp4": "d52efa859121c84ba705cc553df89d632d83957390bad9dbac577ba3462e24c2",
         "coordinates.json": "65829713e4908f0043bffcc71a4783c82e6f3da240544f450187bdff609718c3",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/08_move_can_pot_00/render-info.json"
     },
     {
       "task": "09_Move_Playingcard_Away",
@@ -180,15 +204,18 @@
       ],
       "duration_s": 7.54,
       "sha256": {
-        "rollout.mp4": "408f199c7669df9013c30f23d1a810fca834389f26f5fa3975c54c74b485b581",
-        "poster.jpg": "dcf6da82bb456b2e481be1c8437d7322c6eadb788172c0a1f4e25881c65a4836"
+        "rollout.mp4": "2de6b15ff0a8ef8607fe6ec8a842900a803b3fa69dd0cbc53833ecce52471f34",
+        "poster.jpg": "d1442b67d33307c042de4638ebd7f508b82aeef4da1dd26a224ce80ab3039db4",
+        "render-info.json": "c48ba935511f6d48c1d52ca161c46c9aea124d2b76cc64c2233f785e6490c09f"
       },
       "source_sha256": {
-        "clean.mp4": "0d553ee2b369bc782af4f387c5dce65229a01a4dd39909957bb88b15697113fd",
+        "clean.mp4": "26a410c0703b2ed067e13aac642abf463b15d66393e406810bce0a4bc50ef20e",
         "coordinates.json": "c4c2b544d15db9fd503492a16062e49426e80e3999ba32a725f450af104d5db7",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/09_Move_Playingcard_Away/render-info.json"
     },
     {
       "task": "10_Move_Stapler_Pad",
@@ -201,15 +228,18 @@
       ],
       "duration_s": 8.76,
       "sha256": {
-        "rollout.mp4": "e8be138380c24e43b051d6ba11685a94493338fc3884ea27d4f014fead7341a5",
-        "poster.jpg": "f2116ecb87396b43ef8171757df70c40495f7e357ecf837fabd3c55b74e5ff1a"
+        "rollout.mp4": "e83232f0f8fb782d101c807318aa384442b8746cf1c0a628c5c33d820e880f17",
+        "poster.jpg": "927ef855b4c8d6681200bd8caaefa4044347a7a926c712680600d50455b0fb86",
+        "render-info.json": "bea3cce533d8ee8019960178963e3f031a6ba2c96b7eb5bd8374ce59b7f0cd57"
       },
       "source_sha256": {
-        "clean.mp4": "d07cecafb40a22b0bf8406ebfd984d7c9f6b9bf916adf72e3c9131fad66e8e65",
+        "clean.mp4": "899ad6923b66e0e07ca7f8967aa4f57cb47f6e7d884a449ef12f85eb80c24cbf",
         "coordinates.json": "1349dbdb00f0cbb04b90c4752a9a0d4dada8073a590f1ed4a2479486acf175a3",
         "style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e"
       },
-      "stage_labels": false
+      "stage_labels": false,
+      "renderer": "Blender Cycles",
+      "render_info": "media/robotwin/10_Move_Stapler_Pad/render-info.json"
     }
   ]
 }

@@ -1,0 +1,1864 @@
+{
+  "schema_version": 1,
+  "host": "robo02",
+  "collected_at": "2026-10-28T17:20:56.624661+00:00",
+  "source_root": "/local/robopil/yuan",
+  "definition": "successes / evaluated episodes; each source episode is counted once. Missing checkpoints remain unavailable.",
+  "tasks": [
+    {
+      "id": "hang_mug",
+      "label": "Hang Mug",
+      "policy": "ACT",
+      "seed": null,
+      "status": "available",
+      "series": [
+        {
+          "method": "dense_sampling",
+          "label": "Dense Sampling",
+          "domain": "simulation",
+          "points": [
+            {
+              "method": "dense_sampling",
+              "dataset_step": 2000,
+              "success_rate": 0.08,
+              "successes": 8,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 2
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 3000,
+              "success_rate": 0.1,
+              "successes": 10,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 3
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 4000,
+              "success_rate": 0.1,
+              "successes": 10,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 4
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 5000,
+              "success_rate": 0.11,
+              "successes": 11,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 5
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 6000,
+              "success_rate": 0.16,
+              "successes": 16,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 6
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 7000,
+              "success_rate": 0.16,
+              "successes": 16,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 7
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 8000,
+              "success_rate": 0.17,
+              "successes": 17,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 8
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 9000,
+              "success_rate": 0.15,
+              "successes": 15,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 9
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 10000,
+              "success_rate": 0.18,
+              "successes": 18,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 10
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 11000,
+              "success_rate": 0.21,
+              "successes": 21,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 11
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 12000,
+              "success_rate": 0.31,
+              "successes": 31,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 12
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 13000,
+              "success_rate": 0.31,
+              "successes": 31,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 13
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 14000,
+              "success_rate": 0.36,
+              "successes": 36,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 14
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 15000,
+              "success_rate": 0.34,
+              "successes": 34,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 15
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 16000,
+              "success_rate": 0.44,
+              "successes": 44,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 16
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 17000,
+              "success_rate": 0.46,
+              "successes": 46,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 17
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 18000,
+              "success_rate": 0.43,
+              "successes": 43,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 18
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 19000,
+              "success_rate": 0.5,
+              "successes": 50,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 19
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 20000,
+              "success_rate": 0.58,
+              "successes": 58,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 20
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 21000,
+              "success_rate": 0.55,
+              "successes": 55,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 21
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 22000,
+              "success_rate": 0.56,
+              "successes": 56,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 22
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 23000,
+              "success_rate": 0.64,
+              "successes": 64,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 23
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 24000,
+              "success_rate": 0.71,
+              "successes": 71,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 24
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 25000,
+              "success_rate": 0.7,
+              "successes": 70,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 25
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 26000,
+              "success_rate": 0.73,
+              "successes": 73,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 26
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 27000,
+              "success_rate": 0.76,
+              "successes": 76,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 27
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 28000,
+              "success_rate": 0.81,
+              "successes": 81,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 28
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 29000,
+              "success_rate": 0.78,
+              "successes": 78,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 29
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 30000,
+              "success_rate": 0.79,
+              "successes": 79,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 30
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 31000,
+              "success_rate": 0.83,
+              "successes": 83,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 31
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 32000,
+              "success_rate": 0.83,
+              "successes": 83,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 32
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 33000,
+              "success_rate": 0.86,
+              "successes": 86,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 33
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 34000,
+              "success_rate": 0.85,
+              "successes": 85,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 34
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 35000,
+              "success_rate": 0.88,
+              "successes": 88,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 35
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 36000,
+              "success_rate": 0.92,
+              "successes": 92,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 36
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 37000,
+              "success_rate": 0.94,
+              "successes": 94,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 37
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 38000,
+              "success_rate": 0.91,
+              "successes": 91,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 38
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 39000,
+              "success_rate": 0.92,
+              "successes": 92,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 39
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 40000,
+              "success_rate": 0.94,
+              "successes": 94,
+              "trials": 100,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 40
+            }
+          ]
+        },
+        {
+          "method": "unikey",
+          "label": "UniKey",
+          "domain": "simulation",
+          "points": [
+            {
+              "method": "unikey",
+              "dataset_step": 3000,
+              "success_rate": 0.17,
+              "successes": 17,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 41
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 4000,
+              "success_rate": 0.33,
+              "successes": 33,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 42
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 5000,
+              "success_rate": 0.39,
+              "successes": 39,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 43
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 6000,
+              "success_rate": 0.43,
+              "successes": 43,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 44
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 7000,
+              "success_rate": 0.57,
+              "successes": 57,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 45
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 8000,
+              "success_rate": 0.67,
+              "successes": 67,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 46
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 9000,
+              "success_rate": 0.8,
+              "successes": 80,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 47
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 10000,
+              "success_rate": 0.82,
+              "successes": 82,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 48
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 11000,
+              "success_rate": 0.9,
+              "successes": 90,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 49
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 12000,
+              "success_rate": 0.87,
+              "successes": 87,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 50
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 13000,
+              "success_rate": 0.92,
+              "successes": 92,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 51
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 14000,
+              "success_rate": 0.93,
+              "successes": 93,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 52
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 15000,
+              "success_rate": 0.97,
+              "successes": 97,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 53
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 16000,
+              "success_rate": 0.98,
+              "successes": 98,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 54
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 17000,
+              "success_rate": 0.98,
+              "successes": 98,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 55
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 18000,
+              "success_rate": 0.99,
+              "successes": 99,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 56
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 19000,
+              "success_rate": 0.99,
+              "successes": 99,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 57
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 20000,
+              "success_rate": 1.0,
+              "successes": 100,
+              "trials": 100,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+              "source_sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+              "source_row": 58
+            }
+          ]
+        },
+        {
+          "method": "dense_sampling",
+          "label": "Dense Sampling",
+          "domain": "real_world",
+          "points": [
+            {
+              "method": "dense_sampling",
+              "dataset_step": 10000,
+              "success_rate": 0.25,
+              "successes": 5,
+              "trials": 20,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+              "source_sha256": "6e82489415063076d9f6b8604904a9f88288fba8013b6d169f0f592654366abd",
+              "source_row": 2
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 20000,
+              "success_rate": 0.6,
+              "successes": 12,
+              "trials": 20,
+              "experiment": "dense sampling",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+              "source_sha256": "6e82489415063076d9f6b8604904a9f88288fba8013b6d169f0f592654366abd",
+              "source_row": 3
+            }
+          ]
+        },
+        {
+          "method": "unikey",
+          "label": "UniKey",
+          "domain": "real_world",
+          "points": [
+            {
+              "method": "unikey",
+              "dataset_step": 10000,
+              "success_rate": 0.85,
+              "successes": 17,
+              "trials": 20,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+              "source_sha256": "6e82489415063076d9f6b8604904a9f88288fba8013b6d169f0f592654366abd",
+              "source_row": 4
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 20000,
+              "success_rate": 1.0,
+              "successes": 20,
+              "trials": 20,
+              "experiment": "0p02_time_3",
+              "counts_origin": "CSV rate with denominator declared by source plot; raw outcomes not supplied",
+              "denominator_source": "plot_success_rate.py:DEFAULT_SAMPLE_SIZE_BY_SOURCE",
+              "source_path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+              "source_file": "raw/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+              "source_sha256": "6e82489415063076d9f6b8604904a9f88288fba8013b6d169f0f592654366abd",
+              "source_row": 5
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Simulation and real-world records are kept separate. CSV denominators are declared by the source plot, not independently counted from raw episodes."
+      ],
+      "supplementary_evaluations": [],
+      "availability": null,
+      "plot_shared_simulation_anchor": true
+    },
+    {
+      "id": "table_arrange",
+      "label": "Arrange Table",
+      "policy": "ACT",
+      "seed": 1,
+      "status": "missing_evaluations",
+      "series": [
+        {
+          "method": "dense_sampling",
+          "label": "Dense Sampling",
+          "domain": "simulation",
+          "points": []
+        },
+        {
+          "method": "unikey",
+          "label": "UniKey",
+          "domain": "simulation",
+          "points": []
+        }
+      ],
+      "notes": [
+        "No ACT success-rate evaluation records were found in the requested robo02 task directory."
+      ],
+      "supplementary_evaluations": [],
+      "availability": {
+        "directory": "/local/robopil/yuan/tasks/table_arrange",
+        "patterns": {
+          "dense_sampling": "dense_sample/rgb_abs_action/dataset_step_*/ACT_rollout_seed_1/dataset_step_*_test_rollout/info.json",
+          "unikey": "v20/table_arrange_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_*_test_rollout/info.json"
+        },
+        "evaluations_found": 0,
+        "top_level_entries": [
+          "dense_sample"
+        ]
+      },
+      "plot_shared_simulation_anchor": false
+    },
+    {
+      "id": "flip_then_arrange_shoe",
+      "label": "Flip and Arrange Shoe",
+      "policy": "ACT",
+      "seed": 1,
+      "status": "available",
+      "series": [
+        {
+          "method": "dense_sampling",
+          "label": "Dense Sampling",
+          "domain": "simulation",
+          "points": [
+            {
+              "method": "dense_sampling",
+              "dataset_step": 5000,
+              "successes": 4,
+              "trials": 100,
+              "success_rate": 0.04,
+              "status_counts": {
+                "fail": 96,
+                "success": 4
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json",
+              "source_sha256": "c1b2bd098c375fbff14ef3061a3427b3e8f7fdfc5680138124a20f91a7d75691",
+              "experiment": "dense_sample"
+            }
+          ]
+        },
+        {
+          "method": "unikey",
+          "label": "UniKey",
+          "domain": "simulation",
+          "points": [
+            {
+              "method": "unikey",
+              "dataset_step": 6000,
+              "successes": 11,
+              "trials": 100,
+              "success_rate": 0.11,
+              "status_counts": {
+                "fail": 89,
+                "success": 11
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json",
+              "source_sha256": "ad1da9cbf7b67b8be4f0f6f4620107e2930e92762a350bef10f5095d75e70ed5",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 7000,
+              "successes": 15,
+              "trials": 100,
+              "success_rate": 0.15,
+              "status_counts": {
+                "fail": 85,
+                "success": 15
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json",
+              "source_sha256": "86834bec03e7f5e58667ba537a4550aa8e40273178b5b87612a4dd8c07981875",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 8000,
+              "successes": 30,
+              "trials": 100,
+              "success_rate": 0.3,
+              "status_counts": {
+                "fail": 70,
+                "success": 30
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json",
+              "source_sha256": "76512e63beea2aaa3a70b1ee6da8a81e651126872134d935bf5b3b05387c977b",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 9000,
+              "successes": 22,
+              "trials": 100,
+              "success_rate": 0.22,
+              "status_counts": {
+                "fail": 78,
+                "success": 22
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json",
+              "source_sha256": "04def5a53e01b1d0d80dc63edbb61e469c7fb7129d983392f0d8ae6753cb3abe",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 10000,
+              "successes": 33,
+              "trials": 100,
+              "success_rate": 0.33,
+              "status_counts": {
+                "fail": 67,
+                "success": 33
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json",
+              "source_sha256": "d68f204cec430cf024e673d5ea51ae51dcc8f75c355af6c1a472d490a4ddd9d9",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 11000,
+              "successes": 37,
+              "trials": 100,
+              "success_rate": 0.37,
+              "status_counts": {
+                "fail": 63,
+                "success": 37
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json",
+              "source_sha256": "d53277582b353ba8a07fe8db484aae15c0ba2b3f5947efe340c3a5f94c77d504",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 12000,
+              "successes": 39,
+              "trials": 100,
+              "success_rate": 0.39,
+              "status_counts": {
+                "fail": 61,
+                "success": 39
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json",
+              "source_sha256": "a575985af1a18d7176fda38486d83e95310b188c7bf1be2df3d235ddf4c1d2af",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 13000,
+              "successes": 43,
+              "trials": 100,
+              "success_rate": 0.43,
+              "status_counts": {
+                "fail": 57,
+                "success": 43
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json",
+              "source_sha256": "86757baeeaa381c39cb169ef48e144d6c60a865464ccbff60b3da18489011270",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 14000,
+              "successes": 36,
+              "trials": 100,
+              "success_rate": 0.36,
+              "status_counts": {
+                "fail": 64,
+                "success": 36
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json",
+              "source_sha256": "90b491d8716463cd1a1d3e73871f1804c44e9c17719effe2e85e679747f9bc9d",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 15000,
+              "successes": 46,
+              "trials": 100,
+              "success_rate": 0.46,
+              "status_counts": {
+                "fail": 54,
+                "success": 46
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json",
+              "source_sha256": "ff133ef733ca3002a9d22ffd85780038c05ce638d7e0430f0aa7fb2ba7619ba1",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 16000,
+              "successes": 1,
+              "trials": 100,
+              "success_rate": 0.01,
+              "status_counts": {
+                "fail": 99,
+                "success": 1
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json",
+              "source_sha256": "c315f1458b20c1de1b221a73ba56ff7209bb6c60766b3765d5a6515c40a17895",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 17000,
+              "successes": 10,
+              "trials": 100,
+              "success_rate": 0.1,
+              "status_counts": {
+                "fail": 90,
+                "success": 10
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json",
+              "source_sha256": "e51dd19083d5e5f60b68c49d9bf91bca668f3491f2664cbd12dca855e548e585",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 18000,
+              "successes": 31,
+              "trials": 100,
+              "success_rate": 0.31,
+              "status_counts": {
+                "fail": 69,
+                "success": 31
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json",
+              "source_sha256": "09a579461cbf8fb97c86f5a67b2849561ce4463449aa8475917353d10a3f1a31",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 19000,
+              "successes": 32,
+              "trials": 100,
+              "success_rate": 0.32,
+              "status_counts": {
+                "fail": 68,
+                "success": 32
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json",
+              "source_sha256": "cf2ec83d844bbccc61fac39f943dfec07f23ca33f1a5c8881cb8c6dd690d63ab",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 20000,
+              "successes": 20,
+              "trials": 100,
+              "success_rate": 0.2,
+              "status_counts": {
+                "fail": 80,
+                "success": 20
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json",
+              "source_sha256": "602f5c0efe7d90159b80c73cdf8351c434432d487989c3ff940940c63754e3f0",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 21000,
+              "successes": 32,
+              "trials": 100,
+              "success_rate": 0.32,
+              "status_counts": {
+                "fail": 68,
+                "success": 32
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_21000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_21000_test_rollout/info.json",
+              "source_sha256": "885c19623b56e32f862689d6a8bd10052eaa3dc9f37584aafc915b4551c12665",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 22000,
+              "successes": 32,
+              "trials": 100,
+              "success_rate": 0.32,
+              "status_counts": {
+                "fail": 68,
+                "success": 32
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_22000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_22000_test_rollout/info.json",
+              "source_sha256": "1b48d656c4ac8f48a875f1a798c8e150a645a0851a2084f58e025e7217f51ead",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 23000,
+              "successes": 26,
+              "trials": 100,
+              "success_rate": 0.26,
+              "status_counts": {
+                "fail": 74,
+                "success": 26
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_23000_test_rollout/info.json",
+              "source_file": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_23000_test_rollout/info.json",
+              "source_sha256": "7c2ddec406f4137eb906235a2ed7af0209364dee5e15dc775263db81305b397a",
+              "experiment": "v20/flip_then_arrange_shoe_pos_0p02_time_3"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Dense Sampling has only one available evaluation (5,000 dataset steps). No later checkpoints are inferred.",
+        "Additional temporary base/finetuned comparisons are extracted separately. They have no dataset-budget labels and are not combined with the v20 learning curve."
+      ],
+      "supplementary_evaluations": [
+        {
+          "task": "flip_then_arrange_shoe",
+          "experiment": "tmp_flip_then_arrange_shoe",
+          "checkpoint": "base",
+          "dataset_step": null,
+          "successes": 90,
+          "trials": 100,
+          "success_rate": 0.9,
+          "counts_origin": "episode outcomes",
+          "source_path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/eval/base/info.json",
+          "source_file": "raw/tasks/tmp_flip_then_arrange_shoe/eval/base/info.json",
+          "source_sha256": "7e93362d0ee5690d4fd3d301c7a2eb0f068d53b31ab16b3951972ec9689de676"
+        },
+        {
+          "task": "flip_then_arrange_shoe",
+          "experiment": "tmp_flip_then_arrange_shoe",
+          "checkpoint": "finetuned",
+          "dataset_step": null,
+          "successes": 92,
+          "trials": 100,
+          "success_rate": 0.92,
+          "counts_origin": "episode outcomes",
+          "source_path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/eval/finetuned/info.json",
+          "source_file": "raw/tasks/tmp_flip_then_arrange_shoe/eval/finetuned/info.json",
+          "source_sha256": "1cf794e0f3d3b27e374a003edeaacc5e38a025bbb5acb6cb3cafb7265a55b8a7"
+        },
+        {
+          "task": "flip_then_arrange_shoe",
+          "experiment": "tmp_flip_then_arrange_shoe_298",
+          "checkpoint": "base",
+          "dataset_step": null,
+          "successes": 95,
+          "trials": 100,
+          "success_rate": 0.95,
+          "counts_origin": "episode outcomes",
+          "source_path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe_298/eval/base/info.json",
+          "source_file": "raw/tasks/tmp_flip_then_arrange_shoe_298/eval/base/info.json",
+          "source_sha256": "6485087d2be5a799c7015dab182317027a29d5ada2ff9909e8fed2700719ae65"
+        },
+        {
+          "task": "flip_then_arrange_shoe",
+          "experiment": "tmp_flip_then_arrange_shoe_298",
+          "checkpoint": "finetuned",
+          "dataset_step": null,
+          "successes": 97,
+          "trials": 100,
+          "success_rate": 0.97,
+          "counts_origin": "episode outcomes",
+          "source_path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe_298/eval/finetuned/info.json",
+          "source_file": "raw/tasks/tmp_flip_then_arrange_shoe_298/eval/finetuned/info.json",
+          "source_sha256": "46b1b3bbaf41b9518f77139781b3147c758131be612773a74f084d6ca22e7cb3"
+        }
+      ],
+      "availability": {
+        "directory": "/local/robopil/yuan/tasks/flip_then_arrange_shoe",
+        "patterns": {
+          "dense_sampling": "dense_sample/rgb_abs_action/dataset_step_*/ACT_rollout_seed_1/dataset_step_*_test_rollout/info.json",
+          "unikey": "v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_*_test_rollout/info.json"
+        },
+        "evaluations_found": 19,
+        "top_level_entries": [
+          "dense_sample",
+          "job_chains",
+          "v20"
+        ]
+      },
+      "plot_shared_simulation_anchor": false
+    },
+    {
+      "id": "pack_battery",
+      "label": "Pack Battery",
+      "policy": "ACT",
+      "seed": 1,
+      "status": "available",
+      "series": [
+        {
+          "method": "dense_sampling",
+          "label": "Dense Sampling",
+          "domain": "simulation",
+          "points": [
+            {
+              "method": "dense_sampling",
+              "dataset_step": 6000,
+              "successes": 12,
+              "trials": 100,
+              "success_rate": 0.12,
+              "status_counts": {
+                "fail": 88,
+                "success": 12
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json",
+              "source_sha256": "7edbdb629770b99f5278a30af9ef645233f892a0dad63c1f3545620e236050bc",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 7000,
+              "successes": 13,
+              "trials": 100,
+              "success_rate": 0.13,
+              "status_counts": {
+                "fail": 87,
+                "success": 13
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json",
+              "source_sha256": "a6741926234edb933d439e9d2afa2ec32e8e836c370f1ef5f66fc242981cfeeb",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 8000,
+              "successes": 34,
+              "trials": 100,
+              "success_rate": 0.34,
+              "status_counts": {
+                "fail": 66,
+                "success": 34
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json",
+              "source_sha256": "b61bc438e02b45c442bfeea5879b3a89d94773a92f676e5e920926e0a17ac127",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 9000,
+              "successes": 46,
+              "trials": 100,
+              "success_rate": 0.46,
+              "status_counts": {
+                "fail": 54,
+                "success": 46
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json",
+              "source_sha256": "f5024aeb8af4fd1433bf5eafb08e6e1cb142f6b583270180bd402fae6b2f3a8f",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 10000,
+              "successes": 53,
+              "trials": 100,
+              "success_rate": 0.53,
+              "status_counts": {
+                "fail": 47,
+                "success": 53
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json",
+              "source_sha256": "f5ba31e2fc8bb6102690d93045aeeff16c368e959ac603dca6456de84d916163",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 11000,
+              "successes": 53,
+              "trials": 100,
+              "success_rate": 0.53,
+              "status_counts": {
+                "fail": 47,
+                "success": 53
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json",
+              "source_sha256": "072a98b14a37824e2e09c8a426b40f79be7040d1b46aef9eadd7763695c492ae",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 12000,
+              "successes": 71,
+              "trials": 100,
+              "success_rate": 0.71,
+              "status_counts": {
+                "fail": 29,
+                "success": 71
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json",
+              "source_sha256": "becf8e01f8eb6cec8697c401f757ccf4528feda1d32cc0098b4f545d2c4c6bb1",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 13000,
+              "successes": 75,
+              "trials": 100,
+              "success_rate": 0.75,
+              "status_counts": {
+                "fail": 25,
+                "success": 75
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json",
+              "source_sha256": "d9766f346371201c2721ea9b838ffaaf8583e7d8420b15c62dfb01b8672e4ab1",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 14000,
+              "successes": 81,
+              "trials": 100,
+              "success_rate": 0.81,
+              "status_counts": {
+                "fail": 19,
+                "success": 81
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json",
+              "source_sha256": "3055c4c2de7bd5e070f0d779b1639e6aa21e7dc66b718c33805eedce6f80acbf",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 15000,
+              "successes": 77,
+              "trials": 100,
+              "success_rate": 0.77,
+              "status_counts": {
+                "fail": 23,
+                "success": 77
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json",
+              "source_sha256": "b95e6ed19d018759efda9501dd817b80d41a97764cb7ec209816c02826663104",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 16000,
+              "successes": 88,
+              "trials": 100,
+              "success_rate": 0.88,
+              "status_counts": {
+                "fail": 12,
+                "success": 88
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json",
+              "source_sha256": "e8b99d656b4075a872cbfafbc3bf7bfb13b09b303630489303a0f0c8d570ec74",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 17000,
+              "successes": 86,
+              "trials": 100,
+              "success_rate": 0.86,
+              "status_counts": {
+                "fail": 14,
+                "success": 86
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json",
+              "source_sha256": "1edeabff46af73f665aa1dd4685cfd3d9ba962ceba2f7803eedeec5889dfa4b4",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 18000,
+              "successes": 87,
+              "trials": 100,
+              "success_rate": 0.87,
+              "status_counts": {
+                "fail": 13,
+                "success": 87
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json",
+              "source_sha256": "c417138719b40969a778073bb87d920a633aed47709ab71914a6feba3a413ff5",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 19000,
+              "successes": 88,
+              "trials": 100,
+              "success_rate": 0.88,
+              "status_counts": {
+                "fail": 12,
+                "success": 88
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json",
+              "source_sha256": "6c540bcc85664709040793f25c58e2b59a8a468d2da21dd04debce0ea778115e",
+              "experiment": "dense_sample"
+            },
+            {
+              "method": "dense_sampling",
+              "dataset_step": 20000,
+              "successes": 83,
+              "trials": 100,
+              "success_rate": 0.83,
+              "status_counts": {
+                "fail": 17,
+                "success": 83
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json",
+              "source_sha256": "6aecfce9a39e082f0e9b239032d71c132f67621789c99ff3396157dbc2988101",
+              "experiment": "dense_sample"
+            }
+          ]
+        },
+        {
+          "method": "unikey",
+          "label": "UniKey",
+          "domain": "simulation",
+          "points": [
+            {
+              "method": "unikey",
+              "dataset_step": 6000,
+              "successes": 31,
+              "trials": 100,
+              "success_rate": 0.31,
+              "status_counts": {
+                "fail": 69,
+                "success": 31
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json",
+              "source_sha256": "325562db97a4b4397e208db899e54820311ec85dbd45979bc15ce5c9b3bca5cd",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 7000,
+              "successes": 42,
+              "trials": 100,
+              "success_rate": 0.42,
+              "status_counts": {
+                "fail": 58,
+                "success": 42
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json",
+              "source_sha256": "95456981d0b882221ff698d818228e2f862606dc121a14b154f07aae1f038927",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 8000,
+              "successes": 73,
+              "trials": 100,
+              "success_rate": 0.73,
+              "status_counts": {
+                "fail": 27,
+                "success": 73
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json",
+              "source_sha256": "4c441696773ad2ebd9e3e9dfba10a5ffedaea4be51fa40d1356ee1bd9dcfbea4",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 9000,
+              "successes": 68,
+              "trials": 100,
+              "success_rate": 0.68,
+              "status_counts": {
+                "fail": 32,
+                "success": 68
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json",
+              "source_sha256": "6bb2428ddfa6cba3bdc8b53ff012be26e780d4acd811b6b8d5a86eac3a7db81c",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 10000,
+              "successes": 81,
+              "trials": 100,
+              "success_rate": 0.81,
+              "status_counts": {
+                "fail": 19,
+                "success": 81
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json",
+              "source_sha256": "ed3c5a8593b956d74af50724abc6b32ad0d3d5dcb967e1d5460cd4806f9ca72b",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 11000,
+              "successes": 83,
+              "trials": 100,
+              "success_rate": 0.83,
+              "status_counts": {
+                "fail": 17,
+                "success": 83
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json",
+              "source_sha256": "d3fdc93fbd66257984226445c8afa58435fe8401227a41e63d78da3ed703a071",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 12000,
+              "successes": 89,
+              "trials": 100,
+              "success_rate": 0.89,
+              "status_counts": {
+                "fail": 11,
+                "success": 89
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json",
+              "source_sha256": "f81d6664d91285d59de693f9862e5f97cba5d7800c7bdde32aae939f68a79037",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 13000,
+              "successes": 96,
+              "trials": 100,
+              "success_rate": 0.96,
+              "status_counts": {
+                "fail": 4,
+                "success": 96
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json",
+              "source_sha256": "cbcd7b47e6ba5118ff03d2e6f3cf84854d485d01dc28046dbfd7136c12d29bed",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 14000,
+              "successes": 92,
+              "trials": 100,
+              "success_rate": 0.92,
+              "status_counts": {
+                "fail": 8,
+                "success": 92
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json",
+              "source_sha256": "fd686d43c2a6b74c10ce7f74fced0df68be114b7049d13c35785a1954f4916fa",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 15000,
+              "successes": 93,
+              "trials": 100,
+              "success_rate": 0.93,
+              "status_counts": {
+                "fail": 7,
+                "success": 93
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json",
+              "source_sha256": "c18023bdf002ba1025f26d62fee911d66f59569662b90443a11d36ea9dbc28e2",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 16000,
+              "successes": 97,
+              "trials": 100,
+              "success_rate": 0.97,
+              "status_counts": {
+                "fail": 3,
+                "success": 97
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json",
+              "source_sha256": "70d6c91eb2fa39e7aae5f19547add8c69518da97785ec69f08548e4171773458",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 17000,
+              "successes": 97,
+              "trials": 100,
+              "success_rate": 0.97,
+              "status_counts": {
+                "fail": 3,
+                "success": 97
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json",
+              "source_sha256": "51e8d9ac73e26c6ae82ccee4897da369449a9642cad46e9812525869e2e0bf45",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 18000,
+              "successes": 98,
+              "trials": 100,
+              "success_rate": 0.98,
+              "status_counts": {
+                "fail": 2,
+                "success": 98
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json",
+              "source_sha256": "8b9462b324c8b1258371e5ba8f578587bed67448448fce1666dc294f9c4e684d",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 19000,
+              "successes": 96,
+              "trials": 100,
+              "success_rate": 0.96,
+              "status_counts": {
+                "fail": 4,
+                "success": 96
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json",
+              "source_sha256": "0d50f7cf71f154c6d2b810cd5ab100bd0b300a98fd524ed6af7553b5878d2604",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            },
+            {
+              "method": "unikey",
+              "dataset_step": 20000,
+              "successes": 96,
+              "trials": 100,
+              "success_rate": 0.96,
+              "status_counts": {
+                "fail": 4,
+                "success": 96
+              },
+              "counts_origin": "episode outcomes",
+              "source_path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json",
+              "source_file": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json",
+              "source_sha256": "4bf4d81e48c6264a2f99b6a2609f39907139e76e0a424fa747aad841a3d22a43",
+              "experiment": "v20/pack_battery_pos_0p02_time_3"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "The dense-sampling rollout directory at 5k is empty; 21k contains a checkpoint but no evaluation. Both are excluded from the curves."
+      ],
+      "supplementary_evaluations": [],
+      "availability": {
+        "directory": "/local/robopil/yuan/tasks/pack_battery",
+        "patterns": {
+          "dense_sampling": "dense_sample/rgb_abs_action/dataset_step_*/ACT_rollout_seed_1/dataset_step_*_test_rollout/info.json",
+          "unikey": "v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_*_test_rollout/info.json"
+        },
+        "evaluations_found": 30,
+        "top_level_entries": [
+          "dense_sample",
+          "sim_to_real_camera_239222303153_centered_20261008_211759",
+          "sim_to_real_centered_20261008_012228",
+          "v20"
+        ]
+      },
+      "plot_shared_simulation_anchor": false
+    }
+  ]
+}

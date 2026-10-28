@@ -1,0 +1,5 @@
+policy,experiment,dataset_step,success_rate
+ACT,dense sampling,10000,0.250000
+ACT,dense sampling,20000,0.600000
+ACT,0p02_time_3,10000,0.850000
+ACT,0p02_time_3,20000,1.00000

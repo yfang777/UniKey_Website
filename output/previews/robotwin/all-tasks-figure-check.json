@@ -1,0 +1,146 @@
+[
+  {
+    "task": "adjust-bottle",
+    "stars": [
+      {
+        "method": "unikey",
+        "steps": 5000,
+        "success_rate": 100
+      }
+    ],
+    "cutoff_steps": null,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  },
+  {
+    "task": "beat-block-hammer",
+    "stars": [
+      {
+        "method": "unikey",
+        "steps": 7000,
+        "success_rate": 100
+      },
+      {
+        "method": "dense",
+        "steps": 11000,
+        "success_rate": 100
+      }
+    ],
+    "cutoff_steps": 11000,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  },
+  {
+    "task": "rank-blocks-color",
+    "stars": [
+      {
+        "method": "unikey",
+        "steps": 24000,
+        "success_rate": 100
+      }
+    ],
+    "cutoff_steps": null,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  },
+  {
+    "task": "rank-blocks-size",
+    "stars": [
+      {
+        "method": "unikey",
+        "steps": 23000,
+        "success_rate": 100
+      }
+    ],
+    "cutoff_steps": null,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  },
+  {
+    "task": "click-alarm-clock",
+    "stars": [
+      {
+        "method": "unikey",
+        "steps": 15000,
+        "success_rate": 100
+      }
+    ],
+    "cutoff_steps": null,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  },
+  {
+    "task": "click-bell",
+    "stars": [
+      {
+        "method": "unikey",
+        "steps": 10000,
+        "success_rate": 100
+      }
+    ],
+    "cutoff_steps": null,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  },
+  {
+    "task": "dump-bin-bigbin",
+    "stars": [
+      {
+        "method": "unikey",
+        "steps": 3000,
+        "success_rate": 100
+      },
+      {
+        "method": "dense",
+        "steps": 5000,
+        "success_rate": 100
+      }
+    ],
+    "cutoff_steps": 5000,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  },
+  {
+    "task": "move-can-pot",
+    "stars": [
+      {
+        "method": "unikey",
+        "steps": 10000,
+        "success_rate": 100
+      }
+    ],
+    "cutoff_steps": null,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  },
+  {
+    "task": "move-playingcard-away",
+    "stars": [
+      {
+        "method": "unikey",
+        "steps": 9000,
+        "success_rate": 100
+      }
+    ],
+    "cutoff_steps": null,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  },
+  {
+    "task": "move-stapler-pad",
+    "stars": [],
+    "cutoff_steps": null,
+    "point_size_pt": 6.5,
+    "point_border_pt": 0.6,
+    "line_width_pt": 3.2
+  }
+]

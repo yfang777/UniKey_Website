@@ -1,0 +1,18 @@
+{
+  "scenes": 100,
+  "base_success_rate": 0.95,
+  "finetuned_success_rate": 0.97,
+  "change_percentage_points": 2.0000000000000018,
+  "improved_scenes": [
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_18/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_33/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_47/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_48/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_51/tmp_scene.xml"
+  ],
+  "regressed_scenes": [
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_15/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_52/tmp_scene.xml",
+    "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/scenes/test/sample_84/tmp_scene.xml"
+  ]
+}

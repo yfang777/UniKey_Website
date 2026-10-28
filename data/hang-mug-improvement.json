@@ -1,0 +1,221 @@
+{
+  "task": "Hang Mug",
+  "policy": "ACT",
+  "round_numbering": {
+    "first_round": 1,
+    "initial_dataset_steps": 10000,
+    "steps_per_round": 1000
+  },
+  "sources": {
+    "unikey": {
+      "path": "/home/yuan/codegen/Codegen_Blender_Visualization/data/automatic_detection_correction/hang_mug_iterations_v1/success_rate_source_data.json",
+      "sha256": "fa29bc48b3c6ddc5fad6923b7733d0ec181d3608814a8109ff95768b1ed01b11"
+    },
+    "timeline": {
+      "path": "/home/yuan/codegen/Codegen_Blender_Visualization/data/automatic_detection_correction/hang_mug_iterations_v2/fast_camera_transition_with_success_rate_v3_timeline.json",
+      "sha256": "d778365e3647f8edc07bb513c884c03783e4e73c09a761d2c8b366cd72d0e88c"
+    }
+  },
+  "timeline": [
+    {
+      "round": 1,
+      "start": 0.0,
+      "end": 3.3333333333333335
+    },
+    {
+      "round": 6,
+      "start": 3.3333333333333335,
+      "end": 6.133333333333334
+    },
+    {
+      "round": 11,
+      "start": 6.133333333333334,
+      "end": 8.266666666666667
+    },
+    {
+      "round": 19,
+      "start": 8.266666666666667,
+      "end": 10.666666666666666
+    }
+  ],
+  "series": [
+    {
+      "id": "dense",
+      "label": "Dense Sampling",
+      "color": "#6b4935",
+      "stroke_width": 3.2,
+      "points": [
+        {
+          "round": 1,
+          "steps": 10000,
+          "successes": 28,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json",
+          "sha256": "fa62863a00f68cd0c89fa79bd94d5b5a85431586a38c02eea2c09d57cf9093f1"
+        }
+      ]
+    },
+    {
+      "id": "unikey",
+      "label": "UniKey",
+      "color": "#37895b",
+      "stroke_width": 3.2,
+      "points": [
+        {
+          "round": 1,
+          "steps": 10000,
+          "successes": 28,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json",
+          "sha256": "fa62863a00f68cd0c89fa79bd94d5b5a85431586a38c02eea2c09d57cf9093f1"
+        },
+        {
+          "round": 2,
+          "steps": 11000,
+          "successes": 36,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json",
+          "sha256": "c83be792f7ceac69b1c850a37569127b16220f728c64295e678a03dc9f35a92f"
+        },
+        {
+          "round": 3,
+          "steps": 12000,
+          "successes": 35,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json",
+          "sha256": "1b51a46caf52a55ca1544d5d705e2e37b28c8b7ce72bc03271a646bbc0b76a00"
+        },
+        {
+          "round": 4,
+          "steps": 13000,
+          "successes": 66,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json",
+          "sha256": "8bb58bfac2942ad0551ba40520a2cfd6bc0587b33463be80ccecbf0fad183d73"
+        },
+        {
+          "round": 5,
+          "steps": 14000,
+          "successes": 48,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json",
+          "sha256": "367fbf39cae88072b10fec1c174ca73eba24173731bcdec0f0c6a700862a3f56"
+        },
+        {
+          "round": 6,
+          "steps": 15000,
+          "successes": 72,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json",
+          "sha256": "ed756efcffeaed62cf1f72d9600221e93a868d8762bcfbbdd6deb5c868f07fa3"
+        },
+        {
+          "round": 7,
+          "steps": 16000,
+          "successes": 82,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json",
+          "sha256": "22dba2fa3231fe99636844b4d7d92e7b58da20cc995c4ba98f581faa4f9fd55f"
+        },
+        {
+          "round": 8,
+          "steps": 17000,
+          "successes": 86,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json",
+          "sha256": "6c2c9785a123fc946a2835157506ed8622d8fbb7ea0be134a84c320f7d8519db"
+        },
+        {
+          "round": 9,
+          "steps": 18000,
+          "successes": 92,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json",
+          "sha256": "e35828ff974aa0284f975231fc0390e04c8fce098ebd741745948112bc98c240"
+        },
+        {
+          "round": 10,
+          "steps": 19000,
+          "successes": 86,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json",
+          "sha256": "fe25f9ec6c052be6fc2a7b60ff091ce8054af593d22eb90db2a43da502e356d5"
+        },
+        {
+          "round": 11,
+          "steps": 20000,
+          "successes": 94,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json",
+          "sha256": "c1a73f2afbe4156f818ce1749fcaf9f0cfb883df81d26ecc0a3988df089f2bf0"
+        },
+        {
+          "round": 12,
+          "steps": 21000,
+          "successes": 91,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_21000_test_rollout/info.json",
+          "sha256": "2eb178538afa439f10d38bf7aa2dec80d429298628598b72c400445c4263fd47"
+        },
+        {
+          "round": 13,
+          "steps": 22000,
+          "successes": 91,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_22000_test_rollout/info.json",
+          "sha256": "ee5247bcbc8e4308aa37d2ff6cde025beb38a5cab2a9a2ad762173fa49faa9c2"
+        },
+        {
+          "round": 14,
+          "steps": 23000,
+          "successes": 97,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_23000_test_rollout/info.json",
+          "sha256": "a8df06f12ef4bd3e1383ef68cd7ce267cad1bc9d8eecc9bec0eebb2ffd22b40b"
+        },
+        {
+          "round": 15,
+          "steps": 24000,
+          "successes": 99,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_24000_test_rollout/info.json",
+          "sha256": "e50b3e519702edfac7437a32b3b656d7a9a18747eb340e5ae332f3b00c77f8ab"
+        },
+        {
+          "round": 16,
+          "steps": 25000,
+          "successes": 98,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_25000_test_rollout/info.json",
+          "sha256": "78b304df0b1f56851bacb302566bad1114744b57330406bc57129e13404412a7"
+        },
+        {
+          "round": 17,
+          "steps": 26000,
+          "successes": 99,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_26000_test_rollout/info.json",
+          "sha256": "b976beff44d9c855c7595b2397c13aacf08b5bbbf9077bfffd54f5fc628efd5a"
+        },
+        {
+          "round": 18,
+          "steps": 27000,
+          "successes": 99,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_27000_test_rollout/info.json",
+          "sha256": "19d61257c72f36c5a758997b66e5a31ba2158779afb3c0815849a429d39378c2"
+        },
+        {
+          "round": 19,
+          "steps": 28000,
+          "successes": 100,
+          "trials": 100,
+          "source": "/local/robopil/yuan/tasks/hang_mug/v20/hang_mug_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_28000_test_rollout/info.json",
+          "sha256": "bb03223ee8dcd5e20cdbba6b0eeebfc750925a93b9d0706e39cbfd0cc094efd9"
+        }
+      ]
+    }
+  ],
+  "uncertainty": "Central 95% exact empirical bootstrap distributions of binary rollout means; not training-seed variation.",
+  "comparison_status": "Matching Dense Sampling evaluations after round 1 are required to complete the comparison curve."
+}

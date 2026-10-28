@@ -4,7 +4,7 @@
 Run with the sibling visualization project's Python environment:
   python scripts/preview_domain_randomization.py
 
-The published videos and index.html are read-only inputs. Assets go into
+Original footage comes from the sibling projects; index.html is a read-only input. Assets go into
 output/previews/domain-randomization/ and the page is preview-domain-randomization.html.
 Render intermediates go into --work-dir. Blender matches Hang Mug's original renderer.
 """
@@ -35,6 +35,13 @@ TASKS = {
     "arrange-table": OTHER_SOURCE / "table_arrange/rendered",
     "flip-and-arrange-shoe": OTHER_SOURCE / "flip_then_arrange_shoe/rendered",
     "pack-battery": OTHER_SOURCE / "pack_battery/rendered",
+}
+# Always composite over the original footage, even after publishing the wrist-view videos.
+SOURCE_VIDEOS = {
+    "hang-mug": TASKS["hang-mug"] / "domain_randomization.mp4",
+    "arrange-table": VISUALIZATION / "data/domain_randomization/table_arrange/domain_randomization_mujoco.mp4",
+    "flip-and-arrange-shoe": VISUALIZATION / "data/domain_randomization/flip_then_arrange_shoe/domain_randomization_mujoco.mp4",
+    "pack-battery": VISUALIZATION / "data/domain_randomization/pack_battery/domain_randomization_mujoco.mp4",
 }
 CAMERA = "D405_130322271320"
 INSET_WIDTH, INSET_HEIGHT = 432, 243  # 1.5× larger; preserve the D405's native 16:9 view.
@@ -308,7 +315,7 @@ def render_blender(directory):
 
 
 def compose(task, directory, metadata):
-    original = ROOT / "assets/videos/pipeline/domain-randomization" / f"{task}.mp4"
+    original = SOURCE_VIDEOS[task]
     output = OUTPUT / f"{task}.mp4"
     base = probe(original)
     if int(base["nb_frames"]) != metadata["frame_count"] or base["r_frame_rate"] != f"{metadata['fps']}/1":

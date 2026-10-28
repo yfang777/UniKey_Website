@@ -1,0 +1,100 @@
+{
+  "video": {
+    "width": 1440,
+    "height": 1080,
+    "duration": 7.84,
+    "readyState": 4
+  },
+  "layouts": [
+    {
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.03125,
+          "bottom": 825.28125
+        },
+        "figure": {
+          "width": 343,
+          "height": 343,
+          "top": 552.609375,
+          "bottom": 895.609375
+        },
+        "plot": {
+          "height": 257.25,
+          "top": 568.044375,
+          "bottom": 825.294375
+        }
+      }
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.640625,
+          "bottom": 381.140625
+        },
+        "figure": {
+          "width": 350,
+          "height": 350,
+          "top": 418.390625,
+          "bottom": 768.390625
+        },
+        "plot": {
+          "height": 262.5,
+          "top": 434.140625,
+          "bottom": 696.640625
+        }
+      }
+    }
+  ],
+  "page_errors": [],
+  "figure_sha256": "f009208df0ee630f5b4740f9fd4014c5e1bbace99431330fac71aab3224788e7",
+  "curve_styles": [
+    {
+      "fill": "none",
+      "stroke": "#6b4935",
+      "stroke-width": "3.2",
+      "stroke-linecap": "square"
+    },
+    {
+      "fill": "none",
+      "stroke": "#37895b",
+      "stroke-width": "3.2",
+      "stroke-linecap": "square"
+    }
+  ],
+  "point_styles": [
+    {
+      "point_size_pt": 6.5,
+      "point_border": {
+        "stroke": "#ffffff",
+        "stroke-width": "0.6"
+      }
+    },
+    {
+      "point_size_pt": 6.5,
+      "point_border": {
+        "stroke": "#ffffff",
+        "stroke-width": "0.6"
+      }
+    }
+  ],
+  "labels": [
+    {
+      "text": "UniKey",
+      "style": "fill: #37895b; font: 21px 'DejaVu Sans'; text-anchor: start"
+    },
+    {
+      "text": "Dense Sampling",
+      "style": "fill: #6b4935; font: 19px 'DejaVu Sans'; text-anchor: end"
+    }
+  ],
+  "star_style": {
+    "fill": "#e5c878",
+    "outline": "none"
+  }
+}

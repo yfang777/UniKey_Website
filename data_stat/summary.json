@@ -1,0 +1,205 @@
+{
+  "host": "robo02",
+  "collected_at": "2026-10-28T17:20:56.624661+00:00",
+  "tasks": [
+    {
+      "id": "hang_mug",
+      "label": "Hang Mug",
+      "status": "available",
+      "series": [
+        {
+          "method": "dense_sampling",
+          "domain": "simulation",
+          "point_count": 39,
+          "first_step": 2000,
+          "last_step": 40000,
+          "last_success_rate": 0.94,
+          "best_step": 37000,
+          "best_success_rate": 0.94,
+          "trials_per_point": [
+            100
+          ]
+        },
+        {
+          "method": "unikey",
+          "domain": "simulation",
+          "point_count": 18,
+          "first_step": 3000,
+          "last_step": 20000,
+          "last_success_rate": 1.0,
+          "best_step": 20000,
+          "best_success_rate": 1.0,
+          "trials_per_point": [
+            100
+          ]
+        },
+        {
+          "method": "dense_sampling",
+          "domain": "real_world",
+          "point_count": 2,
+          "first_step": 10000,
+          "last_step": 20000,
+          "last_success_rate": 0.6,
+          "best_step": 20000,
+          "best_success_rate": 0.6,
+          "trials_per_point": [
+            20
+          ]
+        },
+        {
+          "method": "unikey",
+          "domain": "real_world",
+          "point_count": 2,
+          "first_step": 10000,
+          "last_step": 20000,
+          "last_success_rate": 1.0,
+          "best_step": 20000,
+          "best_success_rate": 1.0,
+          "trials_per_point": [
+            20
+          ]
+        }
+      ],
+      "supplementary_evaluations": []
+    },
+    {
+      "id": "table_arrange",
+      "label": "Arrange Table",
+      "status": "missing_evaluations",
+      "series": [
+        {
+          "method": "dense_sampling",
+          "domain": "simulation",
+          "point_count": 0
+        },
+        {
+          "method": "unikey",
+          "domain": "simulation",
+          "point_count": 0
+        }
+      ],
+      "supplementary_evaluations": []
+    },
+    {
+      "id": "flip_then_arrange_shoe",
+      "label": "Flip and Arrange Shoe",
+      "status": "available",
+      "series": [
+        {
+          "method": "dense_sampling",
+          "domain": "simulation",
+          "point_count": 1,
+          "first_step": 5000,
+          "last_step": 5000,
+          "last_success_rate": 0.04,
+          "best_step": 5000,
+          "best_success_rate": 0.04,
+          "trials_per_point": [
+            100
+          ]
+        },
+        {
+          "method": "unikey",
+          "domain": "simulation",
+          "point_count": 18,
+          "first_step": 6000,
+          "last_step": 23000,
+          "last_success_rate": 0.26,
+          "best_step": 15000,
+          "best_success_rate": 0.46,
+          "trials_per_point": [
+            100
+          ]
+        }
+      ],
+      "supplementary_evaluations": [
+        {
+          "task": "flip_then_arrange_shoe",
+          "experiment": "tmp_flip_then_arrange_shoe",
+          "checkpoint": "base",
+          "dataset_step": null,
+          "successes": 90,
+          "trials": 100,
+          "success_rate": 0.9,
+          "counts_origin": "episode outcomes",
+          "source_path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/eval/base/info.json",
+          "source_file": "raw/tasks/tmp_flip_then_arrange_shoe/eval/base/info.json",
+          "source_sha256": "7e93362d0ee5690d4fd3d301c7a2eb0f068d53b31ab16b3951972ec9689de676"
+        },
+        {
+          "task": "flip_then_arrange_shoe",
+          "experiment": "tmp_flip_then_arrange_shoe",
+          "checkpoint": "finetuned",
+          "dataset_step": null,
+          "successes": 92,
+          "trials": 100,
+          "success_rate": 0.92,
+          "counts_origin": "episode outcomes",
+          "source_path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/eval/finetuned/info.json",
+          "source_file": "raw/tasks/tmp_flip_then_arrange_shoe/eval/finetuned/info.json",
+          "source_sha256": "1cf794e0f3d3b27e374a003edeaacc5e38a025bbb5acb6cb3cafb7265a55b8a7"
+        },
+        {
+          "task": "flip_then_arrange_shoe",
+          "experiment": "tmp_flip_then_arrange_shoe_298",
+          "checkpoint": "base",
+          "dataset_step": null,
+          "successes": 95,
+          "trials": 100,
+          "success_rate": 0.95,
+          "counts_origin": "episode outcomes",
+          "source_path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe_298/eval/base/info.json",
+          "source_file": "raw/tasks/tmp_flip_then_arrange_shoe_298/eval/base/info.json",
+          "source_sha256": "6485087d2be5a799c7015dab182317027a29d5ada2ff9909e8fed2700719ae65"
+        },
+        {
+          "task": "flip_then_arrange_shoe",
+          "experiment": "tmp_flip_then_arrange_shoe_298",
+          "checkpoint": "finetuned",
+          "dataset_step": null,
+          "successes": 97,
+          "trials": 100,
+          "success_rate": 0.97,
+          "counts_origin": "episode outcomes",
+          "source_path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe_298/eval/finetuned/info.json",
+          "source_file": "raw/tasks/tmp_flip_then_arrange_shoe_298/eval/finetuned/info.json",
+          "source_sha256": "46b1b3bbaf41b9518f77139781b3147c758131be612773a74f084d6ca22e7cb3"
+        }
+      ]
+    },
+    {
+      "id": "pack_battery",
+      "label": "Pack Battery",
+      "status": "available",
+      "series": [
+        {
+          "method": "dense_sampling",
+          "domain": "simulation",
+          "point_count": 15,
+          "first_step": 6000,
+          "last_step": 20000,
+          "last_success_rate": 0.83,
+          "best_step": 16000,
+          "best_success_rate": 0.88,
+          "trials_per_point": [
+            100
+          ]
+        },
+        {
+          "method": "unikey",
+          "domain": "simulation",
+          "point_count": 15,
+          "first_step": 6000,
+          "last_step": 20000,
+          "last_success_rate": 0.96,
+          "best_step": 18000,
+          "best_success_rate": 0.98,
+          "trials_per_point": [
+            100
+          ]
+        }
+      ],
+      "supplementary_evaluations": []
+    }
+  ]
+}

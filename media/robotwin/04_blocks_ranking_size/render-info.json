@@ -1,0 +1,52 @@
+{
+  "task": "04_blocks_ranking_size",
+  "episode": "episode_000",
+  "frames": 1027,
+  "fps": 50,
+  "resolution": [
+    1440,
+    1080
+  ],
+  "duration_s": 20.54,
+  "camera": {
+    "lookat": [
+      0.18015475993649926,
+      -0.07136596131322571,
+      0.20264996909989919
+    ],
+    "azimuth": -178.625,
+    "elevation": -33.25,
+    "distance": 0.8556675994095373,
+    "fovy": 38.0,
+    "resolution": [
+      1440,
+      1080
+    ],
+    "near": 0.01,
+    "far": 20.0
+  },
+  "source_episode": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/20261008T164407Z/data/robotwin_10_tasks/20260922/04_blocks_ranking_size/episode_000",
+  "source_sha256": {
+    "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/20261008T164407Z/data/robotwin_10_tasks/20260922/04_blocks_ranking_size/episode_000/rollout.parquet": "e8164a64215218f70527e104bd325badbc080977e96aa5534ebf952b7eb43a4f",
+    "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/20261008T164407Z/data/robotwin_10_tasks/20260922/04_blocks_ranking_size/episode_000/metadata.json": "859c2b5332027a9b3433d60a9447cbf80cdc8544d7079e3ba858872c1d41febf",
+    "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/20261008T164407Z/data/robotwin_10_tasks/20260922/04_blocks_ranking_size/episode_000/scene/scene.xml": "253af29bb7168243b5e2537671b9f0d1596f4d26c396d133fd3bb18af54c7346",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/visualization/04_blocks_ranking_size/episode_000/render_scene.xml": "3764c5428adae5c2d5a286d4c1704a166d3d67526f22ac7dd3de26babc397db6",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/visualization/04_blocks_ranking_size/episode_000/coordinates.json": "daeb3ed12757d96d1407046a3ddae94aaf9221327845b0376aefa0ba0e84c336",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/visualization/04_blocks_ranking_size/episode_000/style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/visualization/04_blocks_ranking_size/episode_000/wood.png": "b3d31a265804f6f3d494256f38a9ffabf4d31ae4d8cb2084d8df29bba1614af9",
+    "/home/yuan/codegen/UniKey_Website/scripts/render_robotwin_blender.py": "a8e68457f4d9697c67c905bbb3f35c35184dd6ff49b6f0b418b0eeb465349b80",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/render/create_blender_scene.py": "690919b4aa3032c79c86aa71c4452f67645d51b67628eb6c1a60858090c44b19",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/render/export_blender_animation.py": "13f79b66c5c0b72600955ecdf3ebe82700b9b900c5170683a52f955c2d2ff104"
+  },
+  "renderer": "Blender Cycles",
+  "blender_version": "4.3.1",
+  "engine": "CYCLES",
+  "device": "GPU",
+  "samples": 32,
+  "denoising": true,
+  "denoiser": "OPTIX",
+  "preview_only": false,
+  "max_keypoint_projection_error_px": 0.0019317692742160462,
+  "keypoint_projections_checked": 2249,
+  "frame_mapping": "Blender frame = source row + 1; native frame rate, no resampling."
+}

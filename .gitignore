@@ -5,3 +5,8 @@
 __pycache__/
 *.py[cod]
 /_site/
+/output/correction-videos/
+
+# Temporary Blender scenes and intermediate grid renders.
+/tmp_hang_mug_grid_v1/
+/tmp_hang_mug_grid_switched_v1/

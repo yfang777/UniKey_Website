@@ -1,0 +1,1002 @@
+[
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_0/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_0.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_0.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 2,
+            "last_success_frame": 65
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_1/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_1.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_1.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 229
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_2/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_2.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_2.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 218
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_3/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_3.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_3.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 2,
+            "last_success_frame": 59
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_4/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_4.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_4.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 184
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_5/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_5.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_5.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 218
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_6/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_6.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_6.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 220
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_7/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_7.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_7.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 238
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_8/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_8.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_8.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 204
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_9/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_9.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_9.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 223
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_10/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_10.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_10.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 208
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_11/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_11.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_11.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 193
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_12/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_12.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_12.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 224
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_13/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_13.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_13.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 206
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_14/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_14.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_14.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 238
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_15/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_15.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_15.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 2,
+            "last_success_frame": 111
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_16/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_16.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_16.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 233
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_17/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_17.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_17.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 213
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_18/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_18.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_18.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 208
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_19/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_19.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_19.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 207
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_20/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_20.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_20.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 224
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_21/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_21.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_21.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 195
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_22/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_22.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_22.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 228
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_23/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_23.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_23.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 222
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_24/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_24.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_24.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 201
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_25/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_25.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_25.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 240
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_26/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_26.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_26.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 210
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_27/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_27.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_27.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 2,
+            "last_success_frame": 64
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_28/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_28.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_28.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 220
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_29/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_29.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_29.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 235
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_30/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_30.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_30.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 192
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_31/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_31.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_31.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 190
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_32/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_32.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_32.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 244
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_33/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_33.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_33.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 228
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_34/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_34.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_34.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 202
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_35/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_35.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_35.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 208
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_36/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_36.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_36.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 236
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_37/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_37.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_37.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 273
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_38/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_38.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_38.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 205
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_39/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_39.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_39.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 219
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_40/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_40.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_40.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 210
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_41/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_41.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_41.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 228
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_42/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_42.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_42.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 209
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_43/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_43.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_43.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 220
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_44/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_44.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_44.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 212
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_45/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_45.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_45.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 189
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_46/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_46.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_46.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 5,
+            "last_success_frame": 173
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_47/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_47.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_47.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 244
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_48/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_48.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_48.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 191
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_49/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_49.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_49.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 223
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_50/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_50.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_50.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 212
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_51/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_51.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_51.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 202
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_52/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_52.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_52.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 215
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_53/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_53.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_53.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 220
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_54/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_54.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_54.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 5,
+            "last_success_frame": 200
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_55/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_55.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_55.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 232
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_56/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_56.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_56.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 181
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_57/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_57.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_57.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 194
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_58/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_58.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_58.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 210
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_59/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_59.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_59.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 208
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_60/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_60.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_60.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 200
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_61/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_61.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_61.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 214
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_62/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_62.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_62.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 237
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_63/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_63.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_63.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 222
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_64/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_64.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_64.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 220
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_65/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_65.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_65.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 244
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_66/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_66.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_66.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 193
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_67/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_67.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_67.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 2,
+            "last_success_frame": 65
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_68/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_68.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_68.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 179
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_69/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_69.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_69.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 239
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_70/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_70.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_70.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 2,
+            "last_success_frame": 51
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_71/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_71.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_71.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 216
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_72/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_72.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_72.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 202
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_73/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_73.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_73.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 198
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_74/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_74.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_74.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 234
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_75/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_75.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_75.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 202
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_76/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_76.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_76.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 237
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_77/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_77.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_77.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 208
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_78/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_78.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_78.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 178
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_79/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_79.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_79.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 195
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_80/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_80.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_80.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 204
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_81/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_81.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_81.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 239
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_82/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_82.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_82.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 2,
+            "last_success_frame": 112
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_83/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_83.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_83.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 208
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_84/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_84.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_84.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 255
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_85/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_85.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_85.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 235
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_86/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_86.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_86.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 215
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_87/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_87.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_87.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 234
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_88/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_88.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_88.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 185
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_89/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_89.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_89.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 213
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_90/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_90.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_90.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 251
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_91/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_91.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_91.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 197
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_92/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_92.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_92.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 183
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_93/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_93.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_93.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 222
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_94/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_94.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_94.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 5,
+            "last_success_frame": 196
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_95/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_95.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_95.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 200
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_96/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_96.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_96.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 199
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_97/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_97.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_97.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 6,
+            "last_success_frame": 223
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_98/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_98.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_98.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 2,
+            "last_success_frame": 112
+        }
+    },
+    {
+        "xml_path": "./data/scenes/pack_battery/test_uniform/sample_99/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_99.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/sample_99.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 2,
+            "last_success_frame": 64
+        }
+    }
+]

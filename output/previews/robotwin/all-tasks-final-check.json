@@ -1,0 +1,607 @@
+{
+  "media": [
+    {
+      "task": "adjust-bottle",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "7.840000",
+        "nb_read_frames": "392"
+      },
+      "projection_error_px": 0.0017359781181592062
+    },
+    {
+      "task": "beat-block-hammer",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "6.780000",
+        "nb_read_frames": "339"
+      },
+      "projection_error_px": 0.001904724919964063
+    },
+    {
+      "task": "rank-blocks-color",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "20.260000",
+        "nb_read_frames": "1013"
+      },
+      "projection_error_px": 0.0016765944018976785
+    },
+    {
+      "task": "rank-blocks-size",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "20.540000",
+        "nb_read_frames": "1027"
+      },
+      "projection_error_px": 0.0019317692742160462
+    },
+    {
+      "task": "click-alarm-clock",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "3.080000",
+        "nb_read_frames": "154"
+      },
+      "projection_error_px": 0.001470892113512376
+    },
+    {
+      "task": "click-bell",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "3.260000",
+        "nb_read_frames": "163"
+      },
+      "projection_error_px": 0.0024034969698020926
+    },
+    {
+      "task": "dump-bin-bigbin",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "12.600000",
+        "nb_read_frames": "630"
+      },
+      "projection_error_px": 0.0014491115048564922
+    },
+    {
+      "task": "move-can-pot",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "12.100000",
+        "nb_read_frames": "605"
+      },
+      "projection_error_px": 0.0019224853878775628
+    },
+    {
+      "task": "move-playingcard-away",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "7.540000",
+        "nb_read_frames": "377"
+      },
+      "projection_error_px": 0.0021926056024341987
+    },
+    {
+      "task": "move-stapler-pad",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 1080,
+        "r_frame_rate": "50/1",
+        "duration": "8.760000",
+        "nb_read_frames": "438"
+      },
+      "projection_error_px": 0.001778770348254696
+    }
+  ],
+  "browser": [
+    {
+      "task": "adjust-bottle",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 7.84,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "beat-block-hammer",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 6.78,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "rank-blocks-color",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 20.26,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "rank-blocks-size",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 20.54,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "click-alarm-clock",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 3.08,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "click-bell",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 3.26,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "dump-bin-bigbin",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 12.6,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "move-can-pot",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 12.1,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "move-playingcard-away",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 7.54,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "move-stapler-pad",
+      "viewport": "desktop",
+      "dimensions": {
+        "video": {
+          "width": 343,
+          "height": 257.25,
+          "top": 568.609375,
+          "bottom": 825.859375
+        },
+        "image": {
+          "width": 343,
+          "height": 343,
+          "top": 553.1875,
+          "bottom": 896.1875
+        }
+      },
+      "plot_height": 257.25,
+      "plot_top": 568.6225,
+      "video": {
+        "width": 1440,
+        "height": 1080,
+        "duration": 8.76,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "task": "adjust-bottle",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    },
+    {
+      "task": "beat-block-hammer",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    },
+    {
+      "task": "rank-blocks-color",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    },
+    {
+      "task": "rank-blocks-size",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    },
+    {
+      "task": "click-alarm-clock",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    },
+    {
+      "task": "click-bell",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    },
+    {
+      "task": "dump-bin-bigbin",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    },
+    {
+      "task": "move-can-pot",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    },
+    {
+      "task": "move-playingcard-away",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    },
+    {
+      "task": "move-stapler-pad",
+      "viewport": "mobile",
+      "dimensions": {
+        "video": {
+          "width": 350,
+          "height": 262.5,
+          "top": 118.390625,
+          "bottom": 380.890625
+        },
+        "image": {
+          "width": 350,
+          "height": 350,
+          "top": 418.140625,
+          "bottom": 768.140625
+        }
+      },
+      "plot_height": 262.5,
+      "plot_top": 433.890625,
+      "video": null
+    }
+  ],
+  "page_errors": []
+}

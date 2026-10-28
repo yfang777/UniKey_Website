@@ -1,0 +1,1002 @@
+[
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_0/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_0.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_0.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_1/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_1.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_1.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 416
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_2/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_2.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_2.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_3/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_3.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_3.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_4/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_4.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_4.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_5/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_5.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_5.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_6/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_6.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_6.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 375
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_7/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_7.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_7.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 418
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_8/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_8.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_8.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 110
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_9/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_9.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_9.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_10/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_10.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_10.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_11/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_11.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_11.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 390
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_12/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_12.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_12.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 427
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_13/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_13.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_13.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_14/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_14.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_14.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 441
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_15/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_15.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_15.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 408
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_16/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_16.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_16.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 141
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_17/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_17.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_17.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 424
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_18/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_18.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_18.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_19/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_19.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_19.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_20/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_20.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_20.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_21/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_21.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_21.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_22/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_22.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_22.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_23/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_23.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_23.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 442
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_24/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_24.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_24.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 426
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_25/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_25.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_25.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 460
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_26/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_26.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_26.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 92
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_27/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_27.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_27.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_28/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_28.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_28.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 100
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_29/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_29.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_29.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 456
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_30/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_30.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_30.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 414
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_31/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_31.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_31.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_32/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_32.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_32.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_33/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_33.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_33.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_34/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_34.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_34.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_35/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_35.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_35.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_36/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_36.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_36.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_37/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_37.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_37.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 390
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_38/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_38.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_38.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_39/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_39.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_39.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_40/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_40.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_40.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_41/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_41.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_41.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_42/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_42.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_42.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_43/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_43.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_43.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_44/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_44.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_44.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_45/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_45.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_45.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_46/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_46.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_46.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 455
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_47/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_47.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_47.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 399
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_48/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_48.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_48.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 411
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_49/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_49.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_49.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_50/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_50.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_50.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_51/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_51.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_51.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_52/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_52.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_52.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 410
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_53/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_53.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_53.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_54/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_54.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_54.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_55/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_55.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_55.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 237
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_56/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_56.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_56.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 83
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_57/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_57.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_57.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_58/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_58.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_58.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 103
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_59/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_59.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_59.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 386
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_60/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_60.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_60.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_61/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_61.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_61.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 388
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_62/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_62.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_62.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_63/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_63.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_63.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_64/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_64.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_64.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 390
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_65/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_65.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_65.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_66/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_66.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_66.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_67/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_67.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_67.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 417
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_68/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_68.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_68.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_69/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_69.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_69.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_70/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_70.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_70.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 447
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_71/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_71.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_71.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_72/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_72.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_72.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_73/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_73.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_73.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_74/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_74.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_74.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 437
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_75/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_75.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_75.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 427
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_76/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_76.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_76.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_77/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_77.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_77.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 101
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_78/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_78.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_78.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_79/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_79.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_79.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_80/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_80.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_80.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 422
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_81/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_81.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_81.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_82/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_82.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_82.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 315
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_83/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_83.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_83.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 451
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_84/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_84.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_84.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_85/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_85.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_85.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_86/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_86.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_86.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_87/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_87.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_87.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_88/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_88.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_88.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_89/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_89.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_89.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_90/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_90.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_90.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 424
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_91/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_91.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_91.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 89
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_92/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_92.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_92.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_93/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_93.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_93.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 0,
+            "last_success_frame": 0
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_94/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_94.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_94.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 330
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_95/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_95.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_95.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 428
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_96/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_96.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_96.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 89
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_97/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_97.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_97.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 440
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_98/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_98.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_98.parquet",
+        "evaluation": {
+            "status": "success",
+            "last_success_stage": 10,
+            "last_success_frame": 428
+        }
+    },
+    {
+        "xml_path": "/home/yf2716/codegen/Codegen_Datagen/data/scenes/flip_then_arrange_shoe/test_uniform/sample_99/tmp_scene.xml",
+        "video_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_99.mp4",
+        "parquet_path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/chunk_0/sample_99.parquet",
+        "evaluation": {
+            "status": "fail",
+            "last_success_stage": 3,
+            "last_success_frame": 80
+        }
+    }
+]

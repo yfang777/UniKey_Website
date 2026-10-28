@@ -11,6 +11,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import shutil
 import subprocess
 
 import imageio.v2 as imageio
@@ -56,14 +57,22 @@ def draw_keypoints(rgb, frame, style):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path,
-                        default=ROOT.parent / "Codegen_Robotwin_Mujoco/data/visualization")
+                        default=ROOT.parent / "Codegen_Blender_Visualization_artifacts/robotwin_blender_20261028")
+    parser.add_argument("--task", help="Update only this task directory, for example 01_adjust_bottle_01.")
+    parser.add_argument("--renderer", choices=("MuJoCo", "Blender Cycles"), default="Blender Cycles")
     args = parser.parse_args()
     manifest_path = ROOT / "data/visualization-media.json"
     manifest = json.loads(manifest_path.read_text())
     html_path = ROOT / "index.html"
-    html = html_path.read_text()
-    for task in manifest["tasks"]:
+    tasks = [task for task in manifest["tasks"] if args.task is None or task["task"] == args.task]
+    if not tasks:
+        parser.error("No tasks match the requested task directory and renderer.")
+    for task in tasks:
         episode = args.source / task["task"] / task["episode"]
+        if args.renderer == "Blender Cycles":
+            source_info = json.loads((episode / "render_info.json").read_text())
+            if source_info["engine"] != "CYCLES" or source_info["preview_only"]:
+                raise ValueError("Blender imports require a complete Cycles render.")
         source_files = [episode / name for name in ("clean.mp4", "coordinates.json", "style.yaml")]
         coordinates = json.loads(source_files[1].read_text())
         style = yaml.safe_load(source_files[2].read_text())
@@ -99,15 +108,29 @@ def main():
         task["sha256"] = {path.name: hashlib.sha256(path.read_bytes()).hexdigest() for path in (video, poster)}
         task["source_sha256"] = {path.name: hashlib.sha256(path.read_bytes()).hexdigest() for path in source_files}
         task["stage_labels"] = False
+        task["renderer"] = args.renderer
+        if args.renderer == "Blender Cycles":
+            render_info = destination / "render-info.json"
+            shutil.copyfile(episode / "render_info.json", render_info)
+            task["render_info"] = str(render_info.relative_to(ROOT))
+            task["sha256"][render_info.name] = hashlib.sha256(render_info.read_bytes()).hexdigest()
+        print(f"Updated {task['task']}: {task['frames']} frames, {task['duration_s']:g} seconds, no stage captions.",
+              flush=True)
+    html = html_path.read_text()
+    for task in tasks:
+        if args.renderer == "Blender Cycles":
+            html = re.sub(r'<video\b[^>]*>', lambda match: match[0].replace(
+                "demonstration in MuJoCo", "demonstration rendered in Blender")
+                if f"/{task['task']}/poster.jpg" in match[0] else match[0], html)
         for filename, digest in task["sha256"].items():
+            if filename not in ("rollout.mp4", "poster.jpg"):
+                continue
             relative = f"./media/robotwin/{task['task']}/{filename}"
             html, count = re.subn(re.escape(relative) + r'(?:\?v=[^"<>\s]+)?',
                                  relative + "?v=" + digest[:12], html)
             if count != (2 if filename == "rollout.mp4" else 1):
                 raise ValueError(f"Unexpected website references for {relative}: {count}.")
-        print(f"Updated {task['task']}: {task['frames']} frames, {task['duration_s']:g} seconds, no stage captions.",
-              flush=True)
-    manifest["description"] = "MuJoCo keypoint program demonstrations without stage captions."
+    manifest["description"] = "RoboTwin keypoint program demonstrations without stage captions."
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n")
     html_path.write_text(html)
 

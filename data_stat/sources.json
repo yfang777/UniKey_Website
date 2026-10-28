@@ -1,0 +1,384 @@
+{
+  "host": "robo02",
+  "collected_at": "2026-10-28T17:20:56.624661+00:00",
+  "files": [
+    {
+      "path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+      "local_path": "raw/scripts/main_figure/ACT_hang_mug/success_rate_sim.csv",
+      "sha256": "2d123c5996bd1e052d3068d933377be7ca7a0a391b902fc8e7f03e1379e8c4ce",
+      "bytes": 1971
+    },
+    {
+      "path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+      "local_path": "raw/scripts/main_figure/ACT_hang_mug/success_rate_real.csv",
+      "sha256": "6e82489415063076d9f6b8604904a9f88288fba8013b6d169f0f592654366abd",
+      "bytes": 178
+    },
+    {
+      "path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/plot_success_rate.py",
+      "local_path": "raw/scripts/main_figure/ACT_hang_mug/plot_success_rate.py",
+      "sha256": "e582b68e87588d7c458b60f39283aa0516f55eb8a51fac2d5f2cc870d02a6136",
+      "bytes": 25766
+    },
+    {
+      "path": "/local/robopil/yuan/scripts/main_figure/ACT_hang_mug/query_success_rate_sim.py",
+      "local_path": "raw/scripts/main_figure/ACT_hang_mug/query_success_rate_sim.py",
+      "sha256": "f5b9675c10d6af1604a423f9607c547a59d491c727fd20b69eb63b7edf987559",
+      "bytes": 4753
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/dense_sample/rgb_abs_action/dataset_step_5000/ACT_rollout_seed_1/dataset_step_5000_test_rollout/info.json",
+      "sha256": "c1b2bd098c375fbff14ef3061a3427b3e8f7fdfc5680138124a20f91a7d75691",
+      "bytes": 62166
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json",
+      "sha256": "d68f204cec430cf024e673d5ea51ae51dcc8f75c355af6c1a472d490a4ddd9d9",
+      "bytes": 70211
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json",
+      "sha256": "d53277582b353ba8a07fe8db484aae15c0ba2b3f5947efe340c3a5f94c77d504",
+      "bytes": 70212
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json",
+      "sha256": "a575985af1a18d7176fda38486d83e95310b188c7bf1be2df3d235ddf4c1d2af",
+      "bytes": 70221
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json",
+      "sha256": "86757baeeaa381c39cb169ef48e144d6c60a865464ccbff60b3da18489011270",
+      "bytes": 70249
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json",
+      "sha256": "90b491d8716463cd1a1d3e73871f1804c44e9c17719effe2e85e679747f9bc9d",
+      "bytes": 70216
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json",
+      "sha256": "ff133ef733ca3002a9d22ffd85780038c05ce638d7e0430f0aa7fb2ba7619ba1",
+      "bytes": 70258
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json",
+      "sha256": "c315f1458b20c1de1b221a73ba56ff7209bb6c60766b3765d5a6515c40a17895",
+      "bytes": 70017
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json",
+      "sha256": "e51dd19083d5e5f60b68c49d9bf91bca668f3491f2664cbd12dca855e548e585",
+      "bytes": 70063
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json",
+      "sha256": "09a579461cbf8fb97c86f5a67b2849561ce4463449aa8475917353d10a3f1a31",
+      "bytes": 70179
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json",
+      "sha256": "cf2ec83d844bbccc61fac39f943dfec07f23ca33f1a5c8881cb8c6dd690d63ab",
+      "bytes": 70180
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json",
+      "sha256": "602f5c0efe7d90159b80c73cdf8351c434432d487989c3ff940940c63754e3f0",
+      "bytes": 70106
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_21000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_21000_test_rollout/info.json",
+      "sha256": "885c19623b56e32f862689d6a8bd10052eaa3dc9f37584aafc915b4551c12665",
+      "bytes": 70165
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_22000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_22000_test_rollout/info.json",
+      "sha256": "1b48d656c4ac8f48a875f1a798c8e150a645a0851a2084f58e025e7217f51ead",
+      "bytes": 70176
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_23000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_23000_test_rollout/info.json",
+      "sha256": "7c2ddec406f4137eb906235a2ed7af0209364dee5e15dc775263db81305b397a",
+      "bytes": 70138
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json",
+      "sha256": "ad1da9cbf7b67b8be4f0f6f4620107e2930e92762a350bef10f5095d75e70ed5",
+      "bytes": 69903
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json",
+      "sha256": "86834bec03e7f5e58667ba537a4550aa8e40273178b5b87612a4dd8c07981875",
+      "bytes": 69903
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json",
+      "sha256": "76512e63beea2aaa3a70b1ee6da8a81e651126872134d935bf5b3b05387c977b",
+      "bytes": 69991
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json",
+      "local_path": "raw/tasks/flip_then_arrange_shoe/v20/flip_then_arrange_shoe_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json",
+      "sha256": "04def5a53e01b1d0d80dc63edbb61e469c7fb7129d983392f0d8ae6753cb3abe",
+      "bytes": 69930
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_10000/ACT_rollout_seed_1/dataset_step_10000_test_rollout/info.json",
+      "sha256": "f5ba31e2fc8bb6102690d93045aeeff16c368e959ac603dca6456de84d916163",
+      "bytes": 59788
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_11000/ACT_rollout_seed_1/dataset_step_11000_test_rollout/info.json",
+      "sha256": "072a98b14a37824e2e09c8a426b40f79be7040d1b46aef9eadd7763695c492ae",
+      "bytes": 59792
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_12000/ACT_rollout_seed_1/dataset_step_12000_test_rollout/info.json",
+      "sha256": "becf8e01f8eb6cec8697c401f757ccf4528feda1d32cc0098b4f545d2c4c6bb1",
+      "bytes": 59863
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_13000/ACT_rollout_seed_1/dataset_step_13000_test_rollout/info.json",
+      "sha256": "d9766f346371201c2721ea9b838ffaaf8583e7d8420b15c62dfb01b8672e4ab1",
+      "bytes": 59883
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_14000/ACT_rollout_seed_1/dataset_step_14000_test_rollout/info.json",
+      "sha256": "3055c4c2de7bd5e070f0d779b1639e6aa21e7dc66b718c33805eedce6f80acbf",
+      "bytes": 59900
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_15000/ACT_rollout_seed_1/dataset_step_15000_test_rollout/info.json",
+      "sha256": "b95e6ed19d018759efda9501dd817b80d41a97764cb7ec209816c02826663104",
+      "bytes": 59891
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_16000/ACT_rollout_seed_1/dataset_step_16000_test_rollout/info.json",
+      "sha256": "e8b99d656b4075a872cbfafbc3bf7bfb13b09b303630489303a0f0c8d570ec74",
+      "bytes": 59924
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_17000/ACT_rollout_seed_1/dataset_step_17000_test_rollout/info.json",
+      "sha256": "1edeabff46af73f665aa1dd4685cfd3d9ba962ceba2f7803eedeec5889dfa4b4",
+      "bytes": 59921
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_18000/ACT_rollout_seed_1/dataset_step_18000_test_rollout/info.json",
+      "sha256": "c417138719b40969a778073bb87d920a633aed47709ab71914a6feba3a413ff5",
+      "bytes": 59926
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_19000/ACT_rollout_seed_1/dataset_step_19000_test_rollout/info.json",
+      "sha256": "6c540bcc85664709040793f25c58e2b59a8a468d2da21dd04debce0ea778115e",
+      "bytes": 59930
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_20000/ACT_rollout_seed_1/dataset_step_20000_test_rollout/info.json",
+      "sha256": "6aecfce9a39e082f0e9b239032d71c132f67621789c99ff3396157dbc2988101",
+      "bytes": 59912
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_6000/ACT_rollout_seed_1/dataset_step_6000_test_rollout/info.json",
+      "sha256": "7edbdb629770b99f5278a30af9ef645233f892a0dad63c1f3545620e236050bc",
+      "bytes": 59207
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_7000/ACT_rollout_seed_1/dataset_step_7000_test_rollout/info.json",
+      "sha256": "a6741926234edb933d439e9d2afa2ec32e8e836c370f1ef5f66fc242981cfeeb",
+      "bytes": 59241
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_8000/ACT_rollout_seed_1/dataset_step_8000_test_rollout/info.json",
+      "sha256": "b61bc438e02b45c442bfeea5879b3a89d94773a92f676e5e920926e0a17ac127",
+      "bytes": 59303
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/dense_sample/rgb_abs_action/dataset_step_9000/ACT_rollout_seed_1/dataset_step_9000_test_rollout/info.json",
+      "sha256": "f5024aeb8af4fd1433bf5eafb08e6e1cb142f6b583270180bd402fae6b2f3a8f",
+      "bytes": 59364
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_10000_test_rollout/info.json",
+      "sha256": "ed3c5a8593b956d74af50724abc6b32ad0d3d5dcb967e1d5460cd4806f9ca72b",
+      "bytes": 65406
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_11000_test_rollout/info.json",
+      "sha256": "d3fdc93fbd66257984226445c8afa58435fe8401227a41e63d78da3ed703a071",
+      "bytes": 65410
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_12000_test_rollout/info.json",
+      "sha256": "f81d6664d91285d59de693f9862e5f97cba5d7800c7bdde32aae939f68a79037",
+      "bytes": 65432
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_13000_test_rollout/info.json",
+      "sha256": "cbcd7b47e6ba5118ff03d2e6f3cf84854d485d01dc28046dbfd7136c12d29bed",
+      "bytes": 65455
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_14000_test_rollout/info.json",
+      "sha256": "fd686d43c2a6b74c10ce7f74fced0df68be114b7049d13c35785a1954f4916fa",
+      "bytes": 65444
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_15000_test_rollout/info.json",
+      "sha256": "c18023bdf002ba1025f26d62fee911d66f59569662b90443a11d36ea9dbc28e2",
+      "bytes": 65443
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_16000_test_rollout/info.json",
+      "sha256": "70d6c91eb2fa39e7aae5f19547add8c69518da97785ec69f08548e4171773458",
+      "bytes": 65462
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_17000_test_rollout/info.json",
+      "sha256": "51e8d9ac73e26c6ae82ccee4897da369449a9642cad46e9812525869e2e0bf45",
+      "bytes": 65459
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_18000_test_rollout/info.json",
+      "sha256": "8b9462b324c8b1258371e5ba8f578587bed67448448fce1666dc294f9c4e684d",
+      "bytes": 65466
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_19000_test_rollout/info.json",
+      "sha256": "0d50f7cf71f154c6d2b810cd5ab100bd0b300a98fd524ed6af7553b5878d2604",
+      "bytes": 65460
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_20000_test_rollout/info.json",
+      "sha256": "4bf4d81e48c6264a2f99b6a2609f39907139e76e0a424fa747aad841a3d22a43",
+      "bytes": 65458
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_6000_test_rollout/info.json",
+      "sha256": "325562db97a4b4397e208db899e54820311ec85dbd45979bc15ce5c9b3bca5cd",
+      "bytes": 65031
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_7000_test_rollout/info.json",
+      "sha256": "95456981d0b882221ff698d818228e2f862606dc121a14b154f07aae1f038927",
+      "bytes": 65062
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_8000_test_rollout/info.json",
+      "sha256": "4c441696773ad2ebd9e3e9dfba10a5ffedaea4be51fa40d1356ee1bd9dcfbea4",
+      "bytes": 65173
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json",
+      "local_path": "raw/tasks/pack_battery/v20/pack_battery_pos_0p02_time_3/rgb_abs_action/ACT_seed_1/rollouts/dataset_step_9000_test_rollout/info.json",
+      "sha256": "6bb2428ddfa6cba3bdc8b53ff012be26e780d4acd811b6b8d5a86eac3a7db81c",
+      "bytes": 65156
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/eval/base/info.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe/eval/base/info.json",
+      "sha256": "7e93362d0ee5690d4fd3d301c7a2eb0f068d53b31ab16b3951972ec9689de676",
+      "bytes": 47712
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/eval/base/summary.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe/eval/base/summary.json",
+      "sha256": "06c3a8bf1c911d3a8478b4c5a72743e636b0d688351fa6a9d6903afecdcfaed2",
+      "bytes": 130
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/eval/finetuned/info.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe/eval/finetuned/info.json",
+      "sha256": "1cf794e0f3d3b27e374a003edeaacc5e38a025bbb5acb6cb3cafb7265a55b8a7",
+      "bytes": 48732
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/eval/finetuned/summary.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe/eval/finetuned/summary.json",
+      "sha256": "21dd465b71d57430f8c29184f95c57e5cc296abff032f2ad0cabad5f2c4a9ddb",
+      "bytes": 141
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe/eval/comparison.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe/eval/comparison.json",
+      "sha256": "5359554885f2eacd4193602b35820ebb9b4323a0a0fa0b838d47682b624cfaed",
+      "bytes": 1722
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe_298/eval/base/info.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe_298/eval/base/info.json",
+      "sha256": "6485087d2be5a799c7015dab182317027a29d5ada2ff9909e8fed2700719ae65",
+      "bytes": 48544
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe_298/eval/base/summary.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe_298/eval/base/summary.json",
+      "sha256": "41c67543736de1781c897afab2146e2b73c0f936f9996d45eb5a0ab729e57e64",
+      "bytes": 141
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe_298/eval/finetuned/info.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe_298/eval/finetuned/info.json",
+      "sha256": "46b1b3bbaf41b9518f77139781b3147c758131be612773a74f084d6ca22e7cb3",
+      "bytes": 49558
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe_298/eval/finetuned/summary.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe_298/eval/finetuned/summary.json",
+      "sha256": "261d01dc532e8e689e0126a5fcdc16de7901434d20e9673fc67a50c15e47d959",
+      "bytes": 141
+    },
+    {
+      "path": "/local/robopil/yuan/tasks/tmp_flip_then_arrange_shoe_298/eval/comparison.json",
+      "local_path": "raw/tasks/tmp_flip_then_arrange_shoe_298/eval/comparison.json",
+      "sha256": "5bfa00da5e1b53a830a2f8306e2c195561965488ff2d47172153d490c25a1c3d",
+      "bytes": 956
+    }
+  ]
+}

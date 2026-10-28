@@ -1,0 +1,52 @@
+{
+  "task": "02_beat_block_hammer_01",
+  "episode": "episode_000",
+  "frames": 339,
+  "fps": 50,
+  "resolution": [
+    1440,
+    1080
+  ],
+  "duration_s": 6.78,
+  "camera": {
+    "lookat": [
+      0.19926204278670154,
+      0.004471821721783467,
+      0.19413466658951406
+    ],
+    "azimuth": -178.625,
+    "elevation": -33.25,
+    "distance": 1.0687652215498642,
+    "fovy": 38.0,
+    "resolution": [
+      1440,
+      1080
+    ],
+    "near": 0.01,
+    "far": 20.0
+  },
+  "source_episode": "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/recordings/robotwin_10_tasks/20261004/02_beat_block_hammer_01/episode_000",
+  "source_sha256": {
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/recordings/robotwin_10_tasks/20261004/02_beat_block_hammer_01/episode_000/rollout.parquet": "54fd1a3c3bb93f135d9e74db473e834e6aea79f5b7d65fc5017a0f17540da2df",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/recordings/robotwin_10_tasks/20261004/02_beat_block_hammer_01/episode_000/metadata.json": "4c9b4b30175b940d078463747491a6cf53fece5c7f7a3daabed85297ab88af06",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/recordings/robotwin_10_tasks/20261004/02_beat_block_hammer_01/episode_000/scene/scene.xml": "2abf70d237b0ee86a1bbdd728b7b1b4e62e04b92c6ecaf06b016367a8c4d89d8",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/visualization/02_beat_block_hammer_01/episode_000/render_scene.xml": "754b509b3b350a05d9501738c411f791a954e4e74182516cd93d98a06f989aca",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/visualization/02_beat_block_hammer_01/episode_000/coordinates.json": "9f541aca83bc708c89484297979db29392fdd2069579ba4ee9e03ad79fa900ba",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/visualization/02_beat_block_hammer_01/episode_000/style.yaml": "8c528aad497a567eead87bc1a47a3aa2ba2e4d23447dfff6ec7eba63c998685e",
+    "/home/yuan/codegen/Codegen_Robotwin_Mujoco/data/visualization/02_beat_block_hammer_01/episode_000/wood.png": "b3d31a265804f6f3d494256f38a9ffabf4d31ae4d8cb2084d8df29bba1614af9",
+    "/home/yuan/codegen/UniKey_Website/scripts/render_robotwin_blender.py": "a8e68457f4d9697c67c905bbb3f35c35184dd6ff49b6f0b418b0eeb465349b80",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/render/create_blender_scene.py": "690919b4aa3032c79c86aa71c4452f67645d51b67628eb6c1a60858090c44b19",
+    "/home/yuan/codegen/Codegen_Blender_Visualization/render/export_blender_animation.py": "13f79b66c5c0b72600955ecdf3ebe82700b9b900c5170683a52f955c2d2ff104"
+  },
+  "renderer": "Blender Cycles",
+  "blender_version": "4.3.1",
+  "engine": "CYCLES",
+  "device": "GPU",
+  "samples": 32,
+  "denoising": true,
+  "denoiser": "OPTIX",
+  "preview_only": false,
+  "max_keypoint_projection_error_px": 0.001904724919964063,
+  "keypoint_projections_checked": 840,
+  "frame_mapping": "Blender frame = source row + 1; native frame rate, no resampling."
+}

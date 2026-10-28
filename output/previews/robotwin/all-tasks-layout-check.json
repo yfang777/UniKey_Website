@@ -1,0 +1,145 @@
+{
+  "layouts": [
+    {
+      "task": "adjust-bottle",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "beat-block-hammer",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "rank-blocks-color",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "rank-blocks-size",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "click-alarm-clock",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "click-bell",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "dump-bin-bigbin",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "move-can-pot",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "move-playingcard-away",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "move-stapler-pad",
+      "viewport": "desktop",
+      "video_height": 257.25,
+      "plot_height": 257.25,
+      "plot_top_error_px": 0.01312499999994543
+    },
+    {
+      "task": "adjust-bottle",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    },
+    {
+      "task": "beat-block-hammer",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    },
+    {
+      "task": "rank-blocks-color",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    },
+    {
+      "task": "rank-blocks-size",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    },
+    {
+      "task": "click-alarm-clock",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    },
+    {
+      "task": "click-bell",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    },
+    {
+      "task": "dump-bin-bigbin",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    },
+    {
+      "task": "move-can-pot",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    },
+    {
+      "task": "move-playingcard-away",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    },
+    {
+      "task": "move-stapler-pad",
+      "viewport": "mobile",
+      "video_height": 262.5,
+      "plot_height": 262.5,
+      "plot_top_error_px": null
+    }
+  ],
+  "page_errors": []
+}

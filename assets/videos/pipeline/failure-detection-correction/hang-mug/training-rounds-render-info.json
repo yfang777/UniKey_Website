@@ -1,0 +1,60 @@
+{
+  "source_video": "/home/yuan/codegen/Codegen_Blender_Visualization/data/automatic_detection_correction/hang_mug_iterations_v1/hang_mug_four_rounds_overlay_corrective.mp4",
+  "source_metadata": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/hang_mug_four_rounds_20261011_05x_black_real_rounds/validation.json",
+  "source_video_sha256": "feb64ff227c6ee80fc155da1e73d4dd8faed2cf4b79c6d65010a658344906cd0",
+  "source_blend_sha256": {
+    "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/hang_mug_step10000_overlay_10_corrective_3_20261010/scene.blend": "d7cab9424a1cf9e05855980b20d12bdb5899e2ca3e8fe217a98d6c89a2a4d47c",
+    "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/hang_mug_step15000_overlay_10_corrective_3_20261011/scene.blend": "95aebfd556738aff80b97dc22beae98cb20d52eb2f783ebe423c716c68d43850",
+    "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/hang_mug_step20000_overlay_10_corrective_3_20261011/scene.blend": "5b68386b188d77c74acc07b2ebe4afca8ee8b17662440e3f6689194665b33196",
+    "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/hang_mug_step28000_overlay_10_corrective_3_20261011/scene.blend": "b22bfb623890a966b676c6ca986d0f4b855a6ccc33a7effa4538c3900a8a68f3"
+  },
+  "camera_config": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/hang_mug_camera_transition/cameras.yaml",
+  "camera_config_sha256": "8b49903163f9dc451494bc902e4e35e6f5f10bafaadb35aa634e45496aaec045",
+  "from_camera": "camera_a",
+  "to_camera": "camera_b",
+  "transition_seconds": 10.0,
+  "fps": 30,
+  "frame_count": 320,
+  "resolution": [
+    1440,
+    1080
+  ],
+  "source_resolution": [
+    960,
+    720
+  ],
+  "samples": 16,
+  "output": "assets/videos/pipeline/failure-detection-correction/hang-mug/training-rounds.mp4",
+  "complete": true,
+  "preview_frames": [
+    1,
+    100,
+    101,
+    184,
+    185,
+    248,
+    249,
+    320
+  ],
+  "label_style": {
+    "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    "font_family": "DejaVu Sans",
+    "font_weight": "Bold",
+    "fontsize": 32,
+    "size_unit": "pixels",
+    "x": 28,
+    "y": 26,
+    "color": "black",
+    "box": false
+  },
+  "ghosts_rendered_per_camera": true,
+  "source_scenes_unchanged": true,
+  "encoded_video_verified": true,
+  "annotations_finished": true,
+  "source_render_metadata": "/home/yuan/codegen/Codegen_Blender_Visualization_artifacts/hang_mug_camera_transition/fast_camera_transition/metadata.json",
+  "source_render_metadata_sha256": "c041aec63e0d671ab1f9e47163ddf90b05c76b61a843efc1655c7c464fa07438",
+  "max_keypoint_projection_error_pixels": 0.00022089608023634355,
+  "blender_version": "4.3.1",
+  "framing": "Saved camera and original 4:3 field of view retained. No crop or upscale.",
+  "output_sha256": "88e89a234999f394bb9762c8df0cb6bc131dbe2e59d8e0847120a80bed9b66b0"
+}
